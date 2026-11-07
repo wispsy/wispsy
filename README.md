@@ -14,8 +14,9 @@ The references demonstrate reusable capability groups, strict JSON pipes,
 Python/shell workflow equivalence and optional durable execution. Independent
 [moveset](https://github.com/wispsy/moveset) and
 [scriptty](https://github.com/wispsy/scriptty) packages provide linear pipelines,
-passive documents, commands and an optional Carets frontend. Peaches' integrated
-product contract follows these working surfaces.
+passive documents, commands and an optional Carets frontend. The
+[Peaches contract](docs/peaches-contract.md) selects an independent
+[text workbench application](https://github.com/wispsy/peaches) using these surfaces.
 
 The base package supports Python 3.11+ with no runtime dependencies. Optional
 func_seq integration requires Python 3.14+. This is a source-development reference;

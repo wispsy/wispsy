@@ -38,7 +38,7 @@ later pipeline API concrete data-flow and recovery evidence.
 | `headless_spreadsheets` | Typed tables, portable interchange and table-source contracts | Mandatory UI or workflow engine |
 | `compose_application` | Existing optional storage/API/UI composition profiles | A duplicate of this workflow roadmap |
 | `wispsy` | Architecture, source-qualified references and ecosystem coordination | Replacement implementations of sibling libraries |
-| `peaches` (planned) | Selected integrated product and expressive composition surface | A universal dependency required by every sibling |
+| `peaches` | Selected integrated product and expressive composition surface | A universal dependency required by every sibling |
 
 `MoveSet("text")` groups capabilities; `moveset.Pipeline` will connect them.
 The similar names describe different responsibilities. A group can be installed
