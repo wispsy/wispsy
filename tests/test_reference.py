@@ -33,3 +33,10 @@ class ReferenceTests(unittest.TestCase):
                                  "assert 'func_seq' not in sys.modules"],
                                 capture_output=True, text=True, timeout=15)
         self.assertEqual(result.returncode, 0, result.stderr)
+
+    if sys.version_info < (3, 14):
+        def test_lower_python_floor_rejects_sequence_explicitly(self):
+            result = subprocess.run([sys.executable, "-I", "-c", "import wispsy.sequence"],
+                                    capture_output=True, text=True, timeout=15)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("requires Python 3.14", result.stderr)
