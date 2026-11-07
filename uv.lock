@@ -23,7 +23,7 @@ source = { git = "https://github.com/wispsy/func_seq.git?rev=b1a5346feeeef3fa1f3
 [[package]]
 name = "hidden-moves"
 version = "0.1.0"
-source = { git = "https://github.com/wispsy/hidden_moves.git?rev=8a3d246b0770e6ee103f0de1bf41c913ff9f4051#8a3d246b0770e6ee103f0de1bf41c913ff9f4051" }
+source = { git = "https://github.com/wispsy/hidden_moves.git?rev=eafe155828b2049c7ef02ab16d579a5a3f9761c7#eafe155828b2049c7ef02ab16d579a5a3f9761c7" }
 dependencies = [
     { name = "click" },
 ]
@@ -45,7 +45,7 @@ workflow = [
 [package.metadata]
 requires-dist = [
     { name = "func-seq", marker = "python_full_version >= '3.14' and extra == 'sequence'", git = "https://github.com/wispsy/func_seq.git?rev=b1a5346feeeef3fa1f398e4dcd81c2d23345386c" },
-    { name = "hidden-moves", marker = "extra == 'sequence'", git = "https://github.com/wispsy/hidden_moves.git?rev=8a3d246b0770e6ee103f0de1bf41c913ff9f4051" },
-    { name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=8a3d246b0770e6ee103f0de1bf41c913ff9f4051" },
+    { name = "hidden-moves", marker = "extra == 'sequence'", git = "https://github.com/wispsy/hidden_moves.git?rev=eafe155828b2049c7ef02ab16d579a5a3f9761c7" },
+    { name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=eafe155828b2049c7ef02ab16d579a5a3f9761c7" },
 ]
 provides-extras = ["workflow", "sequence"]

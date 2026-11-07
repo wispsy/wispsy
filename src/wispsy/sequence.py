@@ -59,9 +59,11 @@ def main() -> None:
     except ScriptError as error:
         print(json.dumps({"error": type(error).__name__, "message": str(error)}), file=sys.stderr)
         raise SystemExit(2) from error
-    print(json.dumps({"status": result.status, "completed": result.completed,
-                      "results": result.results, "run_id": result.run_id},
-                     ensure_ascii=False, allow_nan=False))
+    payload = json.dumps({"status": result.status, "completed": result.completed,
+                          "results": result.results, "run_id": result.run_id},
+                         ensure_ascii=False, allow_nan=False)
+    sys.stdout.buffer.write((payload + "\n").encode("utf-8"))
+    sys.stdout.buffer.flush()
 
 
 if __name__ == "__main__":

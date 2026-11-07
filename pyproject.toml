@@ -8,9 +8,9 @@ authors = [{ name = "ellainng" }]
 dependencies = []
 
 [project.optional-dependencies]
-workflow = ["hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@8a3d246b0770e6ee103f0de1bf41c913ff9f4051"]
+workflow = ["hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@eafe155828b2049c7ef02ab16d579a5a3f9761c7"]
 sequence = [
-    "hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@8a3d246b0770e6ee103f0de1bf41c913ff9f4051",
+    "hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@eafe155828b2049c7ef02ab16d579a5a3f9761c7",
     "func-seq @ git+https://github.com/wispsy/func_seq.git@b1a5346feeeef3fa1f398e4dcd81c2d23345386c ; python_version >= '3.14'",
 ]
 

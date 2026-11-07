@@ -81,13 +81,14 @@ class SequenceTests(unittest.TestCase):
                 self.assertEqual(self.receipts.read_text(), "normalize\n")
 
     def test_public_module_cli_pauses_and_resumes_in_another_process(self):
-        command = [sys.executable, "-I", "-m", "wispsy.sequence", " Hello WORLD ",
+        text = " Straße 🍑 "
+        command = [sys.executable, "-I", "-m", "wispsy.sequence", text,
                    "--checkpoint", str(self.checkpoint)]
         first = subprocess.run([*command, "--pace", "function"], cwd=self.outside,
-                               capture_output=True, text=True, timeout=15)
+                               capture_output=True, timeout=15)
         self.assertEqual(self.success(first)["status"], "paused")
-        second = subprocess.run(command, cwd=self.outside, capture_output=True, text=True, timeout=15)
-        self.assertEqual(self.success(second)["results"]["report"], run_reference(" Hello WORLD "))
+        second = subprocess.run(command, cwd=self.outside, capture_output=True, timeout=15)
+        self.assertEqual(self.success(second)["results"]["report"], run_reference(text))
 
     def test_async_catalog_is_rejected_before_creating_an_unawaited_result(self):
         async def normalize(text: str) -> str:

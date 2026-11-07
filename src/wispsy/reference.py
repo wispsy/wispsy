@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import sys
 from typing import TypedDict
 
 
@@ -30,7 +31,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("text", help="Text to normalize and report.")
     arguments = parser.parse_args()
-    print(json.dumps(run_reference(arguments.text), ensure_ascii=False, allow_nan=False))
+    payload = json.dumps(run_reference(arguments.text), ensure_ascii=False, allow_nan=False)
+    sys.stdout.buffer.write((payload + "\n").encode("utf-8"))
+    sys.stdout.buffer.flush()
 
 
 if __name__ == "__main__":
