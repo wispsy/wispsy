@@ -24,16 +24,16 @@ jobs:
             profile: workflow
           - os: ubuntu-latest
             python: '3.14'
-            profile: sequence
+            profile: composition
           - os: macos-latest
             python: '3.14'
-            profile: sequence
+            profile: composition
           - os: windows-latest
             python: '3.11'
             profile: workflow
           - os: windows-latest
             python: '3.14'
-            profile: sequence
+            profile: composition
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

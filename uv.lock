@@ -21,11 +21,24 @@ version = "0.1.0"
 source = { git = "https://github.com/wispsy/func_seq.git?rev=b1a5346feeeef3fa1f398e4dcd81c2d23345386c#b1a5346feeeef3fa1f398e4dcd81c2d23345386c" }
 
 [[package]]
+name = "headless-spreadsheets"
+version = "0.1.0"
+source = { git = "https://github.com/wispsy/headless_spreadsheets.git?rev=6eaff1b3764910720956c66559dce3f34a430ee2#6eaff1b3764910720956c66559dce3f34a430ee2" }
+
+[[package]]
 name = "hidden-moves"
 version = "0.1.0"
-source = { git = "https://github.com/wispsy/hidden_moves.git?rev=e0c89ebcd7f6b524fc0e365839046d8af0ed269a#e0c89ebcd7f6b524fc0e365839046d8af0ed269a" }
+source = { git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c#93ccf01dff12ade8ec204bb46abc300abaae9a3c" }
 dependencies = [
     { name = "click" },
+]
+
+[[package]]
+name = "moveset"
+version = "0.0.1.dev0"
+source = { git = "https://github.com/wispsy/moveset.git?rev=95acbde15881ca9d3ca833c16bc6c93b44687fbc#95acbde15881ca9d3ca833c16bc6c93b44687fbc" }
+dependencies = [
+    { name = "hidden-moves" },
 ]
 
 [[package]]
@@ -38,6 +51,10 @@ sequence = [
     { name = "func-seq", marker = "python_full_version >= '3.14'" },
     { name = "hidden-moves" },
 ]
+table = [
+    { name = "headless-spreadsheets", marker = "python_full_version >= '3.14'" },
+    { name = "moveset" },
+]
 workflow = [
     { name = "hidden-moves" },
 ]
@@ -45,7 +62,9 @@ workflow = [
 [package.metadata]
 requires-dist = [
     { name = "func-seq", marker = "python_full_version >= '3.14' and extra == 'sequence'", git = "https://github.com/wispsy/func_seq.git?rev=b1a5346feeeef3fa1f398e4dcd81c2d23345386c" },
-    { name = "hidden-moves", marker = "extra == 'sequence'", git = "https://github.com/wispsy/hidden_moves.git?rev=e0c89ebcd7f6b524fc0e365839046d8af0ed269a" },
-    { name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=e0c89ebcd7f6b524fc0e365839046d8af0ed269a" },
+    { name = "headless-spreadsheets", marker = "python_full_version >= '3.14' and extra == 'table'", git = "https://github.com/wispsy/headless_spreadsheets.git?rev=6eaff1b3764910720956c66559dce3f34a430ee2" },
+    { name = "hidden-moves", marker = "extra == 'sequence'", git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c" },
+    { name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c" },
+    { name = "moveset", marker = "extra == 'table'", git = "https://github.com/wispsy/moveset.git?rev=95acbde15881ca9d3ca833c16bc6c93b44687fbc" },
 ]
-provides-extras = ["workflow", "sequence"]
+provides-extras = ["workflow", "sequence", "table"]
