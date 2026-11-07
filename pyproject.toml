@@ -8,10 +8,14 @@ authors = [{ name = "ellainng" }]
 dependencies = []
 
 [project.optional-dependencies]
-workflow = ["hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@e0c89ebcd7f6b524fc0e365839046d8af0ed269a"]
+workflow = ["hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@93ccf01dff12ade8ec204bb46abc300abaae9a3c"]
 sequence = [
-    "hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@e0c89ebcd7f6b524fc0e365839046d8af0ed269a",
+    "hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@93ccf01dff12ade8ec204bb46abc300abaae9a3c",
     "func-seq @ git+https://github.com/wispsy/func_seq.git@b1a5346feeeef3fa1f398e4dcd81c2d23345386c ; python_version >= '3.14'",
+]
+table = [
+    "moveset @ git+https://github.com/wispsy/moveset.git@95acbde15881ca9d3ca833c16bc6c93b44687fbc",
+    "headless-spreadsheets @ git+https://github.com/wispsy/headless_spreadsheets.git@6eaff1b3764910720956c66559dce3f34a430ee2 ; python_version >= '3.14'",
 ]
 
 [project.scripts]
@@ -30,4 +34,4 @@ requires = ["uv_build>=0.12.19,<0.13.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
-source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "scripts/*.py", "tests/*.py", "integration_tests/*.py", "lifecycle_tests/*.py"]
+source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "scripts/*.py", "tests/*.py", "integration_tests/*.py", "lifecycle_tests/*.py", "table_tests/*.py"]

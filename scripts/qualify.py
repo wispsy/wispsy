@@ -25,13 +25,17 @@ def qualify(artifact: Path, profile: str) -> None:
             "assert importlib.util.find_spec('hidden_moves') is None; "
             "assert importlib.util.find_spec('func_seq') is None", cwd=outside)
         run(str(python), "-I", "-m", "unittest", "discover", "-s", str(ROOT / "tests"), "-v", cwd=outside)
-        if profile in ("workflow", "sequence"):
-            run("uv", "pip", "install", "--python", str(python), f"{artifact}[{profile}]", cwd=outside)
+        if profile in ("workflow", "sequence", "composition"):
+            extras = "sequence,table" if profile == "composition" else profile
+            run("uv", "pip", "install", "--python", str(python), f"{artifact}[{extras}]", cwd=outside)
             run(str(python), "-I", "-m", "unittest", "discover", "-s",
                 str(ROOT / "integration_tests"), "-v", cwd=outside)
-        if profile == "sequence":
+        if profile in ("sequence", "composition"):
             run(str(python), "-I", "-m", "unittest", "discover", "-s",
                 str(ROOT / "lifecycle_tests"), "-v", cwd=outside)
+        if profile == "composition":
+            run(str(python), "-I", "-m", "unittest", "discover", "-s",
+                str(ROOT / "table_tests"), "-v", cwd=outside)
         run("uv", "pip", "check", "--python", str(python), cwd=outside)
     print(f"Qualified {artifact.name}: {profile}", flush=True)
 
@@ -39,9 +43,9 @@ def qualify(artifact: Path, profile: str) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("directory", type=Path)
-    parser.add_argument("--profile", choices=("base", "workflow", "sequence"), default="workflow")
+    parser.add_argument("--profile", choices=("base", "workflow", "sequence", "composition"), default="workflow")
     arguments = parser.parse_args()
-    if arguments.profile == "sequence" and sys.version_info < (3, 14):
+    if arguments.profile in ("sequence", "composition") and sys.version_info < (3, 14):
         parser.error("The sequence profile requires Python 3.14 or newer")
     directory = arguments.directory.resolve()
     artifacts = sorted([*directory.glob("*.whl"), *directory.glob("*.tar.gz")])
