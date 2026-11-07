@@ -9,7 +9,7 @@ resolution-markers = [
 [[package]]
 name = "carets"
 version = "0.1.0"
-source = { git = "https://github.com/wispsy/carets.git?rev=26efdb24dfafea42c45b68dcaff841fc0c2e53d3#26efdb24dfafea42c45b68dcaff841fc0c2e53d3" }
+source = { git = "https://github.com/wispsy/carets.git?rev=d7359459772fdc8e0358616184501dd31a4560e3#d7359459772fdc8e0358616184501dd31a4560e3" }
 
 [[package]]
 name = "click"
@@ -59,7 +59,7 @@ sequence = [
 [[package]]
 name = "scriptty"
 version = "0.0.1.dev0"
-source = { git = "https://github.com/wispsy/scriptty.git?rev=b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd#b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd" }
+source = { git = "https://github.com/wispsy/scriptty.git?rev=f7e1d35f27f997a2e30c6f04f3626f05d8be10cf#f7e1d35f27f997a2e30c6f04f3626f05d8be10cf" }
 dependencies = [
     { name = "moveset" },
 ]
@@ -105,7 +105,7 @@ requires-dist = [
     { name = "hidden-moves", marker = "extra == 'sequence'", git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c" },
     { name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c" },
     { name = "moveset", marker = "extra == 'table'", git = "https://github.com/wispsy/moveset.git?rev=95acbde15881ca9d3ca833c16bc6c93b44687fbc" },
-    { name = "scriptty", extras = ["cli"], marker = "extra == 'scripting'", git = "https://github.com/wispsy/scriptty.git?rev=b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd" },
-    { name = "scriptty", extras = ["terminal"], marker = "python_full_version >= '3.14' and extra == 'terminal'", git = "https://github.com/wispsy/scriptty.git?rev=b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd" },
+    { name = "scriptty", extras = ["cli"], marker = "extra == 'scripting'", git = "https://github.com/wispsy/scriptty.git?rev=f7e1d35f27f997a2e30c6f04f3626f05d8be10cf" },
+    { name = "scriptty", extras = ["terminal"], marker = "python_full_version >= '3.14' and extra == 'terminal'", git = "https://github.com/wispsy/scriptty.git?rev=f7e1d35f27f997a2e30c6f04f3626f05d8be10cf" },
 ]
 provides-extras = ["workflow", "sequence", "table", "scripting", "terminal"]
