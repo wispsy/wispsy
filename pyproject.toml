@@ -7,6 +7,15 @@ requires-python = ">=3.11"
 authors = [{ name = "ellainng" }]
 dependencies = []
 
+[project.optional-dependencies]
+workflow = ["hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@8a3d246b0770e6ee103f0de1bf41c913ff9f4051"]
+
+[project.scripts]
+wispsy-reference = "wispsy.reference:main"
+
+[project.entry-points."hidden_moves.moves"]
+wispsy-reference = "wispsy.integration:provide_moves"
+
 [project.urls]
 Source = "https://github.com/wispsy/wispsy"
 Issues = "https://github.com/wispsy/wispsy/issues"
@@ -17,4 +26,4 @@ requires = ["uv_build>=0.12.19,<0.13.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
-source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "scripts/*.py", "tests/*.py"]
+source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "scripts/*.py", "tests/*.py", "integration_tests/*.py"]

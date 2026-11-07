@@ -37,7 +37,5 @@ jobs:
           python -m pip install uv
           uv build --out-dir dist
           python scripts/check_distribution.py dist
-      - name: Install wheel and verify optional isolation
-        run: |
-          python -c "import pathlib, subprocess, sys; wheel, = pathlib.Path('dist').glob('*.whl'); subprocess.run([sys.executable, '-m', 'pip', 'install', str(wheel)], check=True)"
-          python -I -c "import sys, wispsy; assert 'hidden_moves' not in sys.modules; assert 'func_seq' not in sys.modules"
+      - name: Qualify installed wheel and source workflow profiles
+        run: python scripts/qualify.py dist --profile workflow

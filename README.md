@@ -20,6 +20,13 @@ package release and publication are tracked separately.
 
 ```sh
 uv sync --locked
+uv run wispsy-reference ' Hello   WORLD '
+uv sync --locked --extra workflow
+uv run python -c 'from wispsy.integration import run_catalog; print(run_catalog(" Hello WORLD "))'
 uv build --out-dir dist
 python scripts/check_distribution.py dist
 ```
+
+The [reference workflow guide](docs/reference-workflow.md) demonstrates the same
+functions through Python, selected catalog calls and actual shell pipes, and
+explains how to reproduce isolated wheel/source qualification.
