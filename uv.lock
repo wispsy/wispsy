@@ -7,6 +7,11 @@ resolution-markers = [
 ]
 
 [[package]]
+name = "carets"
+version = "0.1.0"
+source = { git = "https://github.com/wispsy/carets.git?rev=26efdb24dfafea42c45b68dcaff841fc0c2e53d3#26efdb24dfafea42c45b68dcaff841fc0c2e53d3" }
+
+[[package]]
 name = "click"
 version = "8.5.1"
 source = { registry = "https://pypi.org/simple" }
@@ -14,6 +19,11 @@ sdist = { url = "https://files.pythonhosted.org/packages/45/37/edbf1b0707709013c
 wheels = [
     { url = "https://files.pythonhosted.org/packages/31/7d/164b7ffc8624fe9efb4221bf9af485d5c1e41b9ae118045d2b6dc5457d8b/click-8.5.1-py3-none-any.whl", hash = "sha256:8bb5376d2006950386f8c6427613334a2acadc5f559cb80e638d00b4df957e37", size = 126163, upload-time = "2026-11-06T17:36:59.287Z" },
 ]
+
+[[package]]
+name = "expose-interface"
+version = "0.1.0"
+source = { git = "https://github.com/wispsy/expose_interface.git?rev=7d7a6f07caf039650a2620ced2e33ecadfdf06a7#7d7a6f07caf039650a2620ced2e33ecadfdf06a7" }
 
 [[package]]
 name = "func-seq"
@@ -41,12 +51,38 @@ dependencies = [
     { name = "hidden-moves" },
 ]
 
+[package.optional-dependencies]
+sequence = [
+    { name = "func-seq" },
+]
+
+[[package]]
+name = "scriptty"
+version = "0.0.1.dev0"
+source = { git = "https://github.com/wispsy/scriptty.git?rev=b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd#b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd" }
+dependencies = [
+    { name = "moveset" },
+]
+
+[package.optional-dependencies]
+cli = [
+    { name = "expose-interface" },
+]
+terminal = [
+    { name = "carets" },
+    { name = "expose-interface" },
+    { name = "moveset", extra = ["sequence"] },
+]
+
 [[package]]
 name = "wispsy"
 version = "0.0.1.dev0"
 source = { editable = "." }
 
 [package.optional-dependencies]
+scripting = [
+    { name = "scriptty", extra = ["cli"] },
+]
 sequence = [
     { name = "func-seq", marker = "python_full_version >= '3.14'" },
     { name = "hidden-moves" },
@@ -54,6 +90,9 @@ sequence = [
 table = [
     { name = "headless-spreadsheets", marker = "python_full_version >= '3.14'" },
     { name = "moveset" },
+]
+terminal = [
+    { name = "scriptty", extra = ["terminal"], marker = "python_full_version >= '3.14'" },
 ]
 workflow = [
     { name = "hidden-moves" },
@@ -66,5 +105,7 @@ requires-dist = [
     { name = "hidden-moves", marker = "extra == 'sequence'", git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c" },
     { name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c" },
     { name = "moveset", marker = "extra == 'table'", git = "https://github.com/wispsy/moveset.git?rev=95acbde15881ca9d3ca833c16bc6c93b44687fbc" },
+    { name = "scriptty", extras = ["cli"], marker = "extra == 'scripting'", git = "https://github.com/wispsy/scriptty.git?rev=b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd" },
+    { name = "scriptty", extras = ["terminal"], marker = "python_full_version >= '3.14' and extra == 'terminal'", git = "https://github.com/wispsy/scriptty.git?rev=b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd" },
 ]
-provides-extras = ["workflow", "sequence", "table"]
+provides-extras = ["workflow", "sequence", "table", "scripting", "terminal"]

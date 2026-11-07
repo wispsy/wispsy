@@ -1,6 +1,8 @@
 """Exercise isolated installed wheel/source profiles outside the checkout."""
 
 import argparse
+import hashlib
+import json
 from pathlib import Path
 import subprocess
 import sys
@@ -26,7 +28,7 @@ def qualify(artifact: Path, profile: str) -> None:
             "assert importlib.util.find_spec('func_seq') is None", cwd=outside)
         run(str(python), "-I", "-m", "unittest", "discover", "-s", str(ROOT / "tests"), "-v", cwd=outside)
         if profile in ("workflow", "sequence", "composition"):
-            extras = "sequence,table" if profile == "composition" else profile
+            extras = "sequence,table,scripting,terminal" if profile == "composition" else "workflow,scripting" if profile == "workflow" else profile
             run("uv", "pip", "install", "--python", str(python), f"{artifact}[{extras}]", cwd=outside)
             run(str(python), "-I", "-m", "unittest", "discover", "-s",
                 str(ROOT / "integration_tests"), "-v", cwd=outside)
@@ -36,7 +38,21 @@ def qualify(artifact: Path, profile: str) -> None:
         if profile == "composition":
             run(str(python), "-I", "-m", "unittest", "discover", "-s",
                 str(ROOT / "table_tests"), "-v", cwd=outside)
+        if profile in ("workflow", "composition"):
+            run(str(python), "-I", "-m", "unittest", "discover", "-s",
+                str(ROOT / "composition_tests"), "-v", cwd=outside)
         run("uv", "pip", "check", "--python", str(python), cwd=outside)
+        receipt = '''import importlib.metadata as m, json, platform
+items = []
+for name in ("wispsy", "hidden-moves", "moveset", "scriptty", "func-seq", "carets", "headless-spreadsheets", "expose-interface", "click"):
+    try: distribution = m.distribution(name)
+    except m.PackageNotFoundError: continue
+    direct = distribution.read_text("direct_url.json")
+    items.append({"name": name, "version": distribution.version, "source": json.loads(direct) if direct else None})
+print(json.dumps({"python": platform.python_version(), "system": platform.system(), "packages": items}, sort_keys=True))
+'''
+        run(str(python), "-I", "-c", receipt, cwd=outside)
+    print(json.dumps({"schema": 1, "artifact": artifact.name, "sha256": hashlib.sha256(artifact.read_bytes()).hexdigest(), "profile": profile}, sort_keys=True))
     print(f"Qualified {artifact.name}: {profile}", flush=True)
 
 

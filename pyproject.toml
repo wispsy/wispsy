@@ -17,6 +17,8 @@ table = [
     "moveset @ git+https://github.com/wispsy/moveset.git@95acbde15881ca9d3ca833c16bc6c93b44687fbc",
     "headless-spreadsheets @ git+https://github.com/wispsy/headless_spreadsheets.git@6eaff1b3764910720956c66559dce3f34a430ee2 ; python_version >= '3.14'",
 ]
+scripting = ["scriptty[cli] @ git+https://github.com/wispsy/scriptty.git@b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd"]
+terminal = ["scriptty[terminal] @ git+https://github.com/wispsy/scriptty.git@b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd ; python_version >= '3.14'"]
 
 [project.scripts]
 wispsy-reference = "wispsy.reference:main"
@@ -34,4 +36,4 @@ requires = ["uv_build>=0.12.19,<0.13.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
-source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "scripts/*.py", "tests/*.py", "integration_tests/*.py", "lifecycle_tests/*.py", "table_tests/*.py"]
+source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "scripts/*.py", "tests/*.py", "integration_tests/*.py", "lifecycle_tests/*.py", "table_tests/*.py", "composition_tests/*.py"]
