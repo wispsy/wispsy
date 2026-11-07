@@ -28,9 +28,9 @@ later pipeline API concrete data-flow and recovery evidence.
 | `hidden_moves` | `MoveSpec`, `Registry`, `Moves`, reusable `MoveSet` groups; definitions, binding, schemas, selected invocation | Workflow state, shell parsing, application authorization |
 | `kindof` | Typed object/type inspection | Implicit negotiation or coercion |
 | `enforce_type` | Explicit validation/coercion where the caller selects it | Unrequested conversion of pipeline values |
-| `moveset` (planned) | `Pipeline` composition, explicit argument mappings and result references | A second durable execution engine |
+| `moveset` | `Pipeline` composition, explicit argument mappings and result references | A second durable execution engine |
 | `func_seq` | Sequential execution lifecycle, cooperative pause, async execution, checkpoints and explicit recovery | Workflow-document grammar, terminal ownership |
-| `scriptty` (planned) | Passive workflow definitions and scripting commands over the composition API | Terminal primitives or a general shell |
+| `scriptty` | Passive workflow definitions and scripting commands over the composition API | Terminal primitives or a general shell |
 | `carets` | Reusable terminal input, components, focus, rendering and application primitives | Workflow parsing and execution |
 | `expose_interface` | Command-line presentation of ordinary callable APIs | Owning their application behavior |
 | `expose_api`, `expose_protocol`, `spatial_ui` | Optional HTTP, protocol and graphical presentation | Reimplementing composition/lifecycle |
