@@ -59,7 +59,7 @@ sequence = [
 [[package]]
 name = "scriptty"
 version = "0.0.1.dev0"
-source = { git = "https://github.com/wispsy/scriptty.git?rev=14571245b6897f887871de42d0c1f4224358663c#14571245b6897f887871de42d0c1f4224358663c" }
+source = { git = "https://github.com/wispsy/scriptty.git?rev=b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd#b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd" }
 dependencies = [
     { name = "moveset" },
 ]
@@ -105,7 +105,7 @@ requires-dist = [
     { name = "hidden-moves", marker = "extra == 'sequence'", git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c" },
     { name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c" },
     { name = "moveset", marker = "extra == 'table'", git = "https://github.com/wispsy/moveset.git?rev=95acbde15881ca9d3ca833c16bc6c93b44687fbc" },
-    { name = "scriptty", extras = ["cli"], marker = "extra == 'scripting'", git = "https://github.com/wispsy/scriptty.git?rev=14571245b6897f887871de42d0c1f4224358663c" },
-    { name = "scriptty", extras = ["terminal"], marker = "python_full_version >= '3.14' and extra == 'terminal'", git = "https://github.com/wispsy/scriptty.git?rev=14571245b6897f887871de42d0c1f4224358663c" },
+    { name = "scriptty", extras = ["cli"], marker = "extra == 'scripting'", git = "https://github.com/wispsy/scriptty.git?rev=b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd" },
+    { name = "scriptty", extras = ["terminal"], marker = "python_full_version >= '3.14' and extra == 'terminal'", git = "https://github.com/wispsy/scriptty.git?rev=b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd" },
 ]
 provides-extras = ["workflow", "sequence", "table", "scripting", "terminal"]
