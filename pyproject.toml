@@ -1,0 +1,20 @@
+[project]
+name = "wispsy"
+version = "0.0.1.dev0"
+description = "Executable references for explicit Python capability composition."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "ellainng" }]
+dependencies = []
+
+[project.urls]
+Source = "https://github.com/wispsy/wispsy"
+Issues = "https://github.com/wispsy/wispsy/issues"
+Project = "https://github.com/orgs/wispsy/projects/23"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "scripts/*.py", "tests/*.py"]
