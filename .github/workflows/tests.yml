@@ -21,12 +21,19 @@ jobs:
         include:
           - os: ubuntu-latest
             python: '3.11'
+            profile: workflow
           - os: ubuntu-latest
             python: '3.14'
+            profile: sequence
           - os: macos-latest
             python: '3.14'
+            profile: sequence
           - os: windows-latest
             python: '3.11'
+            profile: workflow
+          - os: windows-latest
+            python: '3.14'
+            profile: sequence
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,5 +44,5 @@ jobs:
           python -m pip install uv
           uv build --out-dir dist
           python scripts/check_distribution.py dist
-      - name: Qualify installed wheel and source workflow profiles
-        run: python scripts/qualify.py dist --profile workflow
+      - name: Qualify installed wheel and source profiles
+        run: python scripts/qualify.py dist --profile ${{ matrix.profile }}

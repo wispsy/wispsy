@@ -1,6 +1,10 @@
 version = 1
 revision = 5
 requires-python = ">=3.11"
+resolution-markers = [
+    "python_full_version >= '3.14'",
+    "python_full_version < '3.14'",
+]
 
 [[package]]
 name = "click"
@@ -10,6 +14,11 @@ sdist = { url = "https://files.pythonhosted.org/packages/45/37/edbf1b0707709013c
 wheels = [
     { url = "https://files.pythonhosted.org/packages/31/7d/164b7ffc8624fe9efb4221bf9af485d5c1e41b9ae118045d2b6dc5457d8b/click-8.5.1-py3-none-any.whl", hash = "sha256:8bb5376d2006950386f8c6427613334a2acadc5f559cb80e638d00b4df957e37", size = 126163, upload-time = "2026-11-06T17:36:59.287Z" },
 ]
+
+[[package]]
+name = "func-seq"
+version = "0.1.0"
+source = { git = "https://github.com/wispsy/func_seq.git?rev=b1a5346feeeef3fa1f398e4dcd81c2d23345386c#b1a5346feeeef3fa1f398e4dcd81c2d23345386c" }
 
 [[package]]
 name = "hidden-moves"
@@ -25,10 +34,18 @@ version = "0.0.1.dev0"
 source = { editable = "." }
 
 [package.optional-dependencies]
+sequence = [
+    { name = "func-seq", marker = "python_full_version >= '3.14'" },
+    { name = "hidden-moves" },
+]
 workflow = [
     { name = "hidden-moves" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=e0c89ebcd7f6b524fc0e365839046d8af0ed269a" }]
-provides-extras = ["workflow"]
+requires-dist = [
+    { name = "func-seq", marker = "python_full_version >= '3.14' and extra == 'sequence'", git = "https://github.com/wispsy/func_seq.git?rev=b1a5346feeeef3fa1f398e4dcd81c2d23345386c" },
+    { name = "hidden-moves", marker = "extra == 'sequence'", git = "https://github.com/wispsy/hidden_moves.git?rev=e0c89ebcd7f6b524fc0e365839046d8af0ed269a" },
+    { name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=e0c89ebcd7f6b524fc0e365839046d8af0ed269a" },
+]
+provides-extras = ["workflow", "sequence"]

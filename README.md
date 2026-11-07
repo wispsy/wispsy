@@ -30,3 +30,6 @@ python scripts/check_distribution.py dist
 The [reference workflow guide](docs/reference-workflow.md) demonstrates the same
 functions through Python, selected catalog calls and actual shell pipes, and
 explains how to reproduce isolated wheel/source qualification.
+
+The optional [lifecycle reference](docs/lifecycle-reference.md) connects those
+calls to func_seq on Python 3.14+, with durable pause/resume and explicit recovery.
