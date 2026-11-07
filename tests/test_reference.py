@@ -21,10 +21,21 @@ class ReferenceTests(unittest.TestCase):
                          {"text": "strasse 🍑", "words": 2, "characters": 9})
 
     def test_module_cli_uses_the_same_reference(self):
-        result = subprocess.run([sys.executable, "-I", "-m", "wispsy", " Hello WORLD "],
-                                capture_output=True, text=True, timeout=15)
+        text = " Straße 🍑 "
+        result = subprocess.run([sys.executable, "-I", "-m", "wispsy", text],
+                                capture_output=True, timeout=15)
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(json.loads(result.stdout), run_reference(" Hello WORLD "))
+        self.assertEqual(json.loads(result.stdout), run_reference(text))
+
+    def test_cli_json_uses_utf8_independently_of_console_encoding(self):
+        text = " Straße 🍑 "
+        result = subprocess.run([sys.executable, "-I", "-c",
+                                 "import sys; sys.stdout.reconfigure(encoding='cp1252'); "
+                                 "from wispsy.reference import main; main()", text],
+                                capture_output=True, timeout=15)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("🍑".encode("utf-8"), result.stdout)
+        self.assertEqual(json.loads(result.stdout), run_reference(text))
 
     def test_reference_import_keeps_optional_integrations_unloaded(self):
         result = subprocess.run([sys.executable, "-I", "-c",
