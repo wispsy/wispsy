@@ -14,7 +14,7 @@ wheels = [
 [[package]]
 name = "hidden-moves"
 version = "0.1.0"
-source = { git = "https://github.com/wispsy/hidden_moves.git?rev=eafe155828b2049c7ef02ab16d579a5a3f9761c7#eafe155828b2049c7ef02ab16d579a5a3f9761c7" }
+source = { git = "https://github.com/wispsy/hidden_moves.git?rev=e0c89ebcd7f6b524fc0e365839046d8af0ed269a#e0c89ebcd7f6b524fc0e365839046d8af0ed269a" }
 dependencies = [
     { name = "click" },
 ]
@@ -30,5 +30,5 @@ workflow = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=eafe155828b2049c7ef02ab16d579a5a3f9761c7" }]
+requires-dist = [{ name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=e0c89ebcd7f6b524fc0e365839046d8af0ed269a" }]
 provides-extras = ["workflow"]
