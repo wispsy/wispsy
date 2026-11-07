@@ -41,6 +41,8 @@ budget and explicit uncertain-effect semantics. A completed action is not replay
 on ordinary resume; interrupted/failed actions require explicit retry/restart.
 
 Native interactive terminal input is selected only on supported POSIX TTYs.
+Carets' installed qualification includes an independent-process pseudo-terminal
+single-key regression, ensuring buffered stdin does not block after readiness.
 Cross-platform synthetic acceptance is not a native Windows console claim. No
 untested interpreter, package revision or platform is inferred from these receipts.
 Namespace reservation was confirmed by the user; authenticated publishing access,

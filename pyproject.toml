@@ -17,8 +17,8 @@ table = [
     "moveset @ git+https://github.com/wispsy/moveset.git@95acbde15881ca9d3ca833c16bc6c93b44687fbc",
     "headless-spreadsheets @ git+https://github.com/wispsy/headless_spreadsheets.git@6eaff1b3764910720956c66559dce3f34a430ee2 ; python_version >= '3.14'",
 ]
-scripting = ["scriptty[cli] @ git+https://github.com/wispsy/scriptty.git@b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd"]
-terminal = ["scriptty[terminal] @ git+https://github.com/wispsy/scriptty.git@b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd ; python_version >= '3.14'"]
+scripting = ["scriptty[cli] @ git+https://github.com/wispsy/scriptty.git@f7e1d35f27f997a2e30c6f04f3626f05d8be10cf"]
+terminal = ["scriptty[terminal] @ git+https://github.com/wispsy/scriptty.git@f7e1d35f27f997a2e30c6f04f3626f05d8be10cf ; python_version >= '3.14'"]
 
 [project.scripts]
 wispsy-reference = "wispsy.reference:main"
