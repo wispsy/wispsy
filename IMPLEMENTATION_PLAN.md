@@ -112,8 +112,8 @@ func_seq. The reference records a script version and exact source profile.
 The application must change the definition version when callable behavior,
 captured catalog state, defaults or relevant environment configuration changes;
 func_seq's manifest does not hash source code or authenticate the environment.
-Pipeline-to-Script compilation and mapping identity are reviewed in PIPE-01
-before promising a general adapter.
+Pipeline-to-Script compilation and mapping identity are defined in the adopted
+[pipeline contract](docs/pipeline-contract.md).
 
 ## Python and dependency policy
 
@@ -179,10 +179,11 @@ and preserve shared history. Require relevant fresh checks after integration
 changes. Final main gets a brief installed startup/reference smoke and its CI
 receipt, rather than another redundant exhaustive local sweep.
 
-The foundation session ends at the concrete PIPE-01/REL-01 decisions. The broader
-ecosystem is intentionally larger than this first session: general pipeline
-identity/API, terminal prerequisites, integrated product scope and selected
-releases must be settled before downstream implementation.
+The foundation session ended at the PIPE-01/REL-01 decisions. The adopted
+[pipeline contract](docs/pipeline-contract.md) selects independent `wispsy/moveset`
+and `wispsy/scriptty` repositories and unlocks the pipeline/document implementation.
+Terminal prerequisites, integrated product scope and selected releases retain
+their issue-level gates.
 
 ## Verification and release boundaries
 
