@@ -1,0 +1,12 @@
+{
+  "schema": "cohesion-block-b-sources/1",
+  "sources": {
+    "carets": "991c3bfc67c4c6aaa49fecb62c819618605f1d03",
+    "thoughtform": "e618ab5e41aee2f04f004e9df3c6a594112d2c8e",
+    "hypnosis": "36e821133266c8f1e22a457053b6aeb4c30594a9",
+    "paracosm": "9829a348fdcd6fd935e4d4f2341a910c58566fad",
+    "compose-application": "f2c568993930057b43f4856a86dfc4440f7f2c9e",
+    "thoughtformula": "d61dca801b4adb3addf8f72282d87281ca091f19",
+    "expose-interface": "8c71caefe67217bb6df87e280261746a3055fc86"
+  }
+}
