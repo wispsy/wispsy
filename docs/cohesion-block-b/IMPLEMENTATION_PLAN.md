@@ -205,6 +205,9 @@ final state and preserve prompt key/resize/cancel handling under load.
 
 ### 5.4 JSON Lines and subprocess transport
 
+The [selected stream contract](stream-contract.md) records exact framing, bounds,
+process outcomes and the actual-process acceptance required before transport claims.
+
 The selected wire format is a versioned stream of newline-delimited UTF-8 JSON
 objects, with one event per physical line. Escape newlines within JSON strings.
 Never split a UTF-8 code point or accept duplicate keys/nonfinite numbers. Use
