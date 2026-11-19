@@ -49,4 +49,4 @@ supplies the same reference as passive schema-1 data for Scriptty hosts.
 Thoughtform model definitions, the Hypnosis harness and Carets application,
 Paracosm worlds, and reusable terminal application composition toward a future
 Warewolf hub. The [Project](https://github.com/orgs/wispsy/projects/28) tracks its
-35 owning tasks and explicit integration, model/data and release decisions.
+34 owning tasks and explicit integration, model/data and release decisions.

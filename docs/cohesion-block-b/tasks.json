@@ -9,15 +9,6 @@
       "depends_on": []
     },
     {
-      "task": "CARET-SEED-01",
-      "repository": "wispsy/carets",
-      "issue": "https://github.com/wispsy/carets/issues/19",
-      "phase": "Foundation",
-      "depends_on": [
-        "CB-01"
-      ]
-    },
-    {
       "task": "CARET-STREAM-01",
       "repository": "wispsy/carets",
       "issue": "https://github.com/wispsy/carets/issues/20",

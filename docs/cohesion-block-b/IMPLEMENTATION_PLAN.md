@@ -47,10 +47,8 @@ proved subprocess JSONL transport. Its existing prerequisites are complete.
 
 Carets main already has an asyncio queue, serialized updates, commands, task
 cancellation, explicit command errors, terminal ownership, forms, focus and test
-fixtures. Streaming should extend those mechanisms. The original local Carets
-seed contains ten standalone terminal prototypes and incomplete legacy package
-imports. Preserve that work with source hashes and a guide; integrate changes
-on maintained main rather than replacing tested code with the seed runtime.
+fixtures. Streaming should extend those mechanisms. Applications use maintained Carets main and its tested public interfaces.
+Original local terminal experiments are outside the selected implementation scope.
 
 Thoughtform, Hypnosis and Paracosm start from the user's existing Python 3.14+
 uv projects. Public source repository creation is authorized. Package releases,
@@ -332,10 +330,10 @@ Existing unrelated lockfiles, branches, worktrees and user files remain intact.
 
 ## 7. Milestones and acceptance
 
-### M0 — Architecture, source preservation and canonical queue
+### M0 — Architecture and canonical queue
 
 Adopt this plan, create the public family repositories from existing uv seeds,
-preserve the local Carets work, reuse JSONL-01 and link cross-project tasks.
+reuse JSONL-01 and link cross-project tasks.
 Every task has scope, acceptance, dependencies, branch and owning repository.
 The original composition and Block A history remains available.
 
@@ -387,8 +385,7 @@ concrete operations. Source development does not wait for synchronized releases.
 ## 8. Delivery batches
 
 Use rolling batches of three to five focused PRs. Start CI as each task is ready
-and continue independent work. Suggested first batch: CB-01, CARET-SEED-01,
-CARET-STREAM-01, TFORM-01 and HYP-01. The following batch includes PARA-01,
+and continue independent work. Suggested first batch: CB-01, CARET-STREAM-01, TFORM-01, HYP-01 and PARA-01. The following batch includes PARA-01,
 CA-CLI-01, JSONL-01 and CB-QA-01, plus a demonstrated focused defect if needed.
 
 Same-repository dependencies can stack; cross-repository dependencies use exact
@@ -409,7 +406,6 @@ CI receipts; do not duplicate an exhaustive cross-ecosystem local audit.
 
 | Surface | Required evidence |
 | --- | --- |
-| Carets source preservation | Exact source hashes, compileall, unchanged public imports |
 | Managed streams | Incremental pre-exhaustion delivery, ordering, finite lead, slow consumer, input/cancel, close on all paths, source/cleanup errors, existing lifecycle tests |
 | Thoughtform | Strict immutable definitions, neutral deterministic policy, actual tiny ModernMicroGPT/BPETokenizer stream, EOS/empty/zero/invalid vocabulary/context boundaries |
 | Hypnosis | Event identity/order, exactly one normal terminal outcome, total output/event/time limits, consumer cancellation propagation, iterator closure, CLI stdio and safe terminal display |
@@ -455,7 +451,6 @@ and PR verification supersede this planning snapshot for current status.
 | Task | Owner | Scope | Depends on |
 | --- | --- | --- | --- |
 | [CB-01](https://github.com/wispsy/wispsy/issues/24) | `wispsy` | Adopt Cohesion Block B architecture and delivery plan | — |
-| [CARET-SEED-01](https://github.com/wispsy/carets/issues/19) | `carets` | Preserve local terminal prototypes | CB-01 |
 | [CARET-STREAM-01](https://github.com/wispsy/carets/issues/20) | `carets` | Manage bounded asynchronous message streams | CB-01 |
 | [JSONL-01](https://github.com/wispsy/wispsy/issues/14) | `wispsy` | Select bounded JSON Lines streaming and error semantics | CB-01 |
 | [TFORM-01](https://github.com/wispsy/thoughtform/issues/1) | `thoughtform` | Define individual models and neutral agency contracts | CB-01 |
@@ -501,16 +496,6 @@ Record source inventory, library ownership, dependency direction, contracts, sta
 - Publish the complete plan with links to every owning task and source baseline.
 - Keep existing library floors, APIs and independent release schedules.
 - Identify concrete model/data, platform and release decisions.
-
-### CARET-SEED-01 — Preserve local terminal prototypes
-
-Owner: [carets](https://github.com/wispsy/carets/issues/19). Phase: Foundation.
-
-Import the ten existing local terminal experiments as attributed source examples, retaining the original project seed and a correspondence guide. Integrate from current main rather than replacing the maintained runtime.
-
-- Preserve exact original source bytes and metadata.
-- Compile the preserved examples and document standalone POSIX and legacy API limitations.
-- Leave the maintained package and its supported imports intact.
 
 ### CARET-STREAM-01 — Manage bounded asynchronous message streams
 
@@ -851,7 +836,7 @@ sources separately.
 
 | Component | Baseline | Evidence |
 | --- | --- | --- |
-| Carets | `e4b5314ecc5459288585d52370e36ee57507ab1f` | Runtime/commands/focus/forms/terminal/tests inspected; original seed preserved separately |
+| Carets | `e4b5314ecc5459288585d52370e36ee57507ab1f` | Runtime/commands/focus/forms/terminal/tests inspected |
 | Thoughtformula | `d61dca801b4adb3addf8f72282d87281ca091f19` | Actual generators, tokenizer, context limit, public exports inspected |
 | Wispsy | `530bac98059eb1de71cd09a5645c52647457611b` | Existing composition architecture and JSONL-01 queue retained |
 | Compose Application | `8c17590a9d3bfc4285b0f8705b19e0e2ba50d18b` | Existing exclusive project creation and fixed web reference selection inspected |
