@@ -1,0 +1,3 @@
+{"schema":"wispsy.run-event/1","run_id":"demo","sequence":0,"kind":"started","text":"","code":""}
+{"schema":"wispsy.run-event/1","run_id":"demo","sequence":1,"kind":"delta","text":"Hello, world.\n","code":""}
+{"schema":"wispsy.run-event/1","run_id":"demo","sequence":2,"kind":"completed","text":"","code":""}
