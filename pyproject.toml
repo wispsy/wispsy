@@ -20,6 +20,12 @@ table = [
 scripting = ["scriptty[cli] @ git+https://github.com/wispsy/scriptty.git@f7e1d35f27f997a2e30c6f04f3626f05d8be10cf"]
 terminal = ["scriptty[terminal] @ git+https://github.com/wispsy/scriptty.git@f7e1d35f27f997a2e30c6f04f3626f05d8be10cf ; python_version >= '3.14'"]
 
+family = [
+    "hypnosis[models] @ git+https://github.com/wispsy/hypnosis.git@36e821133266c8f1e22a457053b6aeb4c30594a9 ; python_version >= '3.14'",
+    "paracosm @ git+https://github.com/wispsy/paracosm.git@9829a348fdcd6fd935e4d4f2341a910c58566fad ; python_version >= '3.14'",
+    "compose-application @ git+https://github.com/wispsy/compose_application.git@f2c568993930057b43f4856a86dfc4440f7f2c9e ; python_version >= '3.14'",
+]
+
 [project.scripts]
 wispsy-reference = "wispsy.reference:main"
 
@@ -36,4 +42,4 @@ requires = ["uv_build>=0.12.19,<0.13.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
-source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "docs/cohesion-block-b/*.md", "docs/cohesion-block-b/*.json", "docs/cohesion-block-b/*.jsonl", "scripts/*.py", "tests/*.py", "integration_tests/*.py", "lifecycle_tests/*.py", "table_tests/*.py", "composition_tests/*.py"]
+source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "docs/cohesion-block-b/*.md", "docs/cohesion-block-b/*.json", "docs/cohesion-block-b/*.jsonl", "scripts/*.py", "tests/*.py", "integration_tests/*.py", "lifecycle_tests/*.py", "table_tests/*.py", "composition_tests/*.py", "family_tests/*.py"]
