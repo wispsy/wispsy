@@ -50,3 +50,8 @@ Thoughtform model definitions, the Hypnosis harness and Carets application,
 Paracosm worlds, and reusable terminal application composition toward a future
 Warewolf hub. The [Project](https://github.com/orgs/wispsy/projects/28) tracks its
 34 owning tasks and explicit integration, model/data and release decisions.
+
+The optional Python 3.14+ [installed family profile](docs/cohesion-block-b/qualification.md)
+qualifies real Transformer-to-terminal output, world rules and generated terminal
+commands from immutable independent sources. Native POSIX interaction is checked
+separately from Windows headless compatibility.

@@ -848,3 +848,17 @@ sources separately.
 New repositories begin from preserved uv project seeds at Python 3.14+ and
 version 0.1.0. No package publication is implied. Project issues and source PRs
 record subsequent implementation and exact test receipts.
+
+## 14. First source milestone and reproducibility
+
+The first model/harness/world/terminal slice is implemented in the owning
+repositories. Its [qualification guide](qualification.md) and immutable
+[source register](sources-v1.json) define the exact installed profile and
+practical limits. The Project/PRs retain current checks and merged source state.
+
+Thoughtform definitions and real Transformer adaptation, Hypnosis's finite
+runner/Carets application, Paracosm deterministic world steps, Carets managed
+streams and Compose Application terminal generation are independently useful.
+The wire contract is selected; actual subprocess transport remains JSONL-02.
+Later coding-harness/tool/context/persistence/training/optimization and Warewolf
+work retains the acceptance criteria and concrete decisions above.
