@@ -1,5 +1,14 @@
 # Wispsy implementation plan
 
+## Cohesion Block B
+
+The [complete Cohesion Block B implementation plan](docs/cohesion-block-b/IMPLEMENTATION_PLAN.md)
+extends composition to named models, adaptive harnesses, deterministic worlds
+and terminal applications using Expose Interface plus Carets. Its
+[Project](https://github.com/orgs/wispsy/projects/28) and owning issues hold the
+new queue. The existing composition plan below remains the source history and
+architecture for its independent pipeline/scripting profiles.
+
 Adopted foundation: 7 November 2026. The [GitHub Project](https://github.com/orgs/wispsy/projects/23)
 and linked issues own current scope, dependencies and delivery status. This plan
 records architecture and acceptance, rather than a second status tracker.

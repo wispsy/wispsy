@@ -1,0 +1,335 @@
+{
+  "schema": "cohesion-block-b/1",
+  "tasks": [
+    {
+      "task": "CB-01",
+      "repository": "wispsy/wispsy",
+      "issue": "https://github.com/wispsy/wispsy/issues/24",
+      "phase": "Foundation",
+      "depends_on": []
+    },
+    {
+      "task": "CARET-SEED-01",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/19",
+      "phase": "Foundation",
+      "depends_on": [
+        "CB-01"
+      ]
+    },
+    {
+      "task": "CARET-STREAM-01",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/20",
+      "phase": "Streaming",
+      "depends_on": [
+        "CB-01"
+      ]
+    },
+    {
+      "task": "JSONL-01",
+      "repository": "wispsy/wispsy",
+      "issue": "https://github.com/wispsy/wispsy/issues/14",
+      "phase": "Streaming",
+      "depends_on": [
+        "CB-01"
+      ]
+    },
+    {
+      "task": "TFORM-01",
+      "repository": "wispsy/thoughtform",
+      "issue": "https://github.com/wispsy/thoughtform/issues/1",
+      "phase": "Foundation",
+      "depends_on": [
+        "CB-01"
+      ]
+    },
+    {
+      "task": "HYP-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/1",
+      "phase": "Foundation",
+      "depends_on": [
+        "TFORM-01",
+        "CARET-STREAM-01"
+      ]
+    },
+    {
+      "task": "PARA-01",
+      "repository": "wispsy/paracosm",
+      "issue": "https://github.com/wispsy/paracosm/issues/1",
+      "phase": "Foundation",
+      "depends_on": [
+        "TFORM-01"
+      ]
+    },
+    {
+      "task": "CA-CLI-01",
+      "repository": "wispsy/compose_application",
+      "issue": "https://github.com/wispsy/compose_application/issues/52",
+      "phase": "Composition",
+      "depends_on": [
+        "CB-01",
+        "CARET-STREAM-01"
+      ]
+    },
+    {
+      "task": "CB-QA-01",
+      "repository": "wispsy/wispsy",
+      "issue": "https://github.com/wispsy/wispsy/issues/25",
+      "phase": "Qualification",
+      "depends_on": [
+        "HYP-01",
+        "PARA-01",
+        "CA-CLI-01"
+      ]
+    },
+    {
+      "task": "TF-BOUND-01",
+      "repository": "wispsy/thoughtformula",
+      "issue": "https://github.com/wispsy/thoughtformula/issues/20",
+      "phase": "Streaming",
+      "depends_on": []
+    },
+    {
+      "task": "CARET-FRAME-01",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/21",
+      "phase": "Design system",
+      "depends_on": [
+        "CARET-STREAM-01"
+      ]
+    },
+    {
+      "task": "CARET-DS-01",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/22",
+      "phase": "Design system",
+      "depends_on": [
+        "HYP-01"
+      ]
+    },
+    {
+      "task": "CARET-TABLE-01",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/23",
+      "phase": "Design system",
+      "depends_on": [
+        "CARET-DS-01"
+      ]
+    },
+    {
+      "task": "HYP-TOOLS-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/2",
+      "phase": "Harness",
+      "depends_on": [
+        "HYP-01"
+      ]
+    },
+    {
+      "task": "HYP-CONTEXT-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/3",
+      "phase": "Harness",
+      "depends_on": [
+        "HYP-TOOLS-01"
+      ]
+    },
+    {
+      "task": "HYP-MEMORY-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/4",
+      "phase": "Harness",
+      "depends_on": [
+        "HYP-01"
+      ]
+    },
+    {
+      "task": "HYP-WORKFLOW-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/5",
+      "phase": "Harness",
+      "depends_on": [
+        "HYP-TOOLS-01",
+        "HYP-MEMORY-01"
+      ]
+    },
+    {
+      "task": "HYP-VERIFY-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/6",
+      "phase": "Harness",
+      "depends_on": [
+        "HYP-CONTEXT-01",
+        "HYP-WORKFLOW-01"
+      ]
+    },
+    {
+      "task": "HYP-OLLAMA-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/7",
+      "phase": "Providers",
+      "depends_on": [
+        "HYP-01"
+      ]
+    },
+    {
+      "task": "HYP-TRAIN-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/8",
+      "phase": "Training",
+      "depends_on": [
+        "HYP-WORKFLOW-01",
+        "TFORM-02"
+      ]
+    },
+    {
+      "task": "HYP-EVAL-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/9",
+      "phase": "Optimization",
+      "depends_on": [
+        "HYP-MEMORY-01",
+        "HYP-VERIFY-01"
+      ]
+    },
+    {
+      "task": "HYP-OPT-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/10",
+      "phase": "Optimization",
+      "depends_on": [
+        "HYP-EVAL-01"
+      ]
+    },
+    {
+      "task": "HYP-ORCH-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/11",
+      "phase": "Orchestration",
+      "depends_on": [
+        "HYP-WORKFLOW-01",
+        "HYP-EVAL-01"
+      ]
+    },
+    {
+      "task": "TFORM-02",
+      "repository": "wispsy/thoughtform",
+      "issue": "https://github.com/wispsy/thoughtform/issues/2",
+      "phase": "Models",
+      "depends_on": [
+        "TFORM-01",
+        "TF-BOUND-01"
+      ]
+    },
+    {
+      "task": "TFORM-MEM-01",
+      "repository": "wispsy/thoughtform",
+      "issue": "https://github.com/wispsy/thoughtform/issues/3",
+      "phase": "Agency",
+      "depends_on": [
+        "TFORM-01"
+      ]
+    },
+    {
+      "task": "TFORM-COLLECTIVE-01",
+      "repository": "wispsy/thoughtform",
+      "issue": "https://github.com/wispsy/thoughtform/issues/4",
+      "phase": "Agency",
+      "depends_on": [
+        "TFORM-MEM-01",
+        "HYP-ORCH-01"
+      ]
+    },
+    {
+      "task": "PARA-SAVE-01",
+      "repository": "wispsy/paracosm",
+      "issue": "https://github.com/wispsy/paracosm/issues/2",
+      "phase": "Worlds",
+      "depends_on": [
+        "PARA-01",
+        "HYP-MEMORY-01"
+      ]
+    },
+    {
+      "task": "PARA-MIND-01",
+      "repository": "wispsy/paracosm",
+      "issue": "https://github.com/wispsy/paracosm/issues/3",
+      "phase": "Worlds",
+      "depends_on": [
+        "PARA-01",
+        "TFORM-02"
+      ]
+    },
+    {
+      "task": "PARA-EXPERIENCE-01",
+      "repository": "wispsy/paracosm",
+      "issue": "https://github.com/wispsy/paracosm/issues/4",
+      "phase": "Worlds",
+      "depends_on": [
+        "PARA-SAVE-01",
+        "HYP-EVAL-01"
+      ]
+    },
+    {
+      "task": "CA-CLI-02",
+      "repository": "wispsy/compose_application",
+      "issue": "https://github.com/wispsy/compose_application/issues/53",
+      "phase": "Composition",
+      "depends_on": [
+        "CA-CLI-01",
+        "HYP-TOOLS-01"
+      ]
+    },
+    {
+      "task": "WW-01",
+      "repository": "wispsy/wispsy",
+      "issue": "https://github.com/wispsy/wispsy/issues/26",
+      "phase": "Hub",
+      "depends_on": [
+        "CARET-DS-01",
+        "CA-CLI-02"
+      ]
+    },
+    {
+      "task": "WW-02",
+      "repository": "wispsy/wispsy",
+      "issue": "https://github.com/wispsy/wispsy/issues/27",
+      "phase": "Hub",
+      "depends_on": [
+        "WW-01"
+      ]
+    },
+    {
+      "task": "JSONL-02",
+      "repository": "wispsy/wispsy",
+      "issue": "https://github.com/wispsy/wispsy/issues/28",
+      "phase": "Streaming",
+      "depends_on": [
+        "JSONL-01",
+        "HYP-01"
+      ]
+    },
+    {
+      "task": "CB-QA-02",
+      "repository": "wispsy/wispsy",
+      "issue": "https://github.com/wispsy/wispsy/issues/29",
+      "phase": "Qualification",
+      "depends_on": [
+        "CB-QA-01",
+        "CARET-DS-01",
+        "JSONL-02"
+      ]
+    },
+    {
+      "task": "REL-B-01",
+      "repository": "wispsy/wispsy",
+      "issue": "https://github.com/wispsy/wispsy/issues/30",
+      "phase": "Release",
+      "depends_on": [
+        "CB-QA-01"
+      ]
+    }
+  ]
+}
