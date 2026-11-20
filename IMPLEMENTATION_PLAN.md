@@ -2,6 +2,10 @@
 
 ## Cohesion Block B
 
+The [Hero homegrown training phase](docs/cohesion-block-b/hero-training.md)
+extends the complete plan with selected models, approved sources, Engl and
+reusable bounded training jobs.
+
 The [complete Cohesion Block B implementation plan](docs/cohesion-block-b/IMPLEMENTATION_PLAN.md)
 extends composition to named models, adaptive harnesses, deterministic worlds
 and terminal applications using Expose Interface plus Carets. Its

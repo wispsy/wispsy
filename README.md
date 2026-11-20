@@ -49,9 +49,16 @@ supplies the same reference as passive schema-1 data for Scriptty hosts.
 Thoughtform model definitions, the Hypnosis harness and Carets application,
 Paracosm worlds, and reusable terminal application composition toward a future
 Warewolf hub. The [Project](https://github.com/orgs/wispsy/projects/28) tracks its
-34 owning tasks and explicit integration, model/data and release decisions.
+owning tasks and explicit integration, model/data and release decisions.
 
 The optional Python 3.14+ [installed family profile](docs/cohesion-block-b/qualification.md)
 qualifies real Transformer-to-terminal output, world rules and generated terminal
 commands from immutable independent sources. Native POSIX interaction is checked
 separately from Windows headless compatibility.
+
+
+The [Hero homegrown training chapter](docs/cohesion-block-b/hero-training.md)
+selects Hero and Hero Coding, independent Engl lexical/dependency records,
+reviewed data sources, progressive curricula and reproducible local training.
+New source selections remain owner-reviewed; the first pilot is bounded to
+15 minutes. Ollama and externally connected tools remain a later path.
