@@ -33,7 +33,10 @@ artifact-upload step. Linux, macOS and Windows run the same installed fixture.
   Parent checkpoint bytes remain unchanged.
 - Hypnosis composes existing func_seq stage progress, Thoughtformula numerical
   state and Backpack typed receipts. Exact resume and new specialization remain
-  distinct. Completed stages reopen without repeated training.
+  distinct. Completed stages reopen without repeated training. Cooperative pause/
+  retry is qualified. A force-killed process may leave a func_seq ownership lock;
+  inspect its recorded owner before manually clearing a confirmed stale lock.
+  Retry authority does not bypass a live writer or remove locks automatically.
 - Passive local artifacts bind recipe, tokenizer, corpus, native checkpoint and
   parent identities. Installed fresh-process receipt reads preserve those links.
 - Hypnosis's own installed training suite additionally verifies real commands,
