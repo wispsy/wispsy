@@ -18,8 +18,9 @@ The [source register](hero-sources-v1.json) selects exact Git revisions for
 Hypnosis and every component in its training profile. The qualifier installs
 both wheel and source artifacts, verifies PEP 610 source identities, checks
 dependencies and prints version/source/artifact receipts. Local receipts stay
-in ignored `hero-qualification.json`; CI prints them in its logs without a new
-artifact-upload step. Linux, macOS and Windows run the same installed fixture.
+in ignored `hero-qualification.json`; CI retains one receipt artifact per
+platform and prints it in the job log. Linux, macOS and Windows run the same
+installed fixture.
 
 ## Qualified contracts
 
@@ -46,9 +47,11 @@ artifact-upload step. Linux, macOS and Windows run the same installed fixture.
 ## Evidence and limits
 
 The local pilot produced experimental Hero and Hero Coding artifacts. Native
-training and quantized inference formats remain separate. Local measurement
-reports, sources and weights stay outside Git. The matched shuffle comparison
-remains open in [HERO-PILOT-01](https://github.com/wispsy/hypnosis/issues/16).
+training and quantized inference formats remain separate. Raw source material
+and weights stay outside Git. The owner-approved sanitized
+[pilot report](https://github.com/wispsy/hypnosis/tree/main/experiments/hero-pilot-v1)
+contains measurements and hashes without training text or weights. The matched
+shuffle comparison remains open in [HERO-PILOT-01](https://github.com/wispsy/hypnosis/issues/16).
 No curriculum advantage or model promotion is inferred from installed fixtures.
 
 The probes measure next-token loss/coverage and syntax only. They do not prove

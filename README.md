@@ -67,4 +67,4 @@ The separate [homegrown training profile](docs/cohesion-block-b/hero-qualificati
 qualifies Engl, named Hero models, approved corpus preparation, numerical resume,
 persistent jobs and specialization. [Source proposals](docs/cohesion-block-b/source-proposals.md)
 keep future authored materials, Python vault/docs/wiki and runtime decisions
-explicit. Experimental checkpoints and measurement reports stay local.
+explicit. Experimental checkpoints stay local; the sanitized pilot measurements are published separately.

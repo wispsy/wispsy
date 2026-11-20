@@ -1294,8 +1294,10 @@ Carets progress. The [installed profile](hero-qualification.md) and
 
 The first local execution produced experimental checkpoint artifacts. The matched
 shuffle comparison remains open in hypnosis #16 after a result-delivery failure;
-completed-job recollection is tracked separately in #26. Local measurements,
-weights and source text remain in ignored run folders. No model is promoted, no
+completed-job recollection is tracked separately in #26. Raw source text and
+weights remain local. The owner-approved sanitized
+[pilot measurements](https://github.com/wispsy/hypnosis/tree/main/experiments/hero-pilot-v1)
+record observed results and the incomplete comparison. No model is promoted, no
 curriculum advantage is claimed and no autonomous training-agent ability follows
 from next-token loss or syntax.
 
