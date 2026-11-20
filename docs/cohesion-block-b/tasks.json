@@ -407,8 +407,10 @@
       "issue": "https://github.com/wispsy/wispsy/issues/36",
       "phase": "Qualification",
       "depends_on": [
-        "HERO-PILOT-01",
-        "ENGL-01"
+        "ENGL-01",
+        "TFORM-02",
+        "HYP-TRAIN-01",
+        "HYP-EVAL-01"
       ],
       "selected_phase": "hero-homegrown/1"
     },
@@ -440,6 +442,46 @@
       "phase": "Training",
       "depends_on": [
         "HYP-SOURCE-01",
+        "HYP-DATA-01"
+      ],
+      "selected_phase": "hero-homegrown/1"
+    },
+    {
+      "task": "TF-GRAD-01",
+      "repository": "wispsy/thoughtformula",
+      "issue": "https://github.com/wispsy/thoughtformula/issues/23",
+      "phase": "Qualification",
+      "depends_on": [
+        "TF-BOUND-01"
+      ],
+      "selected_phase": "hero-homegrown/1"
+    },
+    {
+      "task": "HERO-PILOT-02",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/26",
+      "phase": "Qualification",
+      "depends_on": [
+        "HYP-TRAIN-01"
+      ],
+      "selected_phase": "hero-homegrown/1"
+    },
+    {
+      "task": "HERO-SOURCE-02",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/27",
+      "phase": "Training",
+      "depends_on": [
+        "HYP-SOURCE-01"
+      ],
+      "selected_phase": "hero-homegrown/1"
+    },
+    {
+      "task": "HYP-DATA-02",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/29",
+      "phase": "Training",
+      "depends_on": [
         "HYP-DATA-01"
       ],
       "selected_phase": "hero-homegrown/1"

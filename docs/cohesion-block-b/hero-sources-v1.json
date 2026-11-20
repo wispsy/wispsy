@@ -1,0 +1,13 @@
+{
+  "schema": "hero-homegrown-sources/1",
+  "sources": {
+    "carets": "991c3bfc67c4c6aaa49fecb62c819618605f1d03",
+    "thoughtform": "831eba64bb8bf9b88dea8b75c2c17ef8ca5174ff",
+    "thoughtformula": "5ce72f850772c2467f0a0909dfd5c81874065684",
+    "hypnosis": "a1206495dd8c8580a821a4c24fd5834a1986d6fb",
+    "engl": "0d1de7f36a2cb4bc0b2eef28195c7046beda46ab",
+    "backpack-store": "77440f85a290a756e26c7180ccb2d092812f13b4",
+    "func-seq": "bfb4c1d5bccc73f842d72ddb7809a11973acb9e4",
+    "expose-interface": "8c71caefe67217bb6df87e280261746a3055fc86"
+  }
+}

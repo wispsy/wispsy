@@ -42,4 +42,4 @@ requires = ["uv_build>=0.12.19,<0.13.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
-source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "docs/cohesion-block-b/*.md", "docs/cohesion-block-b/*.json", "docs/cohesion-block-b/*.jsonl", "scripts/*.py", "tests/*.py", "integration_tests/*.py", "lifecycle_tests/*.py", "table_tests/*.py", "composition_tests/*.py", "family_tests/*.py"]
+source-include = ["IMPLEMENTATION_PLAN.md", "docs/*.md", "docs/cohesion-block-b/*.md", "docs/cohesion-block-b/*.json", "docs/cohesion-block-b/*.jsonl", "scripts/*.py", "tests/*.py", "integration_tests/*.py", "lifecycle_tests/*.py", "table_tests/*.py", "composition_tests/*.py", "family_tests/*.py", "hero_tests/*.py"]

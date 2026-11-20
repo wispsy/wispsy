@@ -7,3 +7,4 @@ build/
 .coverage
 .pytest_cache/
 family-qualification.json
+hero-qualification.json
