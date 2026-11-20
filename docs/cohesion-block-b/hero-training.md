@@ -402,3 +402,34 @@ Propose exact allowlisted python3 vault files and a content-hashed snapshot, dis
 - Detect added/changed files without silently enlarging the approved snapshot.
 - Keep private vault text local and retain original per-file references and rights.
 
+
+## Homegrown delivery and qualification
+
+The homegrown source profile now implements approved bounded corpus preparation,
+independent Engl lexical/dependency values, named Hero/Hero Coding recipes and
+passive local lineage, exact Thoughtformula optimizer resume, typed Backpack
+receipts, trusted func_seq training stages, explicit held-out measurements and
+Carets progress. The [installed profile](hero-qualification.md) and
+[immutable source register](hero-sources-v1.json) record the concrete contracts.
+
+The first local execution produced experimental checkpoint artifacts. The matched
+shuffle comparison remains open in hypnosis #16 after a result-delivery failure;
+completed-job recollection is tracked separately in #26. Local measurements,
+weights and source text remain in ignored run folders. No model is promoted, no
+curriculum advantage is claimed and no autonomous training-agent ability follows
+from next-token loss or syntax.
+
+The installed-code qualification depends on the implemented model/training/
+evaluation APIs, independently of completing the next matched experiment.
+[HERO-SOURCE-02](https://github.com/wispsy/hypnosis/issues/27) owns the next authored
+curriculum, concrete candidate sources, source/window quotas and runtime decision.
+[The proposal guide](source-proposals.md) gives the requested material format.
+Python vault growth, official docs, Python community wiki and citation sources
+remain review-gated. Ollama/externally connected tools remain deferred.
+
+The numerical qualification also found and corrected a hard-routing finite-
+difference fixture in Thoughtformula #23. It preserves model math and tests a
+stable routing region. This discovery is registered as TF-GRAD-01.
+
+HYP-DATA-02 qualifies citation groups, ambiguous named reuse and truncation
+provenance through authored fixtures; existing corpora remain immutable.

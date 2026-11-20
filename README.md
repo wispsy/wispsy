@@ -62,3 +62,9 @@ selects Hero and Hero Coding, independent Engl lexical/dependency records,
 reviewed data sources, progressive curricula and reproducible local training.
 New source selections remain owner-reviewed; the first pilot is bounded to
 15 minutes. Ollama and externally connected tools remain a later path.
+
+The separate [homegrown training profile](docs/cohesion-block-b/hero-qualification.md)
+qualifies Engl, named Hero models, approved corpus preparation, numerical resume,
+persistent jobs and specialization. [Source proposals](docs/cohesion-block-b/source-proposals.md)
+keep future authored materials, Python vault/docs/wiki and runtime decisions
+explicit. Experimental checkpoints and measurement reports stay local.
