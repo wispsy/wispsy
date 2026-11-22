@@ -98,7 +98,8 @@
       "issue": "https://github.com/wispsy/carets/issues/22",
       "phase": "Design system",
       "depends_on": [
-        "HYP-01"
+        "HYP-01",
+        "CARET-COMP-01"
       ]
     },
     {
@@ -197,7 +198,8 @@
       "issue": "https://github.com/wispsy/hypnosis/issues/10",
       "phase": "Optimization",
       "depends_on": [
-        "HYP-EVAL-01"
+        "HYP-EVAL-01",
+        "HYP-VERIFY-01"
       ]
     },
     {
@@ -207,7 +209,8 @@
       "phase": "Orchestration",
       "depends_on": [
         "HYP-WORKFLOW-01",
-        "HYP-EVAL-01"
+        "HYP-EVAL-01",
+        "HYP-VERIFY-01"
       ]
     },
     {
@@ -318,6 +321,10 @@
       "depends_on": [
         "CB-QA-01",
         "CARET-DS-01",
+        "CARET-TABLE-01",
+        "HYP-APP-02",
+        "HYP-APP-03",
+        "HYP-DEP-01",
         "JSONL-02"
       ]
     },
@@ -558,6 +565,111 @@
         "HERO-SESSION-02"
       ],
       "selected_phase": "hero-material-growth/1"
+    },
+    {
+      "task": "CARET-LAYOUT-01",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/3",
+      "phase": "Design system",
+      "depends_on": [
+        "CARET-STREAM-01"
+      ]
+    },
+    {
+      "task": "CARET-RENDER-01",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/5",
+      "phase": "Design system",
+      "depends_on": [
+        "CARET-LAYOUT-01"
+      ]
+    },
+    {
+      "task": "CARET-INPUT-01",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/6",
+      "phase": "Design system",
+      "depends_on": [
+        "CARET-RENDER-01"
+      ]
+    },
+    {
+      "task": "CARET-COMP-01",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/27",
+      "phase": "Design system",
+      "depends_on": [
+        "CARET-INPUT-01",
+        "CARET-FRAME-01"
+      ]
+    },
+    {
+      "task": "CARET-REL-02",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/28",
+      "phase": "Release",
+      "depends_on": [
+        "CARET-COMP-01",
+        "CARET-DS-01",
+        "CARET-TABLE-01",
+        "CARET-FOCUS-02",
+        "HYP-APP-02",
+        "HYP-DEP-01",
+        "CB-QA-02"
+      ]
+    },
+    {
+      "task": "HYP-APP-02",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/43",
+      "phase": "Harness",
+      "depends_on": [
+        "HYP-TOOLS-01",
+        "HYP-CONTEXT-01",
+        "HYP-VERIFY-01",
+        "HYP-ORCH-01",
+        "HYP-OPT-01",
+        "CARET-TABLE-01"
+      ]
+    },
+    {
+      "task": "CARET-TABLE-02",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/36",
+      "phase": "Design system",
+      "depends_on": [
+        "CARET-TABLE-01"
+      ]
+    },
+    {
+      "task": "HYP-APP-03",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/51",
+      "phase": "Harness",
+      "depends_on": [
+        "HYP-APP-02"
+      ]
+    },
+    {
+      "task": "CARET-FOCUS-02",
+      "repository": "wispsy/carets",
+      "issue": "https://github.com/wispsy/carets/issues/37",
+      "phase": "Design system",
+      "depends_on": [
+        "CARET-LAYOUT-01",
+        "CARET-COMP-01"
+      ]
+    },
+    {
+      "task": "HYP-DEP-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/53",
+      "phase": "Harness",
+      "depends_on": [
+        "HYP-APP-02",
+        "HYP-APP-03",
+        "CARET-FOCUS-02"
+      ]
     }
   ]
 }
