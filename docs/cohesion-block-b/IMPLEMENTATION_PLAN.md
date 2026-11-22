@@ -1387,8 +1387,9 @@ changing its architecture or tokenizer.
 Largest-remainder source quotas and weighted interleaving prevent later sources
 from being starved by the finite window pool. Window/document rotation is
 seeded and deterministic; duplicate windows from small sources are reported.
-Tokenizer merges fit only a balanced training sample capped at 512 KiB with 64
-merges. Its alphabet covers selected training characters and printable ASCII;
+Tokenizer merges fit only a balanced training sample with 64 merges. Its fitting
+cap is 524,288 source characters plus EOS separators; `tokenizer_fit_characters`
+records the source-character count. Its alphabet covers selected training characters and printable ASCII;
 held-out unknown-character exclusions remain explicit. Training selection has
 zero unknown-character exclusions in the real session. Prepared documents,
 selected windows and windows/tokens actually consumed are distinct denominators.
