@@ -950,7 +950,7 @@ Wikimedia/Wiktionary attribution and share-alike information; do not relabel
 external data as repository MIT source. Public source development does not
 publish corpora, derived datasets or weights.
 
-### Candidate source path
+### Original candidate source path (20 November)
 
 The growing `vaults/python3` is an explicitly proposed source. The inspected
 snapshot has 2,486 Markdown files, about 2.9 MB, including authored notes and
@@ -1306,8 +1306,10 @@ evaluation APIs, independently of completing the next matched experiment.
 [HERO-SOURCE-02](https://github.com/wispsy/hypnosis/issues/27) owns the next authored
 curriculum, concrete candidate sources, source/window quotas and runtime decision.
 [The proposal guide](source-proposals.md) gives the requested material format.
-Python vault growth, official docs, Python community wiki and citation sources
-remain review-gated. Ollama/externally connected tools remain deferred.
+On 21 November the owner approved the current Python vault/tutorials, official
+Python 3.14 docs and community wiki clone. The session-v2 section below records
+the selected snapshots, mixture and one-hour ceiling. Future additions and
+citation-source collection remain owner-selected; Ollama/tools remain deferred.
 
 The numerical qualification also found and corrected a hard-routing finite-
 difference fixture in Thoughtformula #23. It preserves model math and tests a
@@ -1315,3 +1317,170 @@ stable routing region. This discovery is registered as TF-GRAD-01.
 
 HYP-DATA-02 qualifies citation groups, ambiguous named reuse and truncation
 provenance through authored fixtures; existing corpora remain immutable.
+
+## Session v2: approved Python materials and longer checkpointed experiments
+
+Selected 21 November 2026 under [HERO-SOURCE-02](https://github.com/wispsy/hypnosis/issues/27).
+The owner approved the current dataset directory, including the growing Python
+vault/tutorials, Python community wiki clone and Python 3.14 stable documentation,
+and delegated recipe/progression selection for this session. This selection is
+recorded before ingestion. Future material and generator revisions still need
+owner selection; no automatic downloads, external teachers or tool-connected
+training are introduced.
+
+### Source snapshots and bounded corpus
+
+The training selection uses the canonical text documentation archive. Approved
+HTML, EPUB and texinfo archives are alternate views, not extra independent
+examples. The wiki is an explicitly labeled migrated community source, including
+legacy material; its presence does not establish that examples describe Python
+3.14. Source terms and cited derivation remain attached to local records.
+
+| Source ID | Selected scope | Files/pages | Selected bytes | Snapshot fingerprint |
+| --- | --- | ---: | ---: | --- |
+| `python-vault-tutorials` | Tutorials and introductory top-level notes | 29 | 98,539 | `1e88df3323284629e1520d0ea0e30f21ce9f90bfb5065562dbcedb35435c3831` |
+| `python-vault-reference` | Builtins and standard-library reference notes | 2,479 | 2,816,337 | `02e0116dd7e9f1040e21039838eb3cb01265c87b378226f75c5781325dc92162` |
+| `psf-wiki-python` | Selected getting-started, introductory and language pages | 79 | 378,397 | `8635c8d45204c22e7af0d2f9b16130a928620773a511571025c51778e2ad7dfb` |
+| `python314-docs` | Tutorial, language reference, builtins and selected library text | 42 | 1,816,259 | `eeb482bc8d4eef646e352a1c2b25e10513bd5f3a8fdab39acc58867fed44e0ed` |
+
+The wiki clone revision is `9b86e1393e8a36897f9a7fc46a3a5610508e92a7`; the
+fingerprint above identifies the selected content. Full relative file/member inventories and SHA-256
+hashes stay in local source cards. The importer rejects changed or added selected
+files, symlinks, unsafe/duplicate archive members and oversized expanded input;
+it never executes code or follows embedded links. Parse MD supplies Markdown
+structure/code spans. Chunks from a page and vault notes with explicit official
+documentation references share a split group; exact-content duplicates are also
+grouped. This does not claim semantic deduplication across all paraphrases.
+
+Together with the approved internal v1 exercises, TinyStories train/validation,
+Simple English Wikipedia, Wiktionary and UD EWT train/dev/test, preparation uses
+512 documents per source, at most 10,000 documents, 32 MiB text and 2,048 characters
+per document. Official source splits remain fixed. The resulting immutable corpus
+contains **4,716 documents**: 2,765 train, 1,198 validation and 753 test, totaling
+8,994,130 bytes. Its SHA-256 is
+`e8be291ecabd23192f570f337d21feb7bded318f4f8cbf73086cd45e85463336`.
+Full English Wikipedia remains compressed and is not part of this recipe.
+
+### Model family, sampling and vocabulary
+
+Thoughtform owns new named `balanced-v2` recipes while `pilot-v1` remains the
+unchanged default for existing jobs. The new family uses width 64, two layers,
+four attention heads, two key/value heads, two experts, hidden width 128 and LoRA
+rank 4. The actual selected Hero has **240,355 parameters** and an **837-token**
+vocabulary. Hero Coding specializes that family's selected parent without
+changing its architecture or tokenizer.
+
+| Training source | Hero weight | Hero Coding weight |
+| --- | ---: | ---: |
+| Approved internal v1 exercises | 20 | 20, Python exercises only |
+| Vault tutorials | 20 | 30 |
+| TinyStories | 20 | — |
+| Simple English Wikipedia | 10 | — |
+| UD English | 5 | — |
+| Wiktionary | 5 | — |
+| Vault reference | 5 | 10 |
+| Python 3.14 docs | 10 | 35 |
+| Community wiki | 5 | 5 |
+
+Largest-remainder source quotas and weighted interleaving prevent later sources
+from being starved by the finite window pool. Window/document rotation is
+seeded and deterministic; duplicate windows from small sources are reported.
+Tokenizer merges fit only a balanced training sample capped at 512 KiB with 64
+merges. Its alphabet covers selected training characters and printable ASCII;
+held-out unknown-character exclusions remain explicit. Training selection has
+zero unknown-character exclusions in the real session. Prepared documents,
+selected windows and windows/tokens actually consumed are distinct denominators.
+
+### Experiment sequence and time contract
+
+The combined experiment ceiling is **one hour**, including preparation, probes,
+checkpoint I/O and evaluation. The actual scheduled window is 21 November 2026,
+6:29:45–7:29:45 PM PST. Every child inherits the remaining hard deadline; controller
+recovery preserves the original start/deadline rather than starting a fresh hour.
+The frozen installed runtime keeps source development from changing active jobs.
+
+1. Three-step larger-family throughput/shape probe.
+2. Complete the old-family shuffled comparison at exactly 1,478 steps, with up to
+   eight minutes available. Accept comparison only when pairs, tokenizer, recipe,
+   initialization evaluation and step count match the original pilot.
+3. Train new Hero from random initialization for up to fifteen minutes.
+4. Continue Hero for another fifteen minutes with complete native weights, Adam
+   moments and cumulative optimizer/order state preserved.
+5. Specialize Hero Coding for up to eighteen minutes at learning rate 0.00075,
+   compared with Hero's 0.0015, trimming the phase to the original remaining time.
+
+The new jobs use seed 7, block size 32, 8,192 selected windows, at most 100,000
+additional steps and 16 held-out windows per evaluation selection. A weighted
+interleaved order is used for v2; the old matched baseline changes only shuffle
+ordering. Evaluation retains mixed, coding and general-language losses plus a
+syntax probe that parses generated code without executing it. Each denominator
+and unknown exclusion is recorded. Different tokenizer families are not compared
+numerically as if their losses measured the same units.
+
+### Checkpoint history, exact continuation and collection
+
+Immutable native snapshots are saved every 250 completed steps, with passive
+artifact/context sidecars. Latest recovery state remains separate. No old
+checkpoint is overwritten or deleted. Per-run ceilings of 128 retained snapshots
+and 512 MiB native history stop training gracefully when exhausted. Model weight
+publication and automated promotion remain outside this session.
+
+The typed local collection reuses Backpack. Entries bind run/model/profile,
+checkpoint, recipe, tokenizer, corpus, specialization parent and exact-continuation
+hashes. Indexing is idempotent, validates native artifacts and can inventory old
+pilot checkpoints without training. The CLI supports bounded model/profile-filtered
+pages and fresh-process reads. Per-run history and the shared `.runs/checkpoints.sqlite`
+are local artifacts, not Git contents.
+
+`--continue-artifact` means exact continuation with the same corpus, selected
+pairs/order, recipe, tokenizer, block size, learning rate, seed and shuffle policy.
+It preserves optimizer state and writes a new destination. Budgets are additional
+for that job; cumulative step/token counters must not be summed across continuation
+reports. `--parent-artifact` remains a distinct specialization operation with a
+new optimizer trajectory. Tests compare split continuation with uninterrupted
+weights and Adam state and verify that parent bytes are unchanged.
+
+A controller may reopen a completed session without training. Interrupted recovery
+requires inspecting saved native workflow ownership/state; stale locks and
+uncertain effects retain func_seq's explicit recovery contract. Child return-code
+and output-size receipts diagnose result-delivery failures. They do not establish
+a root cause for an unexplained empty child output.
+
+### Delivery, qualification and acceptance
+
+| Task | Owning issue | Acceptance |
+| --- | --- | --- |
+| HYP-VAULT-01 | [hypnosis #18](https://github.com/wispsy/hypnosis/issues/18) | Approved content-hashed Markdown/archive ingestion, grouping, limits and changed-source rejection |
+| TFORM-03 | [thoughtform #7](https://github.com/wispsy/thoughtform/issues/7) | Named v2 recipes; unchanged v1 identities; source/wheel checks |
+| HYP-MIX-01 | [hypnosis #32](https://github.com/wispsy/hypnosis/issues/32) | All selected sources receive windows, deterministic quotas and actual consumption audits; v1 compatibility |
+| HYP-CHECKPOINT-01 | [hypnosis #33](https://github.com/wispsy/hypnosis/issues/33) | Immutable bounded history, typed collection, exact continuation and source/optimizer identity refusal |
+| HERO-SESSION-02 | [hypnosis #34](https://github.com/wispsy/hypnosis/issues/34) | Execute the bounded progression, retain native artifacts, report measurements and any incomplete phase honestly |
+| HERO-QA-02 | [wispsy #39](https://github.com/wispsy/wispsy/issues/39) | Independent installed v2 source/wheel profile, exact merged pins and platform CI receipts |
+| HYP-TIME-01 | [hypnosis #39](https://github.com/wispsy/hypnosis/issues/39) | Portable UTC/PST deadline display without another runtime dependency |
+
+The [v2 qualification profile](hero-session-qualification.md) is independent of
+the immutable v1 and terminal/world profiles. It uses authored tiny fixtures,
+not external training text. Linux/macOS/Windows build and install wheel/source
+artifacts, check source revisions/dependencies and retain sanitized CI receipts.
+The owner has already authorized publishing those receipts and sanitized training
+measurements. Reports exclude source text, selected private document IDs, raw
+vocabularies, full source inventories, private paths and model weights.
+
+A session report must distinguish active, completed, limited and failed phases;
+record the actual frozen runtime/controller identity and recovery interruption;
+show old-family matching and per-phase/cumulative counters; inventory retained
+checkpoint counts; and preserve general-language regression measurements during
+coding specialization. A single seed and short text windows do not establish
+factual knowledge, functional coding, assistant usefulness or an autonomous
+training agent. These remain experimental local models.
+
+### Next progression after these measurements
+
+Use the retained Hero foundation/continued and Hero Coding checkpoints as a
+collection of explicit candidates, not one silently replaced model. Next-session
+selection should decide among additional exact continuation on this frozen corpus,
+a new owner-authored lesson snapshot, larger context windows, or revised held-out
+question/function tests. New data or a changed tokenizer starts an explicit new
+recipe/lineage rather than masquerading as exact continuation. The owner continues
+to choose future materials; useful authored additions remain explanations,
+worked examples, exercises, boundary cases, checkable answers and references.

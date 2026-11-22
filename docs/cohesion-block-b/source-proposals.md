@@ -5,8 +5,11 @@ sources, then other sources only after a concrete selection. A readable file or
 public page is a candidate, not automatic training input. New snapshots and
 generator revisions also need selection.
 
-The next decision is [HERO-SOURCE-02](https://github.com/wispsy/hypnosis/issues/27).
-No additional material is admitted by this guide.
+[HERO-SOURCE-02](https://github.com/wispsy/hypnosis/issues/27) records the owner's
+21 November approval of the current Python vault/tutorials, community wiki clone
+and Python 3.14 docs. The [session plan](hero-training.md#session-v2-approved-python-materials-and-longer-checkpointed-experiments)
+selects exact snapshots, weights and a one-hour ceiling. This guide describes
+future proposals; it does not automatically admit new material.
 
 ## Useful first materials
 
@@ -43,8 +46,9 @@ For each proposal, record these fields in the owning issue:
 7. Whether local use, redistribution and model-weight publication are selected
    separately. Approval for training does not publish the source or checkpoint.
 
-The next run should select source/window quotas explicitly. A prepared corpus can
+Every new run should select source/window quotas explicitly. A prepared corpus can
 contain more documents or source types than a bounded model run actually consumes.
 Report that distinction, unknown-token exclusions and held-out denominators.
-Training time is a separate finite decision. The incomplete matched comparison
-must receive a new runtime ceiling before another experiment starts.
+Training time is a separate finite decision. The selected v2 session includes
+the matched v1 comparison within its one-hour combined ceiling; future sessions
+need a newly selected finite progression.

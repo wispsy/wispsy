@@ -59,8 +59,8 @@ factual accuracy, working generated code, useful assistant behavior or autonomou
 operation of training tools. Windows qualifies headless/test presentation; native
 console support remains the separate Carets contract.
 
-[The next-source decision](https://github.com/wispsy/hypnosis/issues/27) selects
-authored general-knowledge/coding materials, source/window quotas, vocabulary
-coverage and a new bounded runtime. Python vault snapshots, official docs and
-community wiki remain distinct candidates. [The proposal guide](source-proposals.md)
-describes the concrete information needed before any new ingestion.
+The owner selected the current vault/tutorials, official Python 3.14 docs and
+community wiki clone on 21 November in [HERO-SOURCE-02](https://github.com/wispsy/hypnosis/issues/27).
+The independent [v2 profile](hero-session-qualification.md) covers balanced
+sampling, history and continuation without changing this v1 source register.
+[The proposal guide](source-proposals.md) continues to govern future material.

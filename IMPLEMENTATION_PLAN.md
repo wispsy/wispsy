@@ -4,7 +4,8 @@
 
 The [Hero homegrown training phase](docs/cohesion-block-b/hero-training.md)
 extends the complete plan with selected models, approved sources, Engl and
-reusable bounded training jobs.
+reusable bounded training jobs. The selected [second session](docs/cohesion-block-b/hero-training.md#session-v2-approved-python-materials-and-longer-checkpointed-experiments)
+adds approved Python materials, larger recipes and immutable checkpoint collections.
 
 The [complete Cohesion Block B implementation plan](docs/cohesion-block-b/IMPLEMENTATION_PLAN.md)
 extends composition to named models, adaptive harnesses, deterministic worlds
