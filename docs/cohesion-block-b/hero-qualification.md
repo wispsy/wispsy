@@ -51,7 +51,9 @@ training and quantized inference formats remain separate. Raw source material
 and weights stay outside Git. The owner-approved sanitized
 [pilot report](https://github.com/wispsy/hypnosis/tree/main/experiments/hero-pilot-v1)
 contains measurements and hashes without training text or weights. The matched
-shuffle comparison remains open in [HERO-PILOT-01](https://github.com/wispsy/hypnosis/issues/16).
+shuffle comparison from the first pilot is completed by the v2 session under
+[HERO-PILOT-01](https://github.com/wispsy/hypnosis/issues/16); its follow-up is
+recorded in the [reporting PR](https://github.com/wispsy/hypnosis/pull/41).
 No curriculum advantage or model promotion is inferred from installed fixtures.
 
 The probes measure next-token loss/coverage and syntax only. They do not prove

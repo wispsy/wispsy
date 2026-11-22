@@ -1292,9 +1292,11 @@ receipts, trusted func_seq training stages, explicit held-out measurements and
 Carets progress. The [installed profile](hero-qualification.md) and
 [immutable source register](hero-sources-v1.json) record the concrete contracts.
 
-The first local execution produced experimental checkpoint artifacts. The matched
-shuffle comparison remains open in hypnosis #16 after a result-delivery failure;
-completed-job recollection is tracked separately in #26. Raw source text and
+The first local execution produced experimental checkpoint artifacts and left its
+matched shuffle comparison incomplete after a result-delivery failure. Completed-job
+recollection was corrected in #26. The v2 session has now completed the matched
+1,478-step comparison; [its reporting PR](https://github.com/wispsy/hypnosis/pull/41)
+records the follow-up and longer-family measurements under #34. Raw source text and
 weights remain local. The owner-approved sanitized
 [pilot measurements](https://github.com/wispsy/hypnosis/tree/main/experiments/hero-pilot-v1)
 record observed results and the incomplete comparison. No model is promoted, no
