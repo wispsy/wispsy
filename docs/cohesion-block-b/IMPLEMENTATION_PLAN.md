@@ -1625,3 +1625,5 @@ uploads, Paracosm agency or Warewolf hub implementation are selected implicitly.
 The composition boundaries remain suitable for those later Carets applications.
 
 Release qualification follow-ups: [CARET-FOCUS-02](https://github.com/wispsy/carets/issues/37) aligns layout/zone/pointer priority and read-only navigation; [HYP-APP-03](https://github.com/wispsy/hypnosis/issues/51) returns joined worker outcomes after direct signal shutdown; [HYP-DEP-01](https://github.com/wispsy/hypnosis/issues/53) selects the final Carets source. [CARET-TABLE-02](https://github.com/wispsy/carets/issues/36) remains deferred for a future released snapshot dependency.
+
+The concrete [Carets-only release selection](release-selection.md) records namespace/version, licenses, source, optional dependency policy, publisher route and registry verification gates for REL-B-01.
