@@ -71,3 +71,5 @@ keep future materials and runtime decisions explicit. The independent
 adds selected vault/tutorials, Python docs/wiki snapshots, source quotas and
 checkpoint collections. Experimental checkpoints stay local; sanitized
 measurements are published separately.
+
+The selected Hypnosis/Carets application family has a separate [qualification profile](docs/cohesion-block-b/application-qualification.md), preserving historical terminal/world and Hero source pins.

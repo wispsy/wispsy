@@ -1504,3 +1504,124 @@ policy. Reuse Thoughtform artifact/lineage and Thoughtformula native operations,
 with changed-data identity, optimizer reset, parent immutability and preserved
 general/coding cohort tests. The new material snapshot and additional finite
 runtime remain a future selection; this session does not start another window.
+
+## Application and component-library completion, 2026-11-22
+
+This selected session completes Hypnosis' reusable application path and the
+Carets foundation through the component-library boundary. The owner selected a
+component-library foundation, keeping Carets #7 as the growing widget inventory,
+and explicitly kept Ollama deferred. The owner authorized Carets 0.2.0 publication
+and corrected the baseline: carets 0.1.0 already exists on PyPI. Restore its
+existing release.yaml / pypi trusted publisher rather than treating publication
+as a new package namespace. No other package/model release or training window
+is selected by this session.
+
+### Ownership and composition
+
+Carets owns one Program, terminal session, bounded command/message lifecycle,
+frame scheduling, input protocols, Unicode cells, layout, focus, styles and shared
+component presentation. Its core stays dependency-free on Python 3.10+. Hypnosis
+owns trusted service selection, provider/task identity, finite context/tool/repair/
+trial/job policy, private artifact handling and application decisions. Domain
+capabilities remain in Hidden Moves, selected reads in Workspace/Parse MD,
+durable stage recovery in func_seq, typed receipts in Backpack, native artifacts
+in Thoughtform and numerical work in Thoughtformula. Headless Spreadsheets owns
+typed snapshots and source querying/editing; Carets displays a read-only window.
+
+No parallel renderer, terminal loop, spreadsheet engine, durable workflow engine,
+capability dispatcher, Markdown parser or training algorithm is introduced.
+Application callbacks are explicitly trusted Python objects. Serialized metadata
+and retrieved lessons never import providers or enlarge tool authority.
+
+### Selected dependency order
+
+| Task | Implementation and acceptance |
+| --- | --- |
+| CARET-LAYOUT-01 / carets #3 | Finite immutable geometry; fixed/content/weighted/percentage allocation; min/max, spacing, clipped overlays and common hit-test rectangles |
+| CARET-RENDER-01 / carets #5 | Bundled Unicode 18 graphemes with conformance data; documented width policy, wide-cell-safe layers, cursor restoration, resize/full diffs and color fallbacks |
+| CARET-INPUT-01 / carets #6 | Incremental legacy/xterm/Kitty protocols, key action/modifiers, focus/mouse/paste limits, Escape timeout and paired cleanup |
+| CARET-FRAME-01 / carets #21 | Optional frame coalescing, lossless updates/backpressure, deterministic injected time and final-frame flush |
+| CARET-COMP-01 / carets #27 | Structural immutable component/state/measure/view/accessibility contracts, initial controls and adapters; grapheme-safe text editing |
+| CARET-DS-01 / carets #22 | Shared theme roles, spacing, shell regions, visible command/status states, narrow layouts, modal focus conventions and independent consumers |
+| CARET-TABLE-01 / carets #23 | Public typed snapshots, stable row/column/revision selection, bounded visible-cell formatting and read-only source boundaries |
+| HYP-TOOLS-01 / hypnosis #2 | Selected catalog authority, native argument/result schemas, cumulative output/call/time limits and uncertain-effect settlement |
+| HYP-CONTEXT-01 / hypnosis #3 | Explicit sources, trusted instructions versus untrusted skill/knowledge, provenance/hash checks, exact prompt byte/token/read budgets |
+| HYP-VERIFY-01 / hypnosis #6 | Actual verifier evidence, private reviewable diffs, finite repair, cancellation/failure/exhaustion distinctions and no uncertain automatic replay |
+| HYP-ORCH-01 / hypnosis #11 | Validated role DAG, sequential default, explicit resource isolation, shared work/time/output admission and persisted child outcomes |
+| HYP-OPT-01 / hypnosis #10 | Immutable task/provider/config/case identities, bounded measured trials, disjoint heldout regression gate and explicit hash-checked promotion |
+| JSONL-02 / wispsy #28 | Real owned subprocess producer/consumer, first record before exit, bounded framing/stderr, partial outcomes, backpressure and teardown |
+| HYP-APP-02 / hypnosis #43 | CLI and Carets workbench share trusted services; jobs/tools/context/verification/trials/checkpoints/private-output views, cancellation and explicit promotion |
+| CB-QA-02 / wispsy #29 | Independent installed application source/wheel profile, exact dependency pins, native POSIX versus synthetic Windows evidence and sanitized receipts |
+| CARET-REL-02 / carets #28 | Authorized Carets 0.2.0 only: versions/licenses/artifacts/RECORD checks, trusted PyPI publishing, exact public hashes and fresh public installation |
+
+### Application behavior
+
+`hypnosis application-demo` runs the full deterministic offline composition.
+It retrieves an explicitly selected hashed scratch lesson, invokes an approved
+catalog tool, writes an initially wrong artifact, verifies saved bytes, repairs,
+and compares baseline/candidate configurations on validation/heldout exercises.
+These are actual services with small authored fixtures, not an autonomous
+general-knowledge or coding-capability claim. An explicitly selected local
+Thoughtform artifact can instead perform bounded native Python syntax probes;
+generated code is never executed and native checkpoint bytes stay unchanged.
+
+`hypnosis app` uses the same services in one Carets Program, shared AppShell/Theme
+and typed TableModel views. Navigation, focus, resizing, cancellation, safe local
+output and modal promotion use the reusable contracts. Checkpoint browsing reuses
+the existing collection, with an explicit database/root and a 50-record read-only
+page. Preparation/training/continuation/index formats and commands remain intact.
+Each invocation owns one finite run; future sessions can grow workspace-task
+providers and UI actions independently of this acceptance.
+
+The root provider-output budget is partitioned among context, cumulative tools,
+candidate/repair output and trials. Structural coordinator output and retained
+presentation tails have independent finite bounds. Declared work units are
+admission estimates, not operating-system GPU/CPU quotas. Synchronous inference
+settles cooperatively; owned subprocesses add process termination when required.
+
+Backpack stores typed structural application/trial/promotion receipts only when
+an explicit database is selected. Receipts omit source bodies, raw prompts,
+candidate values/diffs, private paths, exception messages and weights. Same
+run/kind writes are idempotent only for matching content. Promotion records a
+decision after review; it does not silently alter a live harness or model.
+
+### Qualification and release gates
+
+1. Test each focused task and its real boundaries before pushing its PR.
+2. Integrate child PRs into parents before the final parent-to-main squash.
+   Recheck the actual resulting head; a prior child's green run does not prove
+   the newly combined parent. Preserve all child contents and record source SHAs.
+3. Carets core source checks cover Python 3.10–3.13; installed wheel/source checks
+   cover Linux 3.10/3.14 and macOS/Windows 3.14. Snapshot integration has separate
+   Python 3.14 profiles on all three operating systems. Hypnosis retains its
+   existing optional profiles and adds the integrated application profile.
+4. Qualify the separate application profile in application-sources-v1.json.
+   Historical terminal/world, Hero v1 and frozen-corpus v2 pins stay unchanged.
+   Verify installed VCS identities, artifact hashes and dependency consistency.
+   Real process streaming and an explicit zero-step native artifact probe run
+   without downloading models, external data or starting a long training run.
+5. Native terminal evidence uses actual POSIX pseudo-terminals, buffered single
+   keys, cancellation/quit and raw restoration. Windows remains headless/synthetic;
+   font-specific shaping, arbitrary terminal protocols and native Windows input
+   are not claimed. Grapheme conformance and terminal cell-width policy remain
+   distinct. The full widget inventory stays open in Carets #7.
+6. Build Carets 0.2.0 with matching metadata/public version, MIT and Unicode-3.0
+   licenses, dependency-free core and checked wheel RECORD/source payload bytes.
+   Tag the qualified main commit, publish through existing trusted publisher,
+   attach its exact wheel/source artifacts to GitHub, compare registry download
+   hashes and verify an uncached public installation before closing publication.
+
+Published Headless Spreadsheets 0.1.0 predates TableSnapshot. The optional Carets
+adapter uses a separately documented development pin, not an invalid PyPI direct
+Git requirement. A later released snapshot version can support a conventional
+optional extra; that follow-up does not require publishing another package here.
+
+### Retained future choices
+
+Carets #7 grows richer widgets after the foundation. Hypnosis #7 remains the
+deferred Ollama path, and #42 remains the next data/adaptation/runtime decision.
+No additional dataset sources, tokenizer growth, training sessions, weight
+uploads, Paracosm agency or Warewolf hub implementation are selected implicitly.
+The composition boundaries remain suitable for those later Carets applications.
+
+Release qualification follow-ups: [CARET-FOCUS-02](https://github.com/wispsy/carets/issues/37) aligns layout/zone/pointer priority and read-only navigation; [HYP-APP-03](https://github.com/wispsy/hypnosis/issues/51) returns joined worker outcomes after direct signal shutdown; [HYP-DEP-01](https://github.com/wispsy/hypnosis/issues/53) selects the final Carets source. [CARET-TABLE-02](https://github.com/wispsy/carets/issues/36) remains deferred for a future released snapshot dependency.

@@ -3,6 +3,8 @@
 Contract ID: `wispsy.run-event/1`. Selection task: [JSONL-01](https://github.com/wispsy/wispsy/issues/14).
 Implementation/proof task: [JSONL-02](https://github.com/wispsy/wispsy/issues/28).
 
+The implementation owner is [Hypnosis ProcessRun and its explicit stream command](https://github.com/wispsy/hypnosis/blob/main/docs/process-streams.md). The application qualification profile exercises actual processes and preserves the separate in-process Carets API.
+
 Hypnosis live output supplies the concrete workflow: a producer emits incremental
 run state for a terminal application or another process. This document selects
 framing and failure semantics. The current in-process Carets stream is a separate

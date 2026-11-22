@@ -1,0 +1,16 @@
+{
+  "schema": "cohesion-application-sources/1",
+  "sources": {
+    "hypnosis": "a7b41f3f89ac92df1e38073f5f69a9357671f227",
+    "carets": "0bec123a70dde1b762dd89622dc1954c8bacb794",
+    "expose-interface": "8c71caefe67217bb6df87e280261746a3055fc86",
+    "hidden-moves": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+    "hidden-moves-workspace": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+    "parse-md": "54ff935e4ef9218a5c6227eb4149b62a52f89ec1",
+    "backpack-store": "77440f85a290a756e26c7180ccb2d092812f13b4",
+    "func-seq": "bfb4c1d5bccc73f842d72ddb7809a11973acb9e4",
+    "headless-spreadsheets": "811f1e1b297cacb887164bcb78ba6be39e37c90d",
+    "thoughtform": "6c28d496a4f2bcc613dc1a1e1e21bf2095833c78",
+    "thoughtformula": "5ce72f850772c2467f0a0909dfd5c81874065684"
+  }
+}
