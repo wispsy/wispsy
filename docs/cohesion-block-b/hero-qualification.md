@@ -51,7 +51,9 @@ training and quantized inference formats remain separate. Raw source material
 and weights stay outside Git. The owner-approved sanitized
 [pilot report](https://github.com/wispsy/hypnosis/tree/main/experiments/hero-pilot-v1)
 contains measurements and hashes without training text or weights. The matched
-shuffle comparison remains open in [HERO-PILOT-01](https://github.com/wispsy/hypnosis/issues/16).
+shuffle comparison from the first pilot is completed by the v2 session under
+[HERO-PILOT-01](https://github.com/wispsy/hypnosis/issues/16); its follow-up is
+recorded in the [reporting PR](https://github.com/wispsy/hypnosis/pull/41).
 No curriculum advantage or model promotion is inferred from installed fixtures.
 
 The probes measure next-token loss/coverage and syntax only. They do not prove
@@ -59,8 +61,8 @@ factual accuracy, working generated code, useful assistant behavior or autonomou
 operation of training tools. Windows qualifies headless/test presentation; native
 console support remains the separate Carets contract.
 
-[The next-source decision](https://github.com/wispsy/hypnosis/issues/27) selects
-authored general-knowledge/coding materials, source/window quotas, vocabulary
-coverage and a new bounded runtime. Python vault snapshots, official docs and
-community wiki remain distinct candidates. [The proposal guide](source-proposals.md)
-describes the concrete information needed before any new ingestion.
+The owner selected the current vault/tutorials, official Python 3.14 docs and
+community wiki clone on 21 November in [HERO-SOURCE-02](https://github.com/wispsy/hypnosis/issues/27).
+The independent [v2 profile](hero-session-qualification.md) covers balanced
+sampling, history and continuation without changing this v1 source register.
+[The proposal guide](source-proposals.md) continues to govern future material.

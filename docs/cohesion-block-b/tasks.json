@@ -442,9 +442,10 @@
       "phase": "Training",
       "depends_on": [
         "HYP-SOURCE-01",
-        "HYP-DATA-01"
+        "HYP-DATA-01",
+        "HERO-SOURCE-02"
       ],
-      "selected_phase": "hero-homegrown/1"
+      "selected_phase": "hero-session/2"
     },
     {
       "task": "TF-GRAD-01",
@@ -485,6 +486,68 @@
         "HYP-DATA-01"
       ],
       "selected_phase": "hero-homegrown/1"
+    },
+    {
+      "task": "TFORM-03",
+      "repository": "wispsy/thoughtform",
+      "issue": "https://github.com/wispsy/thoughtform/issues/7",
+      "phase": "Models",
+      "depends_on": [
+        "TFORM-02"
+      ],
+      "selected_phase": "hero-session/2"
+    },
+    {
+      "task": "HYP-MIX-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/32",
+      "phase": "Training",
+      "depends_on": [
+        "HYP-VAULT-01",
+        "TFORM-03"
+      ],
+      "selected_phase": "hero-session/2"
+    },
+    {
+      "task": "HYP-CHECKPOINT-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/33",
+      "phase": "Training",
+      "depends_on": [
+        "HYP-MIX-01"
+      ],
+      "selected_phase": "hero-session/2"
+    },
+    {
+      "task": "HERO-SESSION-02",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/34",
+      "phase": "Qualification",
+      "depends_on": [
+        "HYP-MIX-01",
+        "HYP-CHECKPOINT-01"
+      ],
+      "selected_phase": "hero-session/2"
+    },
+    {
+      "task": "HERO-QA-02",
+      "repository": "wispsy/wispsy",
+      "issue": "https://github.com/wispsy/wispsy/issues/39",
+      "phase": "Qualification",
+      "depends_on": [
+        "HERO-SESSION-02"
+      ],
+      "selected_phase": "hero-session/2"
+    },
+    {
+      "task": "HYP-TIME-01",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/39",
+      "phase": "Qualification",
+      "depends_on": [
+        "HERO-SESSION-02"
+      ],
+      "selected_phase": "hero-session/2"
     }
   ]
 }
