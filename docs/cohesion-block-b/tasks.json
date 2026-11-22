@@ -548,6 +548,16 @@
         "HERO-SESSION-02"
       ],
       "selected_phase": "hero-session/2"
+    },
+    {
+      "task": "HERO-SOURCE-03",
+      "repository": "wispsy/hypnosis",
+      "issue": "https://github.com/wispsy/hypnosis/issues/42",
+      "phase": "Training",
+      "depends_on": [
+        "HERO-SESSION-02"
+      ],
+      "selected_phase": "hero-material-growth/1"
     }
   ]
 }

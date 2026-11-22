@@ -1486,3 +1486,20 @@ question/function tests. New data or a changed tokenizer starts an explicit new
 recipe/lineage rather than masquerading as exact continuation. The owner continues
 to choose future materials; useful authored additions remain explanations,
 worked examples, exercises, boundary cases, checkable answers and references.
+
+### Material growth after the frozen-corpus session
+
+[HERO-SOURCE-03](https://github.com/wispsy/hypnosis/issues/42) records the next source/adaptation/budget selection.
+More exact continuation can reuse the frozen v2 corpus and existing weights, Adam
+and order. Adding new lessons to general Hero needs an explicit warm-start
+operation with new corpus/recipe lineage; the current general-Hero continuation
+contract intentionally requires the same corpus. The existing Hero Coding parent
+specialization remains available.
+
+Select a frozen-vocabulary first warm-start path that preserves learned weights
+and token IDs, deliberately resets optimizer state, reports character exclusions
+and keeps old checkpoints unchanged. Vocabulary expansion needs its own selected
+policy. Reuse Thoughtform artifact/lineage and Thoughtformula native operations,
+with changed-data identity, optimizer reset, parent immutability and preserved
+general/coding cohort tests. The new material snapshot and additional finite
+runtime remain a future selection; this session does not start another window.

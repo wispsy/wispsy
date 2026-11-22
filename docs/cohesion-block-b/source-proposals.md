@@ -8,8 +8,9 @@ generator revisions also need selection.
 [HERO-SOURCE-02](https://github.com/wispsy/hypnosis/issues/27) records the owner's
 21 November approval of the current Python vault/tutorials, community wiki clone
 and Python 3.14 docs. The [session plan](hero-training.md#session-v2-approved-python-materials-and-longer-checkpointed-experiments)
-selects exact snapshots, weights and a one-hour ceiling. This guide describes
-future proposals; it does not automatically admit new material.
+selects exact snapshots, weights and a one-hour ceiling. [The next selection](https://github.com/wispsy/hypnosis/issues/42) chooses future materials, adaptation policy and
+additional runtime. This guide describes future proposals; it does not
+automatically admit new material.
 
 ## Useful first materials
 
