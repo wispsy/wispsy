@@ -85,7 +85,7 @@ def inspect_repository(repository):
                   "source_url": f"https://github.com/{repo}/tree/{commit}" + (f"/{directory}" if directory else ""),
                   "published": current, "status": "unpublished", "comparison": None}
         if current:
-            tags = [f"{project['name']}-v{current['version']}"] if directory else [f"v{current['version']}"]
+            tags = [f"v{current['version']}-{project['name'].removeprefix('hidden-moves-')}"] if directory else [f"v{current['version']}"]
             record["status"] = "published; source tag unverified"
             for tag in tags:
                 comparison = gh("api", f"repos/{repo}/compare/{tag}...{commit}")

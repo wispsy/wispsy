@@ -1,6 +1,6 @@
 # Release status
 
-Observed **2026-11-24T21:50:46+00:00**. This is a snapshot, not a live service.
+Observed **2026-11-24T21:57:36+00:00**. This is a snapshot, not a live service.
 
 [Wispsy Releases](https://github.com/orgs/wispsy/projects/31) owns publication, dependency adoption and release housekeeping.
 
@@ -11,7 +11,7 @@ PyPI versions identify downloadable artifacts. A version in `pyproject.toml` on 
 | --- | --- | --- | --- |
 | `apiconn` | [0.1.0](https://pypi.org/project/apiconn/0.1.0/) | [0.1.0](https://github.com/wispsy/apiconn/tree/f55ee0a311f64edb9749a5caa9910990a286ce3b) | [documentation/administration ahead](https://github.com/wispsy/apiconn/compare/v0.1.0...main) |
 | `astree` | [0.1.0](https://pypi.org/project/astree/0.1.0/) | [0.1.0](https://github.com/wispsy/astree/tree/4db6cf6a41eebc5c23ab1a0a68b72fa647f82bad) | [source/metadata ahead; qualification required](https://github.com/wispsy/astree/compare/v0.1.0...main) |
-| `backpack-store` | [0.2.0](https://pypi.org/project/backpack-store/0.2.0/) | [0.2.0](https://github.com/wispsy/backpack_store/tree/77440f85a290a756e26c7180ccb2d092812f13b4) | [current](https://github.com/wispsy/backpack_store/compare/v0.2.0...main) |
+| `backpack-store` | [0.2.0](https://pypi.org/project/backpack-store/0.2.0/) | [0.2.0](https://github.com/wispsy/backpack_store/tree/8370e522548dfb67e45f0c0da08291a74666d895) | [source/metadata ahead; qualification required](https://github.com/wispsy/backpack_store/compare/v0.2.0...main) |
 | `builtouts` | [0.1.0](https://pypi.org/project/builtouts/0.1.0/) | [0.2.0](https://github.com/wispsy/builtouts/tree/85441ec67c7ea2e153a902591dc9478b9c1e7c4d) | [source/metadata ahead; qualification required](https://github.com/wispsy/builtouts/compare/v0.1.0...main) |
 | `carets` | [0.2.0](https://pypi.org/project/carets/0.2.0/) | [0.2.0](https://github.com/wispsy/carets/tree/0bec123a70dde1b762dd89622dc1954c8bacb794) | [current](https://github.com/wispsy/carets/compare/v0.2.0...main) |
 | `clownfish` | [0.6.3](https://pypi.org/project/clownfish/0.6.3/) | [0.6.3](https://github.com/wispsy/clownfish/tree/e67e70525d135b0a4331660cec38f24bc0e68e3c) | [source/metadata ahead; qualification required](https://github.com/wispsy/clownfish/compare/v0.6.3...main) |
@@ -25,14 +25,14 @@ PyPI versions identify downloadable artifacts. A version in `pyproject.toml` on 
 | `expose-interface` | [0.1.0](https://pypi.org/project/expose-interface/0.1.0/) | [0.1.0](https://github.com/wispsy/expose_interface/tree/8c71caefe67217bb6df87e280261746a3055fc86) | [source/metadata ahead; qualification required](https://github.com/wispsy/expose_interface/compare/v0.1.0...main) |
 | `expose-protocol` | [0.1.0](https://pypi.org/project/expose-protocol/0.1.0/) | [0.1.0](https://github.com/wispsy/expose_protocol/tree/8cdcb9fc5305672ffdce919696d2253dc388ddc0) | [source/metadata ahead; qualification required](https://github.com/wispsy/expose_protocol/compare/v0.1.0...main) |
 | `func-seq` | [0.1.0](https://pypi.org/project/func-seq/0.1.0/) | [0.1.0](https://github.com/wispsy/func_seq/tree/bfb4c1d5bccc73f842d72ddb7809a11973acb9e4) | [source/metadata ahead; qualification required](https://github.com/wispsy/func_seq/compare/v0.1.0...main) |
-| `gitdx` | Unpublished | [0.1.0](https://github.com/wispsy/gitdx/tree/24d9944f52e6de3844cce6d4ec06fbd860d95d13) | unpublished |
+| `gitdx` | [0.1.0a1](https://pypi.org/project/gitdx/0.1.0a1/) | [0.1.0a1](https://github.com/wispsy/gitdx/tree/3386e6b0b0cd4c99c7ff208ba5e127b6c15ac3a8) | [current](https://github.com/wispsy/gitdx/compare/v0.1.0a1...main) |
 | `gittycat` | Unpublished | [0.1.0](https://github.com/wispsy/gittycat/tree/54cf0de253a095f1aa856328b443468e444790fd) | unpublished |
 | `gitwriter` | Unpublished | [0.1.0](https://github.com/wispsy/gitwriter/tree/2f58c824c46a98747eeccab5e495e9d54554362e) | unpublished |
 | `headless-spreadsheets` | [0.1.0](https://pypi.org/project/headless-spreadsheets/0.1.0/) | [0.1.0](https://github.com/wispsy/headless_spreadsheets/tree/811f1e1b297cacb887164bcb78ba6be39e37c90d) | [source/metadata ahead; qualification required](https://github.com/wispsy/headless_spreadsheets/compare/v0.1.0...main) |
 | `hidden-moves` | [0.1.0](https://pypi.org/project/hidden-moves/0.1.0/) | [0.1.0](https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0) | [source/metadata ahead; qualification required](https://github.com/wispsy/hidden_moves/compare/v0.1.0...main) |
-| `hidden-moves-github-projects` | [0.1.0](https://pypi.org/project/hidden-moves-github-projects/0.1.0/) | [0.1.0](https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-github-projects) | published; source tag unverified |
-| `hidden-moves-mcp` | [0.1.0](https://pypi.org/project/hidden-moves-mcp/0.1.0/) | [0.1.0](https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-mcp) | published; source tag unverified |
-| `hidden-moves-openai` | [0.1.0](https://pypi.org/project/hidden-moves-openai/0.1.0/) | [0.1.0](https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-openai) | published; source tag unverified |
+| `hidden-moves-github-projects` | [0.1.0](https://pypi.org/project/hidden-moves-github-projects/0.1.0/) | [0.1.0](https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-github-projects) | [source/metadata ahead; qualification required](https://github.com/wispsy/hidden_moves/compare/v0.1.0-github-projects...main) |
+| `hidden-moves-mcp` | [0.1.0](https://pypi.org/project/hidden-moves-mcp/0.1.0/) | [0.1.0](https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-mcp) | [source/metadata ahead; qualification required](https://github.com/wispsy/hidden_moves/compare/v0.1.0-mcp...main) |
+| `hidden-moves-openai` | [0.1.0](https://pypi.org/project/hidden-moves-openai/0.1.0/) | [0.1.0](https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-openai) | [source/metadata ahead; qualification required](https://github.com/wispsy/hidden_moves/compare/v0.1.0-openai...main) |
 | `hidden-moves-workspace` | Unpublished | [0.1.0](https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-workspace) | unpublished |
 | `hypnosis` | Unpublished | [0.1.0](https://github.com/wispsy/hypnosis/tree/75cc766d640d17392e65402d266347c8b573ed05) | unpublished |
 | `immunity` | [0.1.0](https://pypi.org/project/immunity/0.1.0/) | [0.1.0](https://github.com/wispsy/immunity/tree/27f307844e44b82261c5806cfcde293c321c472f) | [source/metadata ahead; qualification required](https://github.com/wispsy/immunity/compare/v0.1.0...main) |

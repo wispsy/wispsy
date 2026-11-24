@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observed_at": "2026-11-24T21:50:46+00:00",
+  "observed_at": "2026-11-24T21:57:36+00:00",
   "project": "https://github.com/orgs/wispsy/projects/31",
   "public_repositories": 46,
   "packages": [
@@ -100,10 +100,10 @@
       "directory": "",
       "distribution": "backpack-store",
       "main_version": "0.2.0",
-      "main_sha": "77440f85a290a756e26c7180ccb2d092812f13b4",
+      "main_sha": "8370e522548dfb67e45f0c0da08291a74666d895",
       "default_branch": "main",
       "requires_python": ">=3.11",
-      "source_url": "https://github.com/wispsy/backpack_store/tree/77440f85a290a756e26c7180ccb2d092812f13b4",
+      "source_url": "https://github.com/wispsy/backpack_store/tree/8370e522548dfb67e45f0c0da08291a74666d895",
       "published": {
         "version": "0.2.0",
         "requires_python": ">=3.11",
@@ -123,12 +123,16 @@
           }
         ]
       },
-      "status": "current",
+      "status": "source/metadata ahead; qualification required",
       "comparison": {
         "tag": "v0.2.0",
         "sha": "77440f85a290a756e26c7180ccb2d092812f13b4",
-        "ahead": 0,
-        "paths": [],
+        "ahead": 1,
+        "paths": [
+          "README.md",
+          "docs/releasing.md",
+          "pyproject.toml"
+        ],
         "truncated": false,
         "url": "https://github.com/wispsy/backpack_store/compare/v0.2.0...main"
       }
@@ -660,14 +664,39 @@
       "repository": "wispsy/gitdx",
       "directory": "",
       "distribution": "gitdx",
-      "main_version": "0.1.0",
-      "main_sha": "24d9944f52e6de3844cce6d4ec06fbd860d95d13",
+      "main_version": "0.1.0a1",
+      "main_sha": "3386e6b0b0cd4c99c7ff208ba5e127b6c15ac3a8",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/gitdx/tree/24d9944f52e6de3844cce6d4ec06fbd860d95d13",
-      "published": null,
-      "status": "unpublished",
-      "comparison": null
+      "source_url": "https://github.com/wispsy/gitdx/tree/3386e6b0b0cd4c99c7ff208ba5e127b6c15ac3a8",
+      "published": {
+        "version": "0.1.0a1",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/gitdx/0.1.0a1/",
+        "files": [
+          {
+            "filename": "gitdx-0.1.0a1-py3-none-any.whl",
+            "sha256": "a4cdada6eafc93e2c58ac1c9558cfe16b8bd7e2e8193c6a10ee4f50c8307e30b",
+            "uploaded": "2026-11-24T21:54:28.165225Z",
+            "yanked": false
+          },
+          {
+            "filename": "gitdx-0.1.0a1.tar.gz",
+            "sha256": "94268e46bf7fd8e2aeee97a3b43ccbd365ddfff02015d18439f02a23848d20bd",
+            "uploaded": "2026-11-24T21:54:29.178383Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0a1",
+        "sha": "3386e6b0b0cd4c99c7ff208ba5e127b6c15ac3a8",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/gitdx/compare/v0.1.0a1...main"
+      }
     },
     {
       "repository": "wispsy/gittycat",
@@ -868,8 +897,19 @@
           }
         ]
       },
-      "status": "published; source tag unverified",
-      "comparison": null
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0-github-projects",
+        "sha": "6fa99794301efcce34cbed56e7c7b7eef162a184",
+        "ahead": 10,
+        "paths": [
+          "packages/hidden-moves-github-projects/README.md",
+          "packages/hidden-moves-github-projects/pyproject.toml",
+          "packages/hidden-moves-github-projects/tests/test_integration.py"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.0-github-projects...main"
+      }
     },
     {
       "repository": "wispsy/hidden_moves",
@@ -899,8 +939,17 @@
           }
         ]
       },
-      "status": "published; source tag unverified",
-      "comparison": null
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0-mcp",
+        "sha": "e130faa7a2db6d5db628f85ea88825107be6423c",
+        "ahead": 12,
+        "paths": [
+          "packages/hidden-moves-mcp/pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.0-mcp...main"
+      }
     },
     {
       "repository": "wispsy/hidden_moves",
@@ -930,8 +979,17 @@
           }
         ]
       },
-      "status": "published; source tag unverified",
-      "comparison": null
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0-openai",
+        "sha": "17e953c6705591fcbd0f57344acdcc98cf3ddaf2",
+        "ahead": 11,
+        "paths": [
+          "packages/hidden-moves-openai/pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.0-openai...main"
+      }
     },
     {
       "repository": "wispsy/hidden_moves",
