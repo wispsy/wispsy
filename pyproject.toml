@@ -3,28 +3,30 @@ name = "wispsy"
 version = "0.0.1.dev0"
 description = "Executable references for explicit Python capability composition."
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE.md"]
 requires-python = ">=3.11"
 authors = [{ name = "ellainng" }]
 dependencies = []
 
 [project.optional-dependencies]
-application = ["hypnosis[application,models] @ git+https://github.com/wispsy/hypnosis.git@a7b41f3f89ac92df1e38073f5f69a9357671f227 ; python_version >= '3.14'"]
-workflow = ["hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@93ccf01dff12ade8ec204bb46abc300abaae9a3c"]
+application = ["hypnosis[application,models]==0.1.0a1 ; python_version >= '3.14'"]
+workflow = ["hidden-moves==0.1.1 "]
 sequence = [
-    "hidden-moves @ git+https://github.com/wispsy/hidden_moves.git@93ccf01dff12ade8ec204bb46abc300abaae9a3c",
-    "func-seq @ git+https://github.com/wispsy/func_seq.git@b1a5346feeeef3fa1f398e4dcd81c2d23345386c ; python_version >= '3.14'",
+    "hidden-moves==0.1.1 ",
+    "func-seq==0.1.0 ; python_version >= '3.14'",
 ]
 table = [
-    "moveset @ git+https://github.com/wispsy/moveset.git@95acbde15881ca9d3ca833c16bc6c93b44687fbc",
-    "headless-spreadsheets @ git+https://github.com/wispsy/headless_spreadsheets.git@6eaff1b3764910720956c66559dce3f34a430ee2 ; python_version >= '3.14'",
+    "moveset==0.1.0 ",
+    "headless-spreadsheets==0.1.1 ; python_version >= '3.14'",
 ]
-scripting = ["scriptty[cli] @ git+https://github.com/wispsy/scriptty.git@f7e1d35f27f997a2e30c6f04f3626f05d8be10cf"]
-terminal = ["scriptty[terminal] @ git+https://github.com/wispsy/scriptty.git@f7e1d35f27f997a2e30c6f04f3626f05d8be10cf ; python_version >= '3.14'"]
+scripting = ["scriptty[cli]==0.1.0 "]
+terminal = ["scriptty[terminal]==0.1.0 ; python_version >= '3.14'"]
 
 family = [
-    "hypnosis[models] @ git+https://github.com/wispsy/hypnosis.git@36e821133266c8f1e22a457053b6aeb4c30594a9 ; python_version >= '3.14'",
-    "paracosm @ git+https://github.com/wispsy/paracosm.git@9829a348fdcd6fd935e4d4f2341a910c58566fad ; python_version >= '3.14'",
-    "compose-application @ git+https://github.com/wispsy/compose_application.git@f2c568993930057b43f4856a86dfc4440f7f2c9e ; python_version >= '3.14'",
+    "hypnosis[models]==0.1.0a1 ; python_version >= '3.14'",
+    "paracosm @ git+https://github.com/wispsy/paracosm.git@07bbb79f3e5aadfc43c40ad592b3af2e73021bb1 ; python_version >= '3.14'",
+    "compose-application==0.1.0a1 ; python_version >= '3.14'",
 ]
 
 [project.scripts]

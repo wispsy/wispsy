@@ -30,3 +30,12 @@ Hypnosis's Parse MW migration passed 27 installed profile/platform checks. Engl 
 The initial source comparison also identifies functional updates in Thoughtformula, Hidden Moves, Headless Spreadsheets, Spatial UI, Astree, Builtouts and Pocket Python. A comparison is a review candidate, not a publication approval gate by itself. Builtouts has a failing audited main check to diagnose. Pocket Python has extensive source qualification; reuse the successful matching-head evidence and its existing release procedure rather than repeating an unrelated interpreter roadmap.
 
 No model weights, datasets, deployments or local checkpoints are included in this package release work.
+
+## Dependency adoption follow-up
+
+Paracosm now selects published Thoughtform and its bounded preview artifacts
+pass qualification. PyPI rejected its publisher identity; owner `wispsy`,
+repository `paracosm`, workflow `release.yaml`, environment `pypi` must be
+registered before retrying the existing qualified publishing job. Wispsy
+reference metadata selects current index releases and retains only this
+qualified Paracosm source until that dependency can be installed from PyPI.

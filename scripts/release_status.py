@@ -14,6 +14,7 @@ from urllib.error import HTTPError
 from urllib.request import urlopen
 
 SUBPACKAGES = {
+    "pretty-notebook": ["packages/pnbp-transition"],
     "hidden_moves": [f"packages/hidden-moves-{name}" for name in ("mcp", "openai", "github-projects", "workspace")],
 }
 PROJECT = "https://github.com/orgs/wispsy/projects/31"
@@ -85,7 +86,7 @@ def inspect_repository(repository):
                   "source_url": f"https://github.com/{repo}/tree/{commit}" + (f"/{directory}" if directory else ""),
                   "published": current, "status": "unpublished", "comparison": None}
         if current:
-            tags = [f"v{current['version']}-{project['name'].removeprefix('hidden-moves-')}"] if directory else [f"v{current['version']}"]
+            tags = [f"v{current['version']}-{project['name'].removeprefix('hidden-moves-')}"] if directory and repo.endswith("/hidden_moves") else [f"v{current['version']}"]
             record["status"] = "published; source tag unverified"
             for tag in tags:
                 comparison = gh("api", f"repos/{repo}/compare/{tag}...{commit}")
@@ -99,6 +100,8 @@ def inspect_repository(repository):
                                         "truncated": truncated,
                                         "url": f"https://github.com/{repo}/compare/{tag}...main"}
                 record["status"] = change_kind(selected, truncated)
+                if repo == "wispsy/pretty-notebook" and not directory and any(p.startswith("apps/web/") for p in paths) and not any(p.startswith("src/") or p == "pyproject.toml" for p in paths):
+                    record["status"] = "application/docs ahead; library code unchanged"
                 break
         records.append(record)
     return records

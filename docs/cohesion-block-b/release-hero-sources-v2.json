@@ -1,0 +1,15 @@
+{
+  "schema": "hero-session-sources/2",
+  "sources": {},
+  "packages": {
+    "carets": "0.2.0",
+    "thoughtform": "0.1.0a1",
+    "thoughtformula": "0.3.1",
+    "hypnosis": "0.1.0a1",
+    "engl": "0.1.0a1",
+    "backpack-store": "0.2.0",
+    "func-seq": "0.1.0",
+    "expose-interface": "0.1.0",
+    "parse-md": "0.1.0"
+  }
+}

@@ -14,7 +14,8 @@ from importlib import metadata
 import json
 from pathlib import Path
 import sys
-sources = json.loads(Path(sys.argv[1]).read_text())['sources']
+selection = json.loads(Path(sys.argv[1]).read_text())
+sources = selection['sources']
 installed = {}
 for name, expected in sources.items():
     distribution = metadata.distribution(name)
@@ -23,6 +24,12 @@ for name, expected in sources.items():
     if commit != expected:
         raise RuntimeError(f'{name} source does not match the selected profile')
     installed[name] = {'version': distribution.version, 'commit': commit}
+for name, expected in selection.get('packages', {}).items():
+    distribution = metadata.distribution(name)
+    direct = json.loads(distribution.read_text('direct_url.json') or '{}')
+    if distribution.version != expected or direct.get('vcs_info'):
+        raise RuntimeError(f'{name} does not match the selected published version')
+    installed[name] = {'version': distribution.version, 'commit': None}
 print(json.dumps(installed, sort_keys=True))
 '''
 
@@ -43,14 +50,14 @@ def main():
             python = environment / ('Scripts/python.exe' if sys.platform == 'win32' else 'bin/python')
             subprocess.run(['uv', 'pip', 'install', '--python', str(python), str(artifact) + '[family]'], check=True, cwd=outside)
             subprocess.run([str(python), '-I', '-m', 'unittest', 'discover', '-s', str(ROOT / 'family_tests'), '-v'], check=True, cwd=outside)
-            manifest = ROOT / 'docs/cohesion-block-b/sources-v1.json'
+            manifest = ROOT / 'docs/cohesion-block-b/release-sources-v1.json'
             result = subprocess.run([str(python), '-I', '-c', RECEIPT, str(manifest)], check=True, cwd=outside,
                                     capture_output=True, text=True)
             installed = json.loads(result.stdout)
             project = outside / 'progress-desk'
             subprocess.run([str(python), '-I', '-m', 'compose_application.projects', str(project),
                 '--name', 'progress-desk', '--profile', 'terminal'], check=True, cwd=outside)
-            subprocess.run(['uv', 'pip', 'install', '--python', str(python), '--no-deps', str(project)], check=True, cwd=outside)
+            subprocess.run(['uv', 'pip', 'install', '--python', str(python), str(project)], check=True, cwd=outside)
             process_environment = dict(os.environ)
             process_environment.pop('PYTHONPATH', None)
             command = environment / ('Scripts/progress-desk.exe' if sys.platform == 'win32' else 'bin/progress-desk')

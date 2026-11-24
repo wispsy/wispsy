@@ -1,0 +1,17 @@
+{
+  "schema": "cohesion-application-sources/1",
+  "sources": {},
+  "packages": {
+    "hypnosis": "0.1.0a1",
+    "carets": "0.2.0",
+    "expose-interface": "0.1.0",
+    "hidden-moves": "0.1.1",
+    "hidden-moves-workspace": "0.1.0a2",
+    "parse-md": "0.1.0",
+    "backpack-store": "0.2.0",
+    "func-seq": "0.1.0",
+    "headless-spreadsheets": "0.1.1",
+    "thoughtform": "0.1.0a1",
+    "thoughtformula": "0.3.1"
+  }
+}
