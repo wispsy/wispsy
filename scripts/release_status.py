@@ -123,7 +123,7 @@ def render(data):
         lines.append(f"| `{record['distribution']}` | {pypi} | {source} | {status} |")
     lines += ["", "Reproduce with `python scripts/release_status.py --output docs/releases` (Python 3.11+, authenticated `gh`, public network access).",
               "The command reads public repository metadata and PyPI. HTTP/authentication errors fail the refresh; only an actual PyPI 404 means unpublished.",
-              "Private repositories are excluded. Read [the release policy](POLICY.md) and [implementation queue](IMPLEMENTATION_PLAN.md) for readiness and remaining work.", ""]
+              "Private repositories are excluded. Read [readiness and remaining gates](GATES.md), [the release policy](POLICY.md) and [implementation queue](IMPLEMENTATION_PLAN.md) for decisions behind this inventory.", ""]
     return "\n".join(lines)
 
 

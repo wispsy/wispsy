@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observed_at": "2026-11-24T21:57:36+00:00",
+  "observed_at": "2026-11-24T23:36:10+00:00",
   "project": "https://github.com/orgs/wispsy/projects/31",
   "public_repositories": 46,
   "packages": [
@@ -8,91 +8,76 @@
       "repository": "wispsy/apiconn",
       "directory": "",
       "distribution": "apiconn",
-      "main_version": "0.1.0",
-      "main_sha": "f55ee0a311f64edb9749a5caa9910990a286ce3b",
+      "main_version": "0.1.1",
+      "main_sha": "da6904859a5430a28bf000e5d0c9f374fc230deb",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/apiconn/tree/f55ee0a311f64edb9749a5caa9910990a286ce3b",
+      "source_url": "https://github.com/wispsy/apiconn/tree/da6904859a5430a28bf000e5d0c9f374fc230deb",
       "published": {
-        "version": "0.1.0",
+        "version": "0.1.1",
         "requires_python": ">=3.14",
-        "url": "https://pypi.org/project/apiconn/0.1.0/",
+        "url": "https://pypi.org/project/apiconn/0.1.1/",
         "files": [
           {
-            "filename": "apiconn-0.1.0-py3-none-any.whl",
-            "sha256": "69a4a2b4f9e78d57b3234cfd8199c0478cdeda083f7defaa23da32e81db10e0c",
-            "uploaded": "2026-11-08T22:41:20.878201Z",
+            "filename": "apiconn-0.1.1-py3-none-any.whl",
+            "sha256": "3acc62026197008ac9b842b2ffc07c2dabfd5203bbb0431f154ce250cf1ed745",
+            "uploaded": "2026-11-24T22:45:56.470503Z",
             "yanked": false
           },
           {
-            "filename": "apiconn-0.1.0.tar.gz",
-            "sha256": "9d9c1471c73ff77914c60cded75bd100e8e7fbaa8296910dab3d9154d5f651b4",
-            "uploaded": "2026-11-08T22:41:21.965275Z",
+            "filename": "apiconn-0.1.1.tar.gz",
+            "sha256": "e7afc5be28fc8cb54420276835f75940d6b49ec86815b380748cd503eaf2982d",
+            "uploaded": "2026-11-24T22:45:57.694439Z",
             "yanked": false
           }
         ]
       },
-      "status": "documentation/administration ahead",
+      "status": "current",
       "comparison": {
-        "tag": "v0.1.0",
-        "sha": "aa3f228d982308a6708176e9f62b1d709cd4ad0d",
-        "ahead": 1,
-        "paths": [
-          "LICENSE"
-        ],
+        "tag": "v0.1.1",
+        "sha": "da6904859a5430a28bf000e5d0c9f374fc230deb",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/apiconn/compare/v0.1.0...main"
+        "url": "https://github.com/wispsy/apiconn/compare/v0.1.1...main"
       }
     },
     {
       "repository": "wispsy/astree",
       "directory": "",
       "distribution": "astree",
-      "main_version": "0.1.0",
-      "main_sha": "4db6cf6a41eebc5c23ab1a0a68b72fa647f82bad",
+      "main_version": "0.1.1",
+      "main_sha": "9e8a273a7a4e310fa84b0f05b96bef46a585ed86",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/astree/tree/4db6cf6a41eebc5c23ab1a0a68b72fa647f82bad",
+      "source_url": "https://github.com/wispsy/astree/tree/9e8a273a7a4e310fa84b0f05b96bef46a585ed86",
       "published": {
-        "version": "0.1.0",
+        "version": "0.1.1",
         "requires_python": ">=3.14",
-        "url": "https://pypi.org/project/astree/0.1.0/",
+        "url": "https://pypi.org/project/astree/0.1.1/",
         "files": [
           {
-            "filename": "astree-0.1.0-py3-none-any.whl",
-            "sha256": "0b6cc157d6407945a99f89cf761915b09d91e073126b97b4e300ddf4815fada2",
-            "uploaded": "2026-11-08T22:25:45.553385Z",
+            "filename": "astree-0.1.1-py3-none-any.whl",
+            "sha256": "357765c8d43eb37a5b960a3dc9c8656b65f5d19d234c4eba1818568f06cda425",
+            "uploaded": "2026-11-24T22:28:38.456884Z",
             "yanked": false
           },
           {
-            "filename": "astree-0.1.0.tar.gz",
-            "sha256": "c4da48e551b46d2241e3d92f384c87ad04b0de0f7f2467f6586a91b419116cc4",
-            "uploaded": "2026-11-08T22:25:46.924108Z",
+            "filename": "astree-0.1.1.tar.gz",
+            "sha256": "bdc1356458fe29fbeac660339f88ff332f5db86d4c5c09544695734fe5c713de",
+            "uploaded": "2026-11-24T22:28:39.400727Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.1.0",
-        "sha": "7b97a1c3c857ac46454dc28f543e1585d0a983f8",
-        "ahead": 2,
-        "paths": [
-          "LICENSE",
-          "README.md",
-          "docs/api.md",
-          "pyproject.toml",
-          "src/astree/__init__.py",
-          "src/astree/html.py",
-          "src/astree/javascript.py",
-          "src/astree/json.py",
-          "src/astree/markdown.py",
-          "src/astree/python.py",
-          "src/astree/structural.py",
-          "tests/test_structural.py"
-        ],
+        "tag": "v0.1.1",
+        "sha": "9e8a273a7a4e310fa84b0f05b96bef46a585ed86",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/astree/compare/v0.1.0...main"
+        "url": "https://github.com/wispsy/astree/compare/v0.1.1...main"
       }
     },
     {
@@ -142,60 +127,37 @@
       "directory": "",
       "distribution": "builtouts",
       "main_version": "0.2.0",
-      "main_sha": "85441ec67c7ea2e153a902591dc9478b9c1e7c4d",
+      "main_sha": "19b479c0457d034f010cdfbb45402ac4034293ad",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/builtouts/tree/85441ec67c7ea2e153a902591dc9478b9c1e7c4d",
+      "source_url": "https://github.com/wispsy/builtouts/tree/19b479c0457d034f010cdfbb45402ac4034293ad",
       "published": {
-        "version": "0.1.0",
+        "version": "0.2.0",
         "requires_python": ">=3.14",
-        "url": "https://pypi.org/project/builtouts/0.1.0/",
+        "url": "https://pypi.org/project/builtouts/0.2.0/",
         "files": [
           {
-            "filename": "builtouts-0.1.0-py3-none-any.whl",
-            "sha256": "8d06a9d263c5fa6eedc7d7e0e723cebf4c1a3477d569d9d7985e5daf99345b29",
-            "uploaded": "2026-10-19T23:40:50.740933Z",
+            "filename": "builtouts-0.2.0-py3-none-any.whl",
+            "sha256": "9b25700133f2e1eda502bb88fc64432e2285ab0c2c75cbe1c3a3e172efd47193",
+            "uploaded": "2026-11-24T22:20:50.275234Z",
             "yanked": false
           },
           {
-            "filename": "builtouts-0.1.0.tar.gz",
-            "sha256": "c7ab67ba88a736b937dfb70046176883435eb7bb0b9bdb6975071e3d8a56b1af",
-            "uploaded": "2026-10-19T23:40:52.027029Z",
+            "filename": "builtouts-0.2.0.tar.gz",
+            "sha256": "3f798d56219dd6133d1ed259914a63b4f8d4386404e1841a68716b51099bcd8b",
+            "uploaded": "2026-11-24T22:20:51.267765Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.1.0",
-        "sha": "6a36a49c596705675bf64787c7a468a614747e12",
-        "ahead": 8,
-        "paths": [
-          "CHANGELOG.md",
-          "IMPLEMENTATION_PLAN.md",
-          "README.md",
-          "examples/scrape_pipeline.py",
-          "examples/thread_jobs.py",
-          "pyproject.toml",
-          "scripts/check_distribution.py",
-          "scripts/profile_extraction.py",
-          "src/builtouts/__init__.py",
-          "src/builtouts/auto_repr.py",
-          "src/builtouts/callable_module.py",
-          "src/builtouts/concurrent.py",
-          "src/builtouts/exit_to_repl.py",
-          "src/builtouts/html/__init__.py",
-          "src/builtouts/html/extract.py",
-          "src/builtouts/http.py",
-          "tests/fixtures/html-corpus.json",
-          "tests/test_corpus.py",
-          "tests/test_html_extract.py",
-          "tests/test_http.py",
-          "tests/test_thread_outcomes.py",
-          "uv.lock"
-        ],
+        "tag": "v0.2.0",
+        "sha": "19b479c0457d034f010cdfbb45402ac4034293ad",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/builtouts/compare/v0.1.0...main"
+        "url": "https://github.com/wispsy/builtouts/compare/v0.2.0...main"
       }
     },
     {
@@ -240,55 +202,81 @@
       "repository": "wispsy/clownfish",
       "directory": "",
       "distribution": "clownfish",
-      "main_version": "0.6.3",
-      "main_sha": "e67e70525d135b0a4331660cec38f24bc0e68e3c",
+      "main_version": "0.6.5",
+      "main_sha": "7c275b695fd0e8b13b0da8d082435270a9996750",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/clownfish/tree/e67e70525d135b0a4331660cec38f24bc0e68e3c",
+      "source_url": "https://github.com/wispsy/clownfish/tree/7c275b695fd0e8b13b0da8d082435270a9996750",
       "published": {
-        "version": "0.6.3",
+        "version": "0.6.5",
         "requires_python": ">=3.14",
-        "url": "https://pypi.org/project/clownfish/0.6.3/",
+        "url": "https://pypi.org/project/clownfish/0.6.5/",
         "files": [
           {
-            "filename": "clownfish-0.6.3-py3-none-any.whl",
-            "sha256": "ebbb90b324bcac0e2566a25c66698fbf2bf036572017f454e9a1258e4bf37993",
-            "uploaded": "2026-11-22T18:53:36.465747Z",
+            "filename": "clownfish-0.6.5-py3-none-any.whl",
+            "sha256": "29fb7baeab72aaf3f0048c3e88f41aa645ac675591d5e1b7084278f32c04d792",
+            "uploaded": "2026-11-24T22:52:06.835055Z",
             "yanked": false
           },
           {
-            "filename": "clownfish-0.6.3.tar.gz",
-            "sha256": "5c605aca0182afb772877bd1851177ddb5ee4e627ffdbc9b92561833eaf235d9",
-            "uploaded": "2026-11-22T18:53:37.874880Z",
+            "filename": "clownfish-0.6.5.tar.gz",
+            "sha256": "b98f6b48c55ce99deaa964d0cba19b1b7fecd48540f9ce8bca2b3f2e8bea76c6",
+            "uploaded": "2026-11-24T22:52:08.258697Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.6.3",
-        "sha": "73737fcd466f977bcb624d2816ea63f8af82525b",
-        "ahead": 1,
-        "paths": [
-          "packaging/homebrew/Casks/clownfish.rb",
-          "packaging/homebrew/Formula/clownfish.rb"
-        ],
+        "tag": "v0.6.5",
+        "sha": "7c275b695fd0e8b13b0da8d082435270a9996750",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/clownfish/compare/v0.6.3...main"
+        "url": "https://github.com/wispsy/clownfish/compare/v0.6.5...main"
       }
     },
     {
       "repository": "wispsy/compose_application",
       "directory": "",
       "distribution": "compose-application",
-      "main_version": "0.1.0.dev0",
-      "main_sha": "f2c568993930057b43f4856a86dfc4440f7f2c9e",
+      "main_version": "0.1.0a1",
+      "main_sha": "312b43f2a6d9c647ba0e01bb5feb8ae07ce02d14",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/compose_application/tree/f2c568993930057b43f4856a86dfc4440f7f2c9e",
-      "published": null,
-      "status": "unpublished",
-      "comparison": null
+      "source_url": "https://github.com/wispsy/compose_application/tree/312b43f2a6d9c647ba0e01bb5feb8ae07ce02d14",
+      "published": {
+        "version": "0.1.0a1",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/compose-application/0.1.0a1/",
+        "files": [
+          {
+            "filename": "compose_application-0.1.0a1-py3-none-any.whl",
+            "sha256": "9c0e9e6bb4f35cac4e51739f472c776763c3cc89659dfee3881bee0c988e8466",
+            "uploaded": "2026-11-24T22:23:56.796036Z",
+            "yanked": false
+          },
+          {
+            "filename": "compose_application-0.1.0a1.tar.gz",
+            "sha256": "12c4ac8839558028317378b94a88c999f9f482c18088cc69e56f9ad1c8965445",
+            "uploaded": "2026-11-24T22:23:57.719592Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "documentation/administration ahead",
+      "comparison": {
+        "tag": "v0.1.0a1",
+        "sha": "c287b79e1348f737da1e040bb97b551c4a477eb8",
+        "ahead": 1,
+        "paths": [
+          "README.md",
+          "docs/reference-projects.md",
+          "docs/terminal-projects.md"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/compose_application/compare/v0.1.0a1...main"
+      }
     },
     {
       "repository": "wispsy/desktop-interface",
@@ -451,44 +439,38 @@
       "repository": "wispsy/evok",
       "directory": "",
       "distribution": "evok",
-      "main_version": "0.1.0",
-      "main_sha": "0cae48df8b31c26decfedf951844ee90f83fa46e",
+      "main_version": "0.1.2",
+      "main_sha": "220dd50f0b664801268aecf64aa8b9405d84ed52",
       "default_branch": "main",
       "requires_python": ">=3.12",
-      "source_url": "https://github.com/wispsy/evok/tree/0cae48df8b31c26decfedf951844ee90f83fa46e",
+      "source_url": "https://github.com/wispsy/evok/tree/220dd50f0b664801268aecf64aa8b9405d84ed52",
       "published": {
-        "version": "0.1.0",
+        "version": "0.1.2",
         "requires_python": ">=3.12",
-        "url": "https://pypi.org/project/evok/0.1.0/",
+        "url": "https://pypi.org/project/evok/0.1.2/",
         "files": [
           {
-            "filename": "evok-0.1.0-py3-none-any.whl",
-            "sha256": "1a077820084ad0f32a8d9229b4194559f905ddf8f1c3103b2c05a6fa5147e815",
-            "uploaded": "2026-11-08T22:23:34.985443Z",
+            "filename": "evok-0.1.2-py3-none-any.whl",
+            "sha256": "f96bd9abbf952fe83013230d2cee186feceb26782c7a1f371ed165987ef13ba3",
+            "uploaded": "2026-11-24T23:35:14.638244Z",
             "yanked": false
           },
           {
-            "filename": "evok-0.1.0.tar.gz",
-            "sha256": "77a2ab2ee59ae6403feb48dc58a3d702794e44d0cdc0713c3ac0ee2fbda304a3",
-            "uploaded": "2026-11-08T22:23:36.150795Z",
+            "filename": "evok-0.1.2.tar.gz",
+            "sha256": "ab99cdd748c74b2d0202eb3dd30c1b3e1f0544509b50e9dffd6547ec01761abd",
+            "uploaded": "2026-11-24T23:35:15.568655Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.1.0",
-        "sha": "fcf33d83233d8b75287ca11838beaf02517d51a0",
-        "ahead": 1,
-        "paths": [
-          "README.md",
-          "packaging/homebrew/Formula/evok.rb",
-          "scripts/publish_homebrew.py",
-          "src/evok/cli.py",
-          "tests/test_packaging.py"
-        ],
+        "tag": "v0.1.2",
+        "sha": "220dd50f0b664801268aecf64aa8b9405d84ed52",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/evok/compare/v0.1.0...main"
+        "url": "https://github.com/wispsy/evok/compare/v0.1.2...main"
       }
     },
     {
@@ -577,44 +559,38 @@
       "repository": "wispsy/expose_protocol",
       "directory": "",
       "distribution": "expose-protocol",
-      "main_version": "0.1.0",
-      "main_sha": "8cdcb9fc5305672ffdce919696d2253dc388ddc0",
+      "main_version": "0.1.1",
+      "main_sha": "7b531b2b784ff6666b55bb8b2400eda34d26a30f",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/expose_protocol/tree/8cdcb9fc5305672ffdce919696d2253dc388ddc0",
+      "source_url": "https://github.com/wispsy/expose_protocol/tree/7b531b2b784ff6666b55bb8b2400eda34d26a30f",
       "published": {
-        "version": "0.1.0",
+        "version": "0.1.1",
         "requires_python": ">=3.14",
-        "url": "https://pypi.org/project/expose-protocol/0.1.0/",
+        "url": "https://pypi.org/project/expose-protocol/0.1.1/",
         "files": [
           {
-            "filename": "expose_protocol-0.1.0-py3-none-any.whl",
-            "sha256": "8ab4e10694ceb2e98ff467ca2f73dde8b94e4f0c77122122d1361dd5306ca992",
-            "uploaded": "2026-10-15T16:59:39.975596Z",
+            "filename": "expose_protocol-0.1.1-py3-none-any.whl",
+            "sha256": "4b51b0333b7ec8800d3dd9b742b5671fb5db8cae6661b136532c9f9e6101a9ab",
+            "uploaded": "2026-11-24T23:26:49.534009Z",
             "yanked": false
           },
           {
-            "filename": "expose_protocol-0.1.0.tar.gz",
-            "sha256": "964114f75d4bd86e064ee73734a401671953d666e6d60712a07a4660bdcae60d",
-            "uploaded": "2026-10-15T16:59:41.201269Z",
+            "filename": "expose_protocol-0.1.1.tar.gz",
+            "sha256": "ff6181bd6a7b067ee92174fd2dc4c88d463be90dbb061fb8881b60498888d01f",
+            "uploaded": "2026-11-24T23:26:50.878087Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.1.0",
-        "sha": "cb35c0a6f5dd7c6dd5f97a87fcfca27a07f22e81",
-        "ahead": 2,
-        "paths": [
-          "LICENSE.md",
-          "README.md",
-          "docs/API.md",
-          "pyproject.toml",
-          "src/expose_protocol/macos.py"
-        ],
+        "tag": "v0.1.1",
+        "sha": "7b531b2b784ff6666b55bb8b2400eda34d26a30f",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/expose_protocol/compare/v0.1.0...main"
+        "url": "https://github.com/wispsy/expose_protocol/compare/v0.1.1...main"
       }
     },
     {
@@ -702,14 +678,39 @@
       "repository": "wispsy/gittycat",
       "directory": "",
       "distribution": "gittycat",
-      "main_version": "0.1.0",
-      "main_sha": "54cf0de253a095f1aa856328b443468e444790fd",
+      "main_version": "0.1.0a1",
+      "main_sha": "5341d8f5713b6b643151a199143e4a145ed78f4b",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/gittycat/tree/54cf0de253a095f1aa856328b443468e444790fd",
-      "published": null,
-      "status": "unpublished",
-      "comparison": null
+      "source_url": "https://github.com/wispsy/gittycat/tree/5341d8f5713b6b643151a199143e4a145ed78f4b",
+      "published": {
+        "version": "0.1.0a1",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/gittycat/0.1.0a1/",
+        "files": [
+          {
+            "filename": "gittycat-0.1.0a1-py3-none-any.whl",
+            "sha256": "7ee16c6da78ec6c6fb71ddad1b7d9ccc9fbcab1a9243f6ec06032639a5d08161",
+            "uploaded": "2026-11-24T22:05:25.716157Z",
+            "yanked": false
+          },
+          {
+            "filename": "gittycat-0.1.0a1.tar.gz",
+            "sha256": "2da7e1c32e543b50201dce71c519b04f2c7ac0cb6aa2d1db0d042caec8e7c741",
+            "uploaded": "2026-11-24T22:05:26.845682Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0a1",
+        "sha": "5341d8f5713b6b643151a199143e4a145ed78f4b",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/gittycat/compare/v0.1.0a1...main"
+      }
     },
     {
       "repository": "wispsy/gitwriter",
@@ -728,187 +729,119 @@
       "repository": "wispsy/headless_spreadsheets",
       "directory": "",
       "distribution": "headless-spreadsheets",
-      "main_version": "0.1.0",
-      "main_sha": "811f1e1b297cacb887164bcb78ba6be39e37c90d",
+      "main_version": "0.1.1",
+      "main_sha": "1b8f6fa263a65709da465c8ca2251be848fecb07",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/headless_spreadsheets/tree/811f1e1b297cacb887164bcb78ba6be39e37c90d",
+      "source_url": "https://github.com/wispsy/headless_spreadsheets/tree/1b8f6fa263a65709da465c8ca2251be848fecb07",
       "published": {
-        "version": "0.1.0",
+        "version": "0.1.1",
         "requires_python": ">=3.14",
-        "url": "https://pypi.org/project/headless-spreadsheets/0.1.0/",
+        "url": "https://pypi.org/project/headless-spreadsheets/0.1.1/",
         "files": [
           {
-            "filename": "headless_spreadsheets-0.1.0-py3-none-any.whl",
-            "sha256": "e3168cf4db3c7d5ecfebedebcf988549a320d4b8d6beabac7b2d3ebdeac67230",
-            "uploaded": "2026-10-19T20:11:10.600392Z",
+            "filename": "headless_spreadsheets-0.1.1-py3-none-any.whl",
+            "sha256": "6784dff4594e94c043b1eda9ec7c85bd5f1d5a70408c08b2ad4fb82417545c18",
+            "uploaded": "2026-11-24T22:03:03.639572Z",
             "yanked": false
           },
           {
-            "filename": "headless_spreadsheets-0.1.0.tar.gz",
-            "sha256": "45659599bc1fd76265b205e2578f5069012c2f2d8153b406dc49b49d10706f00",
-            "uploaded": "2026-10-19T20:11:11.835250Z",
+            "filename": "headless_spreadsheets-0.1.1.tar.gz",
+            "sha256": "225a180ac0b14f9d1296f5421c956bb91fb883870a6f8a3e27f8321253a37d9d",
+            "uploaded": "2026-11-24T22:03:04.636924Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.1.0",
-        "sha": "07c9ed36840c021b7c7bc49d7e7c90f7f1aa0283",
-        "ahead": 4,
-        "paths": [
-          ".github/workflows/checks.yaml",
-          "IMPLEMENTATION_PLAN.md",
-          "README.md",
-          "docs/backpack-source.md",
-          "docs/releases.md",
-          "docs/sources.md",
-          "integration_tests/test_backpack_source.py",
-          "pyproject.toml",
-          "scripts/check_distribution.py",
-          "src/headless_spreadsheets/__init__.py",
-          "src/headless_spreadsheets/backpack.py",
-          "src/headless_spreadsheets/sources.py",
-          "src/headless_spreadsheets/table.py",
-          "tests/test_sources.py"
-        ],
+        "tag": "v0.1.1",
+        "sha": "1b8f6fa263a65709da465c8ca2251be848fecb07",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/headless_spreadsheets/compare/v0.1.0...main"
+        "url": "https://github.com/wispsy/headless_spreadsheets/compare/v0.1.1...main"
       }
     },
     {
       "repository": "wispsy/hidden_moves",
       "directory": "",
       "distribution": "hidden-moves",
-      "main_version": "0.1.0",
-      "main_sha": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "main_version": "0.1.1",
+      "main_sha": "5409bdf8e6c40ae987415854b0b03014f2171c00",
       "default_branch": "main",
       "requires_python": ">=3.11",
-      "source_url": "https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "source_url": "https://github.com/wispsy/hidden_moves/tree/5409bdf8e6c40ae987415854b0b03014f2171c00",
       "published": {
-        "version": "0.1.0",
+        "version": "0.1.1",
         "requires_python": ">=3.11",
-        "url": "https://pypi.org/project/hidden-moves/0.1.0/",
+        "url": "https://pypi.org/project/hidden-moves/0.1.1/",
         "files": [
           {
-            "filename": "hidden_moves-0.1.0-py3-none-any.whl",
-            "sha256": "1be2c521926207f82c23bccc43bc7f1a8a912ded846c5483900d6ec14b19a645",
-            "uploaded": "2026-10-10T21:34:34.527845Z",
+            "filename": "hidden_moves-0.1.1-py3-none-any.whl",
+            "sha256": "4b71ba606733ffecb4e6f8c5f75fbf7857cf403c07d0048baa89116a1ef5461b",
+            "uploaded": "2026-11-24T22:12:09.396164Z",
             "yanked": false
           },
           {
-            "filename": "hidden_moves-0.1.0.tar.gz",
-            "sha256": "a70442ca6c8a125c01b31fe9714249fdee674f0fdee78187a771bed437228c1e",
-            "uploaded": "2026-10-10T21:34:35.800805Z",
+            "filename": "hidden_moves-0.1.1.tar.gz",
+            "sha256": "86e85e150bf1689d1635e03dd3490e4537af6ab583731e68068aab4097cd1b77",
+            "uploaded": "2026-11-24T22:12:10.355203Z",
             "yanked": false
           }
         ]
       },
       "status": "source/metadata ahead; qualification required",
       "comparison": {
-        "tag": "v0.1.0",
-        "sha": "cfef7788558c20f74103c2f4f94b512ae7469775",
-        "ahead": 13,
+        "tag": "v0.1.1",
+        "sha": "cc4acd7e378db94a2728314a94c21972cdede340",
+        "ahead": 1,
         "paths": [
           ".github/workflows/release.yaml",
-          ".github/workflows/tests.yml",
-          "IMPLEMENTATION_PLAN.md",
-          "README.md",
-          "docs/CAPABILITY_CATALOG.md",
-          "docs/GITHUB_PROJECTS.md",
-          "docs/JSON_TRANSPORT.md",
-          "docs/MIGRATIONS.md",
-          "docs/MOVE_SETS.md",
-          "docs/PLUGIN_API.md",
-          "docs/PROJECT_SNAPSHOTS.md",
-          "docs/PROJECT_WRITES.md",
           "docs/PYPI_RELEASES.md",
-          "docs/USAGE.md",
-          "docs/passive-validation.md",
-          "examples/text-plugin/tests/test_integration.py",
-          "packages/hidden-moves-github-projects/README.md",
-          "packages/hidden-moves-github-projects/pyproject.toml",
-          "packages/hidden-moves-github-projects/tests/test_integration.py",
-          "packages/hidden-moves-mcp/README.md",
-          "packages/hidden-moves-mcp/pyproject.toml",
-          "packages/hidden-moves-openai/README.md",
-          "packages/hidden-moves-openai/pyproject.toml",
-          "packages/hidden-moves-workspace/LICENSE",
-          "packages/hidden-moves-workspace/README.md",
-          "packages/hidden-moves-workspace/integration_tests/test_integration.py",
           "packages/hidden-moves-workspace/pyproject.toml",
-          "packages/hidden-moves-workspace/src/hidden_moves_workspace/__init__.py",
-          "packages/hidden-moves-workspace/src/hidden_moves_workspace/__main__.py",
-          "packages/hidden-moves-workspace/src/hidden_moves_workspace/client.py",
-          "packages/hidden-moves-workspace/src/hidden_moves_workspace/errors.py",
-          "packages/hidden-moves-workspace/src/hidden_moves_workspace/host.py",
-          "packages/hidden-moves-workspace/src/hidden_moves_workspace/integration.py",
-          "packages/hidden-moves-workspace/src/hidden_moves_workspace/models.py",
-          "packages/hidden-moves-workspace/tests/test_client.py",
-          "pyproject.toml",
-          "scripts/check_distributions.py",
-          "scripts/check_release.py",
-          "scripts/tests/test_release.py",
-          "skills/hidden-moves/SKILL.md",
-          "src/hidden_moves/__init__.py",
-          "src/hidden_moves/adapters/__init__.py",
-          "src/hidden_moves/adapters/validation.py",
-          "src/hidden_moves/cli.py",
-          "src/hidden_moves/commands/capabilities.py",
-          "src/hidden_moves/core/__init__.py",
-          "src/hidden_moves/core/moveset.py",
-          "tests/test_cli.py",
-          "tests/test_imports.py",
-          "tests/test_moveset.py",
-          "tests/test_passive_validation.py",
-          "tests/test_stdio.py",
-          "uv.lock"
+          "scripts/tests/test_release.py"
         ],
         "truncated": false,
-        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.0...main"
+        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.1...main"
       }
     },
     {
       "repository": "wispsy/hidden_moves",
       "directory": "packages/hidden-moves-github-projects",
       "distribution": "hidden-moves-github-projects",
-      "main_version": "0.1.0",
-      "main_sha": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "main_version": "0.1.1",
+      "main_sha": "5409bdf8e6c40ae987415854b0b03014f2171c00",
       "default_branch": "main",
       "requires_python": ">=3.11",
-      "source_url": "https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-github-projects",
+      "source_url": "https://github.com/wispsy/hidden_moves/tree/5409bdf8e6c40ae987415854b0b03014f2171c00/packages/hidden-moves-github-projects",
       "published": {
-        "version": "0.1.0",
+        "version": "0.1.1",
         "requires_python": ">=3.11",
-        "url": "https://pypi.org/project/hidden-moves-github-projects/0.1.0/",
+        "url": "https://pypi.org/project/hidden-moves-github-projects/0.1.1/",
         "files": [
           {
-            "filename": "hidden_moves_github_projects-0.1.0-py3-none-any.whl",
-            "sha256": "3764c4eddac6b8933053cabbb1adb200702e08862c87e9e8275fd9bb98478766",
-            "uploaded": "2026-10-11T01:47:46.235768Z",
+            "filename": "hidden_moves_github_projects-0.1.1-py3-none-any.whl",
+            "sha256": "cd2bdf77d2786977010b8fdd9b8f5d18c60c6b775eeeddccb988d36a99ae5310",
+            "uploaded": "2026-11-24T22:14:24.850814Z",
             "yanked": false
           },
           {
-            "filename": "hidden_moves_github_projects-0.1.0.tar.gz",
-            "sha256": "382c3844f593df14f57458e60873a8944d6e4efd48f45a3386a89ed4301b158d",
-            "uploaded": "2026-10-11T01:47:47.707323Z",
+            "filename": "hidden_moves_github_projects-0.1.1.tar.gz",
+            "sha256": "1ec2ab0012ab5f2f97c6ba08142a03e594bced488866a5fee9fec4ad915b144c",
+            "uploaded": "2026-11-24T22:14:26.063389Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.1.0-github-projects",
-        "sha": "6fa99794301efcce34cbed56e7c7b7eef162a184",
-        "ahead": 10,
-        "paths": [
-          "packages/hidden-moves-github-projects/README.md",
-          "packages/hidden-moves-github-projects/pyproject.toml",
-          "packages/hidden-moves-github-projects/tests/test_integration.py"
-        ],
+        "tag": "v0.1.1-github-projects",
+        "sha": "cc4acd7e378db94a2728314a94c21972cdede340",
+        "ahead": 1,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.0-github-projects...main"
+        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.1-github-projects...main"
       }
     },
     {
@@ -916,10 +849,10 @@
       "directory": "packages/hidden-moves-mcp",
       "distribution": "hidden-moves-mcp",
       "main_version": "0.1.0",
-      "main_sha": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "main_sha": "5409bdf8e6c40ae987415854b0b03014f2171c00",
       "default_branch": "main",
       "requires_python": ">=3.11",
-      "source_url": "https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-mcp",
+      "source_url": "https://github.com/wispsy/hidden_moves/tree/5409bdf8e6c40ae987415854b0b03014f2171c00/packages/hidden-moves-mcp",
       "published": {
         "version": "0.1.0",
         "requires_python": ">=3.11",
@@ -943,7 +876,7 @@
       "comparison": {
         "tag": "v0.1.0-mcp",
         "sha": "e130faa7a2db6d5db628f85ea88825107be6423c",
-        "ahead": 12,
+        "ahead": 14,
         "paths": [
           "packages/hidden-moves-mcp/pyproject.toml"
         ],
@@ -956,10 +889,10 @@
       "directory": "packages/hidden-moves-openai",
       "distribution": "hidden-moves-openai",
       "main_version": "0.1.0",
-      "main_sha": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "main_sha": "5409bdf8e6c40ae987415854b0b03014f2171c00",
       "default_branch": "main",
       "requires_python": ">=3.11",
-      "source_url": "https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-openai",
+      "source_url": "https://github.com/wispsy/hidden_moves/tree/5409bdf8e6c40ae987415854b0b03014f2171c00/packages/hidden-moves-openai",
       "published": {
         "version": "0.1.0",
         "requires_python": ">=3.11",
@@ -983,7 +916,7 @@
       "comparison": {
         "tag": "v0.1.0-openai",
         "sha": "17e953c6705591fcbd0f57344acdcc98cf3ddaf2",
-        "ahead": 11,
+        "ahead": 13,
         "paths": [
           "packages/hidden-moves-openai/pyproject.toml"
         ],
@@ -995,27 +928,77 @@
       "repository": "wispsy/hidden_moves",
       "directory": "packages/hidden-moves-workspace",
       "distribution": "hidden-moves-workspace",
-      "main_version": "0.1.0",
-      "main_sha": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "main_version": "0.1.0a2",
+      "main_sha": "5409bdf8e6c40ae987415854b0b03014f2171c00",
       "default_branch": "main",
       "requires_python": ">=3.11",
-      "source_url": "https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-workspace",
-      "published": null,
-      "status": "unpublished",
-      "comparison": null
+      "source_url": "https://github.com/wispsy/hidden_moves/tree/5409bdf8e6c40ae987415854b0b03014f2171c00/packages/hidden-moves-workspace",
+      "published": {
+        "version": "0.1.0a2",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/hidden-moves-workspace/0.1.0a2/",
+        "files": [
+          {
+            "filename": "hidden_moves_workspace-0.1.0a2-py3-none-any.whl",
+            "sha256": "dcd7ed801e6dccbf80ec6f390323150cfcd9c68156c020e8221010c3048f7a70",
+            "uploaded": "2026-11-24T22:23:29.866272Z",
+            "yanked": false
+          },
+          {
+            "filename": "hidden_moves_workspace-0.1.0a2.tar.gz",
+            "sha256": "37f8354bb9d92f9967847b402356e4e998826d8855a055f1fce41b2f260ecc74",
+            "uploaded": "2026-11-24T22:23:30.790970Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0a2-workspace",
+        "sha": "5409bdf8e6c40ae987415854b0b03014f2171c00",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.0a2-workspace...main"
+      }
     },
     {
       "repository": "wispsy/hypnosis",
       "directory": "",
       "distribution": "hypnosis",
-      "main_version": "0.1.0",
-      "main_sha": "75cc766d640d17392e65402d266347c8b573ed05",
+      "main_version": "0.1.0a1",
+      "main_sha": "60fcadd0d86ff1863dbdfca0da8b05be55744d58",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/hypnosis/tree/75cc766d640d17392e65402d266347c8b573ed05",
-      "published": null,
-      "status": "unpublished",
-      "comparison": null
+      "source_url": "https://github.com/wispsy/hypnosis/tree/60fcadd0d86ff1863dbdfca0da8b05be55744d58",
+      "published": {
+        "version": "0.1.0a1",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/hypnosis/0.1.0a1/",
+        "files": [
+          {
+            "filename": "hypnosis-0.1.0a1-py3-none-any.whl",
+            "sha256": "58c7e99c65cc2d73ff475fbe19abd11d2363d4e9c4ba886d9904fe08947f5eb9",
+            "uploaded": "2026-11-24T22:40:25.239744Z",
+            "yanked": false
+          },
+          {
+            "filename": "hypnosis-0.1.0a1.tar.gz",
+            "sha256": "b7058404f60187e4179862c5b760c91ad15eedd9d57c5778155f70323489b109",
+            "uploaded": "2026-11-24T22:40:26.705383Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0a1",
+        "sha": "60fcadd0d86ff1863dbdfca0da8b05be55744d58",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/hypnosis/compare/v0.1.0a1...main"
+      }
     },
     {
       "repository": "wispsy/immunity",
@@ -1226,14 +1209,39 @@
       "repository": "wispsy/paracosm",
       "directory": "",
       "distribution": "paracosm",
-      "main_version": "0.1.0",
-      "main_sha": "9829a348fdcd6fd935e4d4f2341a910c58566fad",
+      "main_version": "0.1.0a1",
+      "main_sha": "07bbb79f3e5aadfc43c40ad592b3af2e73021bb1",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/paracosm/tree/9829a348fdcd6fd935e4d4f2341a910c58566fad",
-      "published": null,
-      "status": "unpublished",
-      "comparison": null
+      "source_url": "https://github.com/wispsy/paracosm/tree/07bbb79f3e5aadfc43c40ad592b3af2e73021bb1",
+      "published": {
+        "version": "0.1.0a1",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/paracosm/0.1.0a1/",
+        "files": [
+          {
+            "filename": "paracosm-0.1.0a1-py3-none-any.whl",
+            "sha256": "c475482e0ea9295d9e812c4839c21d145e1c136db1bc7163a39c427a2eb6f75b",
+            "uploaded": "2026-11-24T23:07:11.967290Z",
+            "yanked": false
+          },
+          {
+            "filename": "paracosm-0.1.0a1.tar.gz",
+            "sha256": "b2d9c0a92c22ba20a319f86eb49dfaecdee3b03d7cf256d1ca0670dd152f39dc",
+            "uploaded": "2026-11-24T23:07:12.904063Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0a1",
+        "sha": "07bbb79f3e5aadfc43c40ad592b3af2e73021bb1",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/paracosm/compare/v0.1.0a1...main"
+      }
     },
     {
       "repository": "wispsy/parse_html5",
@@ -1423,6 +1431,44 @@
         "paths": [],
         "truncated": false,
         "url": "https://github.com/wispsy/peaches/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/pretty-notebook",
+      "directory": "packages/pnbp-transition",
+      "distribution": "pnbp",
+      "main_version": "0.12.0",
+      "main_sha": "3afc6dd9d4a99508c545d37849194ab0000045f5",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/pretty-notebook/tree/3afc6dd9d4a99508c545d37849194ab0000045f5/packages/pnbp-transition",
+      "published": {
+        "version": "0.12.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/pnbp/0.12.0/",
+        "files": [
+          {
+            "filename": "pnbp-0.12.0-py3-none-any.whl",
+            "sha256": "7cf38019c3ebdc41229d16b66617be8df7f7bb7d8c7d429aaeaa6a042a2e97c8",
+            "uploaded": "2026-11-17T16:17:54.959592Z",
+            "yanked": false
+          },
+          {
+            "filename": "pnbp-0.12.0.tar.gz",
+            "sha256": "ef0f45e776acad364ba185003b6db13e154b2e6822de665e34e1b44a28d87c6b",
+            "uploaded": "2026-11-17T16:17:56.238009Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.12.0",
+        "sha": "6322f6389f59429977097402dca33588dd978fdb",
+        "ahead": 1,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/pretty-notebook/compare/v0.12.0...main"
       }
     },
     {
@@ -1792,7 +1838,7 @@
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "application/docs ahead; library code unchanged",
       "comparison": {
         "tag": "v0.12.0",
         "sha": "6322f6389f59429977097402dca33588dd978fdb",
@@ -2091,165 +2137,153 @@
       "repository": "wispsy/spatial_ui",
       "directory": "",
       "distribution": "spatial-ui",
-      "main_version": "0.1.0",
-      "main_sha": "f1020e60afbf007eaf468cf83d23f35b70b1dabd",
+      "main_version": "0.1.1",
+      "main_sha": "2c8517844070aaa669a0d13f24f9868f5889cee2",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/spatial_ui/tree/f1020e60afbf007eaf468cf83d23f35b70b1dabd",
+      "source_url": "https://github.com/wispsy/spatial_ui/tree/2c8517844070aaa669a0d13f24f9868f5889cee2",
       "published": {
-        "version": "0.1.0",
+        "version": "0.1.1",
         "requires_python": ">=3.14",
-        "url": "https://pypi.org/project/spatial-ui/0.1.0/",
+        "url": "https://pypi.org/project/spatial-ui/0.1.1/",
         "files": [
           {
-            "filename": "spatial_ui-0.1.0-py3-none-any.whl",
-            "sha256": "5a249e1144ebc391c55d615a79bed7369431c8b7e9bc22a42672963988003b01",
-            "uploaded": "2026-10-15T18:31:07.722241Z",
+            "filename": "spatial_ui-0.1.1-py3-none-any.whl",
+            "sha256": "111ef338d8b44793fb63b083658cccdfa1216f96ea20e06735af7cf68e933070",
+            "uploaded": "2026-11-24T22:03:02.399179Z",
             "yanked": false
           },
           {
-            "filename": "spatial_ui-0.1.0.tar.gz",
-            "sha256": "e2e1c1f150c850443903f99b46527e6eff8abc0124060d2c1fd0ed0a1b0133a5",
-            "uploaded": "2026-10-15T18:31:09.420381Z",
+            "filename": "spatial_ui-0.1.1.tar.gz",
+            "sha256": "5452ad7266867344a37906a599e0af2298381842cf65edafce34c5a7b9c1bd76",
+            "uploaded": "2026-11-24T22:03:03.467984Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.1.0",
-        "sha": "bb897cb72040f1dab7e1fa9c20d2a1464140f3ff",
-        "ahead": 22,
-        "paths": [
-          ".github/workflows/ci.yml",
-          ".gitignore",
-          "IMPLEMENTATION_PLAN.md",
-          "README.md",
-          "docs/asgi.md",
-          "docs/form-events-v1.json",
-          "docs/form-events-v1.md",
-          "docs/live-binding.md",
-          "docs/rest-binding.md",
-          "docs/tables.md",
-          "pyproject.toml",
-          "scripts/verify_distributions.py",
-          "src/spatial_ui/__init__.py",
-          "src/spatial_ui/asgi.py",
-          "src/spatial_ui/cli.py",
-          "src/spatial_ui/components.py",
-          "src/spatial_ui/demo.py",
-          "src/spatial_ui/forms.py",
-          "src/spatial_ui/live.py",
-          "src/spatial_ui/rendering.py",
-          "src/spatial_ui/resource_form.py",
-          "src/spatial_ui/rest.py",
-          "src/spatial_ui/server.py",
-          "src/spatial_ui/static/live.js",
-          "src/spatial_ui/static/runtime.js",
-          "src/spatial_ui/table.py",
-          "src/spatial_ui/table_binding.py",
-          "src/spatial_ui/templates.py",
-          "tests/asgi_test_host.py",
-          "tests/browser_asgi.py",
-          "tests/browser_forms.py",
-          "tests/browser_live.py",
-          "tests/browser_table_edits.py",
-          "tests/browser_tables.py",
-          "tests/live_runtime.mjs",
-          "tests/test_asgi.py",
-          "tests/test_form_sessions.py",
-          "tests/test_forms.py",
-          "tests/test_live.py",
-          "tests/test_reference_form.py",
-          "tests/test_resource_form.py",
-          "tests/test_rest.py",
-          "tests/test_server.py",
-          "tests/test_table.py",
-          "tests/test_table_binding.py",
-          "tests/test_table_edits.py",
-          "tests/websocket_host.py",
-          "uv.lock"
-        ],
+        "tag": "v0.1.1",
+        "sha": "2c8517844070aaa669a0d13f24f9868f5889cee2",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/spatial_ui/compare/v0.1.0...main"
+        "url": "https://github.com/wispsy/spatial_ui/compare/v0.1.1...main"
       }
     },
     {
       "repository": "wispsy/thoughtform",
       "directory": "",
       "distribution": "thoughtform",
-      "main_version": "0.1.0",
-      "main_sha": "6c28d496a4f2bcc613dc1a1e1e21bf2095833c78",
+      "main_version": "0.1.0a1",
+      "main_sha": "ad854b009c8850f22d2108e63132781d279c21df",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/thoughtform/tree/6c28d496a4f2bcc613dc1a1e1e21bf2095833c78",
-      "published": null,
-      "status": "unpublished",
-      "comparison": null
+      "source_url": "https://github.com/wispsy/thoughtform/tree/ad854b009c8850f22d2108e63132781d279c21df",
+      "published": {
+        "version": "0.1.0a1",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/thoughtform/0.1.0a1/",
+        "files": [
+          {
+            "filename": "thoughtform-0.1.0a1-py3-none-any.whl",
+            "sha256": "73e360e434feff31296f7c518d500ba4b0fadf354e7863414ee68c4afc64e047",
+            "uploaded": "2026-11-24T22:15:02.380634Z",
+            "yanked": false
+          },
+          {
+            "filename": "thoughtform-0.1.0a1.tar.gz",
+            "sha256": "17b73fb73f5f6847b8ee3b7829ef07b58ea25646f1dec6b9f8b39bbcea4b5982",
+            "uploaded": "2026-11-24T22:15:03.261970Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0a1",
+        "sha": "ad854b009c8850f22d2108e63132781d279c21df",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/thoughtform/compare/v0.1.0a1...main"
+      }
     },
     {
       "repository": "wispsy/thoughtformula",
       "directory": "",
       "distribution": "thoughtformula",
-      "main_version": "0.3.0",
-      "main_sha": "5ce72f850772c2467f0a0909dfd5c81874065684",
+      "main_version": "0.3.1",
+      "main_sha": "18cf570e1ae9202fc11dcd762196924c30b55fc1",
       "default_branch": "main",
       "requires_python": ">=3.12",
-      "source_url": "https://github.com/wispsy/thoughtformula/tree/5ce72f850772c2467f0a0909dfd5c81874065684",
+      "source_url": "https://github.com/wispsy/thoughtformula/tree/18cf570e1ae9202fc11dcd762196924c30b55fc1",
       "published": {
-        "version": "0.3.0",
+        "version": "0.3.1",
         "requires_python": ">=3.12",
-        "url": "https://pypi.org/project/thoughtformula/0.3.0/",
+        "url": "https://pypi.org/project/thoughtformula/0.3.1/",
         "files": [
           {
-            "filename": "thoughtformula-0.3.0-py3-none-any.whl",
-            "sha256": "dc39cfad430ac86ea933cf116d4ed264c347eb98cedd9162e21f729265d4eacb",
-            "uploaded": "2026-11-17T22:15:57.628760Z",
+            "filename": "thoughtformula-0.3.1-py3-none-any.whl",
+            "sha256": "d6f936bc2d86e090ef7dbdcdd5b67bc58ea04eab01702b932df2c74aa766f6b4",
+            "uploaded": "2026-11-24T22:03:03.280197Z",
             "yanked": false
           },
           {
-            "filename": "thoughtformula-0.3.0.tar.gz",
-            "sha256": "ca181c7e48d32b20312aa0702ed00db4abbc7d273e17bb794a9897f65fb1fea2",
-            "uploaded": "2026-11-17T22:15:58.976878Z",
+            "filename": "thoughtformula-0.3.1.tar.gz",
+            "sha256": "91dccc6796620a8656ac38c3f7f83273eeb87a8004d3b2b83ebd5f026372dcad",
+            "uploaded": "2026-11-24T22:03:04.520408Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.3.0",
-        "sha": "d61dca801b4adb3addf8f72282d87281ca091f19",
-        "ahead": 1,
-        "paths": [
-          ".github/workflows/tests.yml",
-          "README.md",
-          "pyproject.toml",
-          "scripts/qualify.py",
-          "src/thoughtformula/__init__.py",
-          "src/thoughtformula/gradcheck.py",
-          "src/thoughtformula/model.py",
-          "src/thoughtformula/pretraining.py",
-          "src/thoughtformula/training_checkpoint.py",
-          "tests/test_generation_limits.py",
-          "tests/test_gradcheck.py",
-          "tests/test_pretraining.py"
-        ],
+        "tag": "v0.3.1",
+        "sha": "18cf570e1ae9202fc11dcd762196924c30b55fc1",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/thoughtformula/compare/v0.3.0...main"
+        "url": "https://github.com/wispsy/thoughtformula/compare/v0.3.1...main"
       }
     },
     {
       "repository": "wispsy/wispsy",
       "directory": "",
       "distribution": "wispsy",
-      "main_version": "0.0.1.dev0",
-      "main_sha": "2a946f65a954aa1c528d93dc02fdfa4ca17f8005",
+      "main_version": "0.1.0a1",
+      "main_sha": "24ab6c91f79f2eb99f6119d9bcd1bc935caf2d2a",
       "default_branch": "main",
       "requires_python": ">=3.11",
-      "source_url": "https://github.com/wispsy/wispsy/tree/2a946f65a954aa1c528d93dc02fdfa4ca17f8005",
-      "published": null,
-      "status": "unpublished",
-      "comparison": null
+      "source_url": "https://github.com/wispsy/wispsy/tree/24ab6c91f79f2eb99f6119d9bcd1bc935caf2d2a",
+      "published": {
+        "version": "0.1.0a1",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/wispsy/0.1.0a1/",
+        "files": [
+          {
+            "filename": "wispsy-0.1.0a1-py3-none-any.whl",
+            "sha256": "d9bdf3baf952751a83e2cbeb14ebe3c9279336fcaf0cd5afbf7cc24f6bde9c60",
+            "uploaded": "2026-11-24T23:13:30.612070Z",
+            "yanked": false
+          },
+          {
+            "filename": "wispsy-0.1.0a1.tar.gz",
+            "sha256": "2a3c46d04658ba69a93de5e62dcee0de5133f47455e02e45da01cba263a6fb87",
+            "uploaded": "2026-11-24T23:13:31.660612Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0a1",
+        "sha": "24ab6c91f79f2eb99f6119d9bcd1bc935caf2d2a",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/wispsy/compare/v0.1.0a1...main"
+      }
     }
   ]
 }

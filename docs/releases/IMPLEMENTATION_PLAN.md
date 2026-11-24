@@ -23,18 +23,19 @@ Work in focused PRs, start platform CI as each is ready, and continue independen
 
 ## Current delivery and remaining gates
 
-All six selected previews are published as `0.1.0a1`. Current dependency updates
+All six selected previews, Paracosm and Wispsy are published as `0.1.0a1`. Current dependency updates
 include Thoughtformula, Hidden Moves and its Projects/Workspace packages,
 Headless Spreadsheets, Spatial UI, Builtouts, Astree, APIConn and Clownfish.
+The final review also qualified Evok version reporting and Expose Protocol
+legacy app identity compatibility; the Homebrew tap adopts verified artifacts.
 Installed artifacts and platform CI qualify their selected profiles. The global
 inventory records actual PyPI files independently of development branches.
 
-REL-11I now finishes the reference package: select published Paracosm 0.1.0a1,
-remove the final direct URL requirement, and prepare Wispsy 0.1.0a1. Build one
-wheel/sdist pair, check index-only metadata and license, qualify Python 3.11
-workflow plus Python 3.14 composition, family, homegrown, session and application
-profiles, then publish the same files and verify their index hashes. Historical
-source manifests remain unchanged; current profiles use release manifests.
+REL-11I completed the reference package: published Paracosm 0.1.0a1 replaced the
+final Git requirement, and Wispsy 0.1.0a1 passed all 17 platform jobs and six
+exact-artifact release profiles before publication. Actual index files and a
+fresh combined optional-profile installation are verified. Historical source
+manifests remain unchanged; current profiles use index release manifests.
 
 All 48 remote defaults use main; all 46 public main branches have baseline
 protection, with verified CI requirements on the qualified release repositories.
