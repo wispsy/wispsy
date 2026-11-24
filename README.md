@@ -23,10 +23,17 @@ passive documents, commands and an optional Carets frontend. The
 [text workbench application](https://github.com/wispsy/peaches) using these surfaces.
 
 The base package supports Python 3.11+ with no runtime dependencies. Optional
-func_seq integration requires Python 3.14+. The current reference profiles select published package versions.
-This repository remains a source-development reference while its Paracosm
-family dependency awaits an account-side PyPI Trusted Publisher binding.
-Package release and publication are tracked separately.
+func_seq and family integration require Python 3.14+. The `0.1.0a1` preview
+provides the executable references and explicit optional profiles below, using
+published dependencies. Contracts may evolve during the preview.
+
+```sh
+python -m pip install "wispsy==0.1.0a1"
+# Optional Python 3.14+ model/world/terminal composition:
+python -m pip install "wispsy[family]==0.1.0a1"
+```
+
+For development from this checkout:
 
 ```sh
 uv sync --locked
@@ -82,5 +89,5 @@ The selected Hypnosis/Carets application family has a separate [qualification pr
 
 Current index qualification uses the `release-*.json` manifests in
 `docs/cohesion-block-b/`. Original source-pinned manifests remain historical
-records. Paracosm is selected from its qualified immutable preview source
-until its PyPI publisher is available.
+records. Current release profiles select index versions, including Paracosm.
+See [release qualification](docs/releases/QUALIFICATION.md) for the publication gate.

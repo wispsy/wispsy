@@ -44,6 +44,7 @@ jobs:
           python -m pip install uv
           uv build --out-dir dist
           python scripts/check_distribution.py dist
+          python scripts/check_release.py dist --tag v0.1.0a1
       - name: Qualify installed wheel and source profiles
         run: python scripts/qualify.py dist --profile ${{ matrix.profile }}
 

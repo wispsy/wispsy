@@ -127,9 +127,13 @@ sequence = [
 [[package]]
 name = "paracosm"
 version = "0.1.0a1"
-source = { git = "https://github.com/wispsy/paracosm.git?rev=07bbb79f3e5aadfc43c40ad592b3af2e73021bb1#07bbb79f3e5aadfc43c40ad592b3af2e73021bb1" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "thoughtform" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/6a/fa/c07b3134b0d8c69a1d5e16b26679845ce2be6607265e92ebe74584e84e97/paracosm-0.1.0a1.tar.gz", hash = "sha256:b2d9c0a92c22ba20a319f86eb49dfaecdee3b03d7cf256d1ca0670dd152f39dc", size = 9040, upload-time = "2026-11-24T23:07:12.904Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2d/20/cf0cbb8a4808a48b58800ec32e325fce2f5e4a6ba6cc0ce805600744024d/paracosm-0.1.0a1-py3-none-any.whl", hash = "sha256:c475482e0ea9295d9e812c4839c21d145e1c136db1bc7163a39c427a2eb6f75b", size = 5958, upload-time = "2026-11-24T23:07:11.967Z" },
 ]
 
 [[package]]
@@ -188,7 +192,7 @@ wheels = [
 
 [[package]]
 name = "wispsy"
-version = "0.0.1.dev0"
+version = "0.1.0a1"
 source = { editable = "." }
 
 [package.optional-dependencies]
@@ -228,7 +232,7 @@ requires-dist = [
     { name = "hypnosis", extras = ["application", "models"], marker = "python_full_version >= '3.14' and extra == 'application'", specifier = "==0.1.0a1" },
     { name = "hypnosis", extras = ["models"], marker = "python_full_version >= '3.14' and extra == 'family'", specifier = "==0.1.0a1" },
     { name = "moveset", marker = "extra == 'table'", specifier = "==0.1.0" },
-    { name = "paracosm", marker = "python_full_version >= '3.14' and extra == 'family'", git = "https://github.com/wispsy/paracosm.git?rev=07bbb79f3e5aadfc43c40ad592b3af2e73021bb1" },
+    { name = "paracosm", marker = "python_full_version >= '3.14' and extra == 'family'", specifier = "==0.1.0a1" },
     { name = "scriptty", extras = ["cli"], marker = "extra == 'scripting'", specifier = "==0.1.0" },
     { name = "scriptty", extras = ["terminal"], marker = "python_full_version >= '3.14' and extra == 'terminal'", specifier = "==0.1.0" },
 ]

@@ -21,21 +21,31 @@ The [Wispsy Releases Project](https://github.com/orgs/wispsy/projects/31) is the
 
 Work in focused PRs, start platform CI as each is ready, and continue independent preparation while checks run. Merge passing work in dependency order. Create a release only after its required dependencies and artifact checks pass. Retain SHA256 receipts from the publishing workflow and compare them with PyPI before closing publication tasks. Refresh the inventory and update the Project after each publication batch.
 
-## Initial findings and limits
+## Current delivery and remaining gates
 
-All remote defaults have been normalized to main and all 46 public main branches have baseline protections. Two private repositories require a paid GitHub plan for the requested protection; their identities are excluded from this public record. Backpack has been renamed to backpack_store with redirects and history preserved.
+All six selected previews are published as `0.1.0a1`. Current dependency updates
+include Thoughtformula, Hidden Moves and its Projects/Workspace packages,
+Headless Spreadsheets, Spatial UI, Builtouts, Astree, APIConn and Clownfish.
+Installed artifacts and platform CI qualify their selected profiles. The global
+inventory records actual PyPI files independently of development branches.
 
-Hypnosis's Parse MW migration passed 27 installed profile/platform checks. Engl and Gitdx preview preparation adds exact-artifact publication gates. Other previews wait on current index dependencies. In particular, Hidden Moves Workspace is an unpublished distribution and needs its own publisher/readiness decision before a complete Hypnosis context/application preview can be qualified.
+REL-11I now finishes the reference package: select published Paracosm 0.1.0a1,
+remove the final direct URL requirement, and prepare Wispsy 0.1.0a1. Build one
+wheel/sdist pair, check index-only metadata and license, qualify Python 3.11
+workflow plus Python 3.14 composition, family, homegrown, session and application
+profiles, then publish the same files and verify their index hashes. Historical
+source manifests remain unchanged; current profiles use release manifests.
 
-The initial source comparison also identifies functional updates in Thoughtformula, Hidden Moves, Headless Spreadsheets, Spatial UI, Astree, Builtouts and Pocket Python. A comparison is a review candidate, not a publication approval gate by itself. Builtouts has a failing audited main check to diagnose. Pocket Python has extensive source qualification; reuse the successful matching-head evidence and its existing release procedure rather than repeating an unrelated interpreter roadmap.
+All 48 remote defaults use main; all 46 public main branches have baseline
+protection, with verified CI requirements on the qualified release repositories.
+Two private repositories require a supported GitHub plan for protection; no
+visibility or paid-plan change is included. Backpack Store's renamed publisher
+identity must be verified before its next upload.
 
-No model weights, datasets, deployments or local checkpoints are included in this package release work.
+Pocket Python's compiled runtime needs its dedicated installed release
+qualification (wispsy/pocket_python#993). The release audit does not substitute
+source CI for that gate. Gitwriter remains unpublished and unqualified.
+Pretty Notebook's current web application work does not change the packaged
+0.12.0 library or its pnbp compatibility distribution.
 
-## Dependency adoption follow-up
-
-Paracosm now selects published Thoughtform and its bounded preview artifacts
-pass qualification. PyPI rejected its publisher identity; owner `wispsy`,
-repository `paracosm`, workflow `release.yaml`, environment `pypi` must be
-registered before retrying the existing qualified publishing job. Wispsy
-reference metadata selects current index releases and retains only this
-qualified Paracosm source until that dependency can be installed from PyPI.
+No model weights, datasets, deployments or local checkpoints are included.
