@@ -1,6 +1,6 @@
 [project]
 name = "wispsy"
-version = "0.0.1.dev0"
+version = "0.1.0a1"
 description = "Executable references for explicit Python capability composition."
 readme = "README.md"
 license = "MIT"
@@ -11,21 +11,21 @@ dependencies = []
 
 [project.optional-dependencies]
 application = ["hypnosis[application,models]==0.1.0a1 ; python_version >= '3.14'"]
-workflow = ["hidden-moves==0.1.1 "]
+workflow = ["hidden-moves==0.1.1"]
 sequence = [
-    "hidden-moves==0.1.1 ",
+    "hidden-moves==0.1.1",
     "func-seq==0.1.0 ; python_version >= '3.14'",
 ]
 table = [
-    "moveset==0.1.0 ",
+    "moveset==0.1.0",
     "headless-spreadsheets==0.1.1 ; python_version >= '3.14'",
 ]
-scripting = ["scriptty[cli]==0.1.0 "]
+scripting = ["scriptty[cli]==0.1.0"]
 terminal = ["scriptty[terminal]==0.1.0 ; python_version >= '3.14'"]
 
 family = [
     "hypnosis[models]==0.1.0a1 ; python_version >= '3.14'",
-    "paracosm @ git+https://github.com/wispsy/paracosm.git@07bbb79f3e5aadfc43c40ad592b3af2e73021bb1 ; python_version >= '3.14'",
+    "paracosm==0.1.0a1 ; python_version >= '3.14'",
     "compose-application==0.1.0a1 ; python_version >= '3.14'",
 ]
 

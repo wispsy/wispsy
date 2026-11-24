@@ -1,14 +1,13 @@
 {
   "schema": "cohesion-block-b-sources/1",
-  "sources": {
-    "paracosm": "07bbb79f3e5aadfc43c40ad592b3af2e73021bb1"
-  },
+  "sources": {},
   "packages": {
     "carets": "0.2.0",
     "thoughtform": "0.1.0a1",
     "hypnosis": "0.1.0a1",
     "compose-application": "0.1.0a1",
     "thoughtformula": "0.3.1",
-    "expose-interface": "0.1.0"
+    "expose-interface": "0.1.0",
+    "paracosm": "0.1.0a1"
   }
 }
