@@ -1,0 +1,2255 @@
+{
+  "schema": 1,
+  "observed_at": "2026-11-24T21:57:36+00:00",
+  "project": "https://github.com/orgs/wispsy/projects/31",
+  "public_repositories": 46,
+  "packages": [
+    {
+      "repository": "wispsy/apiconn",
+      "directory": "",
+      "distribution": "apiconn",
+      "main_version": "0.1.0",
+      "main_sha": "f55ee0a311f64edb9749a5caa9910990a286ce3b",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/apiconn/tree/f55ee0a311f64edb9749a5caa9910990a286ce3b",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/apiconn/0.1.0/",
+        "files": [
+          {
+            "filename": "apiconn-0.1.0-py3-none-any.whl",
+            "sha256": "69a4a2b4f9e78d57b3234cfd8199c0478cdeda083f7defaa23da32e81db10e0c",
+            "uploaded": "2026-11-08T22:41:20.878201Z",
+            "yanked": false
+          },
+          {
+            "filename": "apiconn-0.1.0.tar.gz",
+            "sha256": "9d9c1471c73ff77914c60cded75bd100e8e7fbaa8296910dab3d9154d5f651b4",
+            "uploaded": "2026-11-08T22:41:21.965275Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "documentation/administration ahead",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "aa3f228d982308a6708176e9f62b1d709cd4ad0d",
+        "ahead": 1,
+        "paths": [
+          "LICENSE"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/apiconn/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/astree",
+      "directory": "",
+      "distribution": "astree",
+      "main_version": "0.1.0",
+      "main_sha": "4db6cf6a41eebc5c23ab1a0a68b72fa647f82bad",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/astree/tree/4db6cf6a41eebc5c23ab1a0a68b72fa647f82bad",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/astree/0.1.0/",
+        "files": [
+          {
+            "filename": "astree-0.1.0-py3-none-any.whl",
+            "sha256": "0b6cc157d6407945a99f89cf761915b09d91e073126b97b4e300ddf4815fada2",
+            "uploaded": "2026-11-08T22:25:45.553385Z",
+            "yanked": false
+          },
+          {
+            "filename": "astree-0.1.0.tar.gz",
+            "sha256": "c4da48e551b46d2241e3d92f384c87ad04b0de0f7f2467f6586a91b419116cc4",
+            "uploaded": "2026-11-08T22:25:46.924108Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "7b97a1c3c857ac46454dc28f543e1585d0a983f8",
+        "ahead": 2,
+        "paths": [
+          "LICENSE",
+          "README.md",
+          "docs/api.md",
+          "pyproject.toml",
+          "src/astree/__init__.py",
+          "src/astree/html.py",
+          "src/astree/javascript.py",
+          "src/astree/json.py",
+          "src/astree/markdown.py",
+          "src/astree/python.py",
+          "src/astree/structural.py",
+          "tests/test_structural.py"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/astree/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/backpack_store",
+      "directory": "",
+      "distribution": "backpack-store",
+      "main_version": "0.2.0",
+      "main_sha": "8370e522548dfb67e45f0c0da08291a74666d895",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/backpack_store/tree/8370e522548dfb67e45f0c0da08291a74666d895",
+      "published": {
+        "version": "0.2.0",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/backpack-store/0.2.0/",
+        "files": [
+          {
+            "filename": "backpack_store-0.2.0-py3-none-any.whl",
+            "sha256": "1e7f0a58e15e82c5ba1586a1b16908e7efd80a2222babe67861db8b261c5c47e",
+            "uploaded": "2026-11-17T16:18:49.671601Z",
+            "yanked": false
+          },
+          {
+            "filename": "backpack_store-0.2.0.tar.gz",
+            "sha256": "7c74b817b16a822e659f734214dd12aef5b11188481c4fcd6f25652e5674394e",
+            "uploaded": "2026-11-17T16:18:51.883113Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.2.0",
+        "sha": "77440f85a290a756e26c7180ccb2d092812f13b4",
+        "ahead": 1,
+        "paths": [
+          "README.md",
+          "docs/releasing.md",
+          "pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/backpack_store/compare/v0.2.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/builtouts",
+      "directory": "",
+      "distribution": "builtouts",
+      "main_version": "0.2.0",
+      "main_sha": "85441ec67c7ea2e153a902591dc9478b9c1e7c4d",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/builtouts/tree/85441ec67c7ea2e153a902591dc9478b9c1e7c4d",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/builtouts/0.1.0/",
+        "files": [
+          {
+            "filename": "builtouts-0.1.0-py3-none-any.whl",
+            "sha256": "8d06a9d263c5fa6eedc7d7e0e723cebf4c1a3477d569d9d7985e5daf99345b29",
+            "uploaded": "2026-10-19T23:40:50.740933Z",
+            "yanked": false
+          },
+          {
+            "filename": "builtouts-0.1.0.tar.gz",
+            "sha256": "c7ab67ba88a736b937dfb70046176883435eb7bb0b9bdb6975071e3d8a56b1af",
+            "uploaded": "2026-10-19T23:40:52.027029Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "6a36a49c596705675bf64787c7a468a614747e12",
+        "ahead": 8,
+        "paths": [
+          "CHANGELOG.md",
+          "IMPLEMENTATION_PLAN.md",
+          "README.md",
+          "examples/scrape_pipeline.py",
+          "examples/thread_jobs.py",
+          "pyproject.toml",
+          "scripts/check_distribution.py",
+          "scripts/profile_extraction.py",
+          "src/builtouts/__init__.py",
+          "src/builtouts/auto_repr.py",
+          "src/builtouts/callable_module.py",
+          "src/builtouts/concurrent.py",
+          "src/builtouts/exit_to_repl.py",
+          "src/builtouts/html/__init__.py",
+          "src/builtouts/html/extract.py",
+          "src/builtouts/http.py",
+          "tests/fixtures/html-corpus.json",
+          "tests/test_corpus.py",
+          "tests/test_html_extract.py",
+          "tests/test_http.py",
+          "tests/test_thread_outcomes.py",
+          "uv.lock"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/builtouts/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/carets",
+      "directory": "",
+      "distribution": "carets",
+      "main_version": "0.2.0",
+      "main_sha": "0bec123a70dde1b762dd89622dc1954c8bacb794",
+      "default_branch": "main",
+      "requires_python": ">=3.10",
+      "source_url": "https://github.com/wispsy/carets/tree/0bec123a70dde1b762dd89622dc1954c8bacb794",
+      "published": {
+        "version": "0.2.0",
+        "requires_python": ">=3.10",
+        "url": "https://pypi.org/project/carets/0.2.0/",
+        "files": [
+          {
+            "filename": "carets-0.2.0-py3-none-any.whl",
+            "sha256": "6c09208e572d3edd902135479e3945e1f7881a26f82dc8b18afa8783e225900b",
+            "uploaded": "2026-11-22T20:18:40.709770Z",
+            "yanked": false
+          },
+          {
+            "filename": "carets-0.2.0.tar.gz",
+            "sha256": "6b5c865fb61414308193688c27e4a582a05c453a55c51c804c7ec3b02ab09afb",
+            "uploaded": "2026-11-22T20:18:42.047754Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.2.0",
+        "sha": "0bec123a70dde1b762dd89622dc1954c8bacb794",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/carets/compare/v0.2.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/clownfish",
+      "directory": "",
+      "distribution": "clownfish",
+      "main_version": "0.6.3",
+      "main_sha": "e67e70525d135b0a4331660cec38f24bc0e68e3c",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/clownfish/tree/e67e70525d135b0a4331660cec38f24bc0e68e3c",
+      "published": {
+        "version": "0.6.3",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/clownfish/0.6.3/",
+        "files": [
+          {
+            "filename": "clownfish-0.6.3-py3-none-any.whl",
+            "sha256": "ebbb90b324bcac0e2566a25c66698fbf2bf036572017f454e9a1258e4bf37993",
+            "uploaded": "2026-11-22T18:53:36.465747Z",
+            "yanked": false
+          },
+          {
+            "filename": "clownfish-0.6.3.tar.gz",
+            "sha256": "5c605aca0182afb772877bd1851177ddb5ee4e627ffdbc9b92561833eaf235d9",
+            "uploaded": "2026-11-22T18:53:37.874880Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.6.3",
+        "sha": "73737fcd466f977bcb624d2816ea63f8af82525b",
+        "ahead": 1,
+        "paths": [
+          "packaging/homebrew/Casks/clownfish.rb",
+          "packaging/homebrew/Formula/clownfish.rb"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/clownfish/compare/v0.6.3...main"
+      }
+    },
+    {
+      "repository": "wispsy/compose_application",
+      "directory": "",
+      "distribution": "compose-application",
+      "main_version": "0.1.0.dev0",
+      "main_sha": "f2c568993930057b43f4856a86dfc4440f7f2c9e",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/compose_application/tree/f2c568993930057b43f4856a86dfc4440f7f2c9e",
+      "published": null,
+      "status": "unpublished",
+      "comparison": null
+    },
+    {
+      "repository": "wispsy/desktop-interface",
+      "directory": "",
+      "distribution": "desktop-interface",
+      "main_version": "0.1.0",
+      "main_sha": "5faf5122e1fff986864ade554854cfe238d6d154",
+      "default_branch": "main",
+      "requires_python": ">=3.12",
+      "source_url": "https://github.com/wispsy/desktop-interface/tree/5faf5122e1fff986864ade554854cfe238d6d154",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.12",
+        "url": "https://pypi.org/project/desktop-interface/0.1.0/",
+        "files": [
+          {
+            "filename": "desktop_interface-0.1.0-py3-none-any.whl",
+            "sha256": "d085d054f4f4bb9b5e4382377c54fa282906d33c711576836da7992befb58945",
+            "uploaded": "2026-10-18T19:34:39.729332Z",
+            "yanked": false
+          },
+          {
+            "filename": "desktop_interface-0.1.0.tar.gz",
+            "sha256": "46d8202cbe624852bdfbe79aabe6c96ebc909170bc144b103c7f4eac0355323d",
+            "uploaded": "2026-10-18T19:34:41.231369Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "9892b82f8fe07e2e0d37da55e528ad1cb65b7a74",
+        "ahead": 1,
+        "paths": [
+          "README.md",
+          "pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/desktop-interface/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/enforce_type",
+      "directory": "",
+      "distribution": "enforce-type",
+      "main_version": "0.2.0",
+      "main_sha": "9eb7c72a375baf00fe577d6852e0d5433eef23d5",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/enforce_type/tree/9eb7c72a375baf00fe577d6852e0d5433eef23d5",
+      "published": {
+        "version": "0.2.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/enforce-type/0.2.0/",
+        "files": [
+          {
+            "filename": "enforce_type-0.2.0-py3-none-any.whl",
+            "sha256": "9009c8576714e9b1b8a413b9c8d6483531dadd487dc84593bc064d76cdfa8d8c",
+            "uploaded": "2026-11-17T16:04:31.740614Z",
+            "yanked": false
+          },
+          {
+            "filename": "enforce_type-0.2.0.tar.gz",
+            "sha256": "92514ea428418e7a5820a4e06a2f1edb43ea34c5c7bdd08598dbdb36cdd4aa78",
+            "uploaded": "2026-11-17T16:04:32.927131Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.2.0",
+        "sha": "9eb7c72a375baf00fe577d6852e0d5433eef23d5",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/enforce_type/compare/v0.2.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/engl",
+      "directory": "",
+      "distribution": "engl",
+      "main_version": "0.1.0a1",
+      "main_sha": "2afaa26e164720d91bb1efed0a59587f5212357b",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/engl/tree/2afaa26e164720d91bb1efed0a59587f5212357b",
+      "published": {
+        "version": "0.1.0a1",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/engl/0.1.0a1/",
+        "files": [
+          {
+            "filename": "engl-0.1.0a1-py3-none-any.whl",
+            "sha256": "edd516e5aa0bd122fb2405beddc9c2ce7416230ee5111d46f3e062c8a1eb1f4a",
+            "uploaded": "2026-11-24T21:48:36.495116Z",
+            "yanked": false
+          },
+          {
+            "filename": "engl-0.1.0a1.tar.gz",
+            "sha256": "5c93e499d57add89c8d06895b4fed407dc0947d52d695e3f4935b7d509cb4c43",
+            "uploaded": "2026-11-24T21:48:37.489910Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0a1",
+        "sha": "2afaa26e164720d91bb1efed0a59587f5212357b",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/engl/compare/v0.1.0a1...main"
+      }
+    },
+    {
+      "repository": "wispsy/escape_colors",
+      "directory": "",
+      "distribution": "escape-colors",
+      "main_version": "0.3.0",
+      "main_sha": "e83820168fc3ecbb36aed1d2f53e3aeec55f4979",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/escape_colors/tree/e83820168fc3ecbb36aed1d2f53e3aeec55f4979",
+      "published": {
+        "version": "0.3.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/escape-colors/0.3.0/",
+        "files": [
+          {
+            "filename": "escape_colors-0.3.0-py3-none-any.whl",
+            "sha256": "949ce4287e6d5932d8e290cadae53bb249dd5ab60826b6ae1be64704255cde53",
+            "uploaded": "2026-11-17T02:27:22.584548Z",
+            "yanked": false
+          },
+          {
+            "filename": "escape_colors-0.3.0.tar.gz",
+            "sha256": "6ed3e7fc6adf924455dfc9ef745e657a95aca04a38ae1d385089887f8dabc256",
+            "uploaded": "2026-11-17T02:27:23.820078Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "documentation/administration ahead",
+      "comparison": {
+        "tag": "v0.3.0",
+        "sha": "ede0614481ad9e2d1cdeaa35207fc7a0925779ed",
+        "ahead": 1,
+        "paths": [
+          "LICENSE.md"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/escape_colors/compare/v0.3.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/evok",
+      "directory": "",
+      "distribution": "evok",
+      "main_version": "0.1.0",
+      "main_sha": "0cae48df8b31c26decfedf951844ee90f83fa46e",
+      "default_branch": "main",
+      "requires_python": ">=3.12",
+      "source_url": "https://github.com/wispsy/evok/tree/0cae48df8b31c26decfedf951844ee90f83fa46e",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.12",
+        "url": "https://pypi.org/project/evok/0.1.0/",
+        "files": [
+          {
+            "filename": "evok-0.1.0-py3-none-any.whl",
+            "sha256": "1a077820084ad0f32a8d9229b4194559f905ddf8f1c3103b2c05a6fa5147e815",
+            "uploaded": "2026-11-08T22:23:34.985443Z",
+            "yanked": false
+          },
+          {
+            "filename": "evok-0.1.0.tar.gz",
+            "sha256": "77a2ab2ee59ae6403feb48dc58a3d702794e44d0cdc0713c3ac0ee2fbda304a3",
+            "uploaded": "2026-11-08T22:23:36.150795Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "fcf33d83233d8b75287ca11838beaf02517d51a0",
+        "ahead": 1,
+        "paths": [
+          "README.md",
+          "packaging/homebrew/Formula/evok.rb",
+          "scripts/publish_homebrew.py",
+          "src/evok/cli.py",
+          "tests/test_packaging.py"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/evok/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/expose_api",
+      "directory": "",
+      "distribution": "expose-api",
+      "main_version": "0.2.0",
+      "main_sha": "3877fec0d3c2d945cca871c69809351e03fd47b7",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/expose_api/tree/3877fec0d3c2d945cca871c69809351e03fd47b7",
+      "published": {
+        "version": "0.2.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/expose-api/0.2.0/",
+        "files": [
+          {
+            "filename": "expose_api-0.2.0-py3-none-any.whl",
+            "sha256": "03d1970143a64e40ef9230dcb6cfc2b5c988af789a04b392d6d458f1f515e91c",
+            "uploaded": "2026-11-17T16:25:20.320660Z",
+            "yanked": false
+          },
+          {
+            "filename": "expose_api-0.2.0.tar.gz",
+            "sha256": "ca8b894b91caa176e77426580da37e2a5dd2060c19d41b28e34fcadd287c255a",
+            "uploaded": "2026-11-17T16:25:21.412632Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.2.0",
+        "sha": "3877fec0d3c2d945cca871c69809351e03fd47b7",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/expose_api/compare/v0.2.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/expose_interface",
+      "directory": "",
+      "distribution": "expose-interface",
+      "main_version": "0.1.0",
+      "main_sha": "8c71caefe67217bb6df87e280261746a3055fc86",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/expose_interface/tree/8c71caefe67217bb6df87e280261746a3055fc86",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/expose-interface/0.1.0/",
+        "files": [
+          {
+            "filename": "expose_interface-0.1.0-py3-none-any.whl",
+            "sha256": "6ec6736b98e777ea63dcfe4fd99e87e2fade3e27fc659acace919bed8860d689",
+            "uploaded": "2026-10-15T16:59:07.209107Z",
+            "yanked": false
+          },
+          {
+            "filename": "expose_interface-0.1.0.tar.gz",
+            "sha256": "76c74d5e0fbae7a1c715ec7aaf89403644a67c0bd8a861eb0fe2d38059ef5dda",
+            "uploaded": "2026-10-15T16:59:08.467233Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "7d7a6f07caf039650a2620ced2e33ecadfdf06a7",
+        "ahead": 2,
+        "paths": [
+          ".github/workflows/checks.yaml",
+          "LICENSE.md",
+          "README.md",
+          "docs/HIDDEN_MOVES.md",
+          "pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/expose_interface/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/expose_protocol",
+      "directory": "",
+      "distribution": "expose-protocol",
+      "main_version": "0.1.0",
+      "main_sha": "8cdcb9fc5305672ffdce919696d2253dc388ddc0",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/expose_protocol/tree/8cdcb9fc5305672ffdce919696d2253dc388ddc0",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/expose-protocol/0.1.0/",
+        "files": [
+          {
+            "filename": "expose_protocol-0.1.0-py3-none-any.whl",
+            "sha256": "8ab4e10694ceb2e98ff467ca2f73dde8b94e4f0c77122122d1361dd5306ca992",
+            "uploaded": "2026-10-15T16:59:39.975596Z",
+            "yanked": false
+          },
+          {
+            "filename": "expose_protocol-0.1.0.tar.gz",
+            "sha256": "964114f75d4bd86e064ee73734a401671953d666e6d60712a07a4660bdcae60d",
+            "uploaded": "2026-10-15T16:59:41.201269Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "cb35c0a6f5dd7c6dd5f97a87fcfca27a07f22e81",
+        "ahead": 2,
+        "paths": [
+          "LICENSE.md",
+          "README.md",
+          "docs/API.md",
+          "pyproject.toml",
+          "src/expose_protocol/macos.py"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/expose_protocol/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/func_seq",
+      "directory": "",
+      "distribution": "func-seq",
+      "main_version": "0.1.0",
+      "main_sha": "bfb4c1d5bccc73f842d72ddb7809a11973acb9e4",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/func_seq/tree/bfb4c1d5bccc73f842d72ddb7809a11973acb9e4",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/func-seq/0.1.0/",
+        "files": [
+          {
+            "filename": "func_seq-0.1.0-py3-none-any.whl",
+            "sha256": "d84f1b947c266fa710413cc209750108849ea4c99d3c37f70e85c9f52caeb775",
+            "uploaded": "2026-10-18T19:31:56.310928Z",
+            "yanked": false
+          },
+          {
+            "filename": "func_seq-0.1.0.tar.gz",
+            "sha256": "4e2a1d1fa6203599a0081ca092b7dcf84f9ad6e4f7108bd0dca0a930bbcbd423",
+            "uploaded": "2026-10-18T19:31:57.463138Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "b1a5346feeeef3fa1f398e4dcd81c2d23345386c",
+        "ahead": 2,
+        "paths": [
+          "LICENSE.md",
+          "README.md",
+          "docs/releasing.md",
+          "pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/func_seq/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/gitdx",
+      "directory": "",
+      "distribution": "gitdx",
+      "main_version": "0.1.0a1",
+      "main_sha": "3386e6b0b0cd4c99c7ff208ba5e127b6c15ac3a8",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/gitdx/tree/3386e6b0b0cd4c99c7ff208ba5e127b6c15ac3a8",
+      "published": {
+        "version": "0.1.0a1",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/gitdx/0.1.0a1/",
+        "files": [
+          {
+            "filename": "gitdx-0.1.0a1-py3-none-any.whl",
+            "sha256": "a4cdada6eafc93e2c58ac1c9558cfe16b8bd7e2e8193c6a10ee4f50c8307e30b",
+            "uploaded": "2026-11-24T21:54:28.165225Z",
+            "yanked": false
+          },
+          {
+            "filename": "gitdx-0.1.0a1.tar.gz",
+            "sha256": "94268e46bf7fd8e2aeee97a3b43ccbd365ddfff02015d18439f02a23848d20bd",
+            "uploaded": "2026-11-24T21:54:29.178383Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0a1",
+        "sha": "3386e6b0b0cd4c99c7ff208ba5e127b6c15ac3a8",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/gitdx/compare/v0.1.0a1...main"
+      }
+    },
+    {
+      "repository": "wispsy/gittycat",
+      "directory": "",
+      "distribution": "gittycat",
+      "main_version": "0.1.0",
+      "main_sha": "54cf0de253a095f1aa856328b443468e444790fd",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/gittycat/tree/54cf0de253a095f1aa856328b443468e444790fd",
+      "published": null,
+      "status": "unpublished",
+      "comparison": null
+    },
+    {
+      "repository": "wispsy/gitwriter",
+      "directory": "",
+      "distribution": "gitwriter",
+      "main_version": "0.1.0",
+      "main_sha": "2f58c824c46a98747eeccab5e495e9d54554362e",
+      "default_branch": "main",
+      "requires_python": ">=3.10",
+      "source_url": "https://github.com/wispsy/gitwriter/tree/2f58c824c46a98747eeccab5e495e9d54554362e",
+      "published": null,
+      "status": "unpublished",
+      "comparison": null
+    },
+    {
+      "repository": "wispsy/headless_spreadsheets",
+      "directory": "",
+      "distribution": "headless-spreadsheets",
+      "main_version": "0.1.0",
+      "main_sha": "811f1e1b297cacb887164bcb78ba6be39e37c90d",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/headless_spreadsheets/tree/811f1e1b297cacb887164bcb78ba6be39e37c90d",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/headless-spreadsheets/0.1.0/",
+        "files": [
+          {
+            "filename": "headless_spreadsheets-0.1.0-py3-none-any.whl",
+            "sha256": "e3168cf4db3c7d5ecfebedebcf988549a320d4b8d6beabac7b2d3ebdeac67230",
+            "uploaded": "2026-10-19T20:11:10.600392Z",
+            "yanked": false
+          },
+          {
+            "filename": "headless_spreadsheets-0.1.0.tar.gz",
+            "sha256": "45659599bc1fd76265b205e2578f5069012c2f2d8153b406dc49b49d10706f00",
+            "uploaded": "2026-10-19T20:11:11.835250Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "07c9ed36840c021b7c7bc49d7e7c90f7f1aa0283",
+        "ahead": 4,
+        "paths": [
+          ".github/workflows/checks.yaml",
+          "IMPLEMENTATION_PLAN.md",
+          "README.md",
+          "docs/backpack-source.md",
+          "docs/releases.md",
+          "docs/sources.md",
+          "integration_tests/test_backpack_source.py",
+          "pyproject.toml",
+          "scripts/check_distribution.py",
+          "src/headless_spreadsheets/__init__.py",
+          "src/headless_spreadsheets/backpack.py",
+          "src/headless_spreadsheets/sources.py",
+          "src/headless_spreadsheets/table.py",
+          "tests/test_sources.py"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/headless_spreadsheets/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/hidden_moves",
+      "directory": "",
+      "distribution": "hidden-moves",
+      "main_version": "0.1.0",
+      "main_sha": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/hidden-moves/0.1.0/",
+        "files": [
+          {
+            "filename": "hidden_moves-0.1.0-py3-none-any.whl",
+            "sha256": "1be2c521926207f82c23bccc43bc7f1a8a912ded846c5483900d6ec14b19a645",
+            "uploaded": "2026-10-10T21:34:34.527845Z",
+            "yanked": false
+          },
+          {
+            "filename": "hidden_moves-0.1.0.tar.gz",
+            "sha256": "a70442ca6c8a125c01b31fe9714249fdee674f0fdee78187a771bed437228c1e",
+            "uploaded": "2026-10-10T21:34:35.800805Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "cfef7788558c20f74103c2f4f94b512ae7469775",
+        "ahead": 13,
+        "paths": [
+          ".github/workflows/release.yaml",
+          ".github/workflows/tests.yml",
+          "IMPLEMENTATION_PLAN.md",
+          "README.md",
+          "docs/CAPABILITY_CATALOG.md",
+          "docs/GITHUB_PROJECTS.md",
+          "docs/JSON_TRANSPORT.md",
+          "docs/MIGRATIONS.md",
+          "docs/MOVE_SETS.md",
+          "docs/PLUGIN_API.md",
+          "docs/PROJECT_SNAPSHOTS.md",
+          "docs/PROJECT_WRITES.md",
+          "docs/PYPI_RELEASES.md",
+          "docs/USAGE.md",
+          "docs/passive-validation.md",
+          "examples/text-plugin/tests/test_integration.py",
+          "packages/hidden-moves-github-projects/README.md",
+          "packages/hidden-moves-github-projects/pyproject.toml",
+          "packages/hidden-moves-github-projects/tests/test_integration.py",
+          "packages/hidden-moves-mcp/README.md",
+          "packages/hidden-moves-mcp/pyproject.toml",
+          "packages/hidden-moves-openai/README.md",
+          "packages/hidden-moves-openai/pyproject.toml",
+          "packages/hidden-moves-workspace/LICENSE",
+          "packages/hidden-moves-workspace/README.md",
+          "packages/hidden-moves-workspace/integration_tests/test_integration.py",
+          "packages/hidden-moves-workspace/pyproject.toml",
+          "packages/hidden-moves-workspace/src/hidden_moves_workspace/__init__.py",
+          "packages/hidden-moves-workspace/src/hidden_moves_workspace/__main__.py",
+          "packages/hidden-moves-workspace/src/hidden_moves_workspace/client.py",
+          "packages/hidden-moves-workspace/src/hidden_moves_workspace/errors.py",
+          "packages/hidden-moves-workspace/src/hidden_moves_workspace/host.py",
+          "packages/hidden-moves-workspace/src/hidden_moves_workspace/integration.py",
+          "packages/hidden-moves-workspace/src/hidden_moves_workspace/models.py",
+          "packages/hidden-moves-workspace/tests/test_client.py",
+          "pyproject.toml",
+          "scripts/check_distributions.py",
+          "scripts/check_release.py",
+          "scripts/tests/test_release.py",
+          "skills/hidden-moves/SKILL.md",
+          "src/hidden_moves/__init__.py",
+          "src/hidden_moves/adapters/__init__.py",
+          "src/hidden_moves/adapters/validation.py",
+          "src/hidden_moves/cli.py",
+          "src/hidden_moves/commands/capabilities.py",
+          "src/hidden_moves/core/__init__.py",
+          "src/hidden_moves/core/moveset.py",
+          "tests/test_cli.py",
+          "tests/test_imports.py",
+          "tests/test_moveset.py",
+          "tests/test_passive_validation.py",
+          "tests/test_stdio.py",
+          "uv.lock"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/hidden_moves",
+      "directory": "packages/hidden-moves-github-projects",
+      "distribution": "hidden-moves-github-projects",
+      "main_version": "0.1.0",
+      "main_sha": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-github-projects",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/hidden-moves-github-projects/0.1.0/",
+        "files": [
+          {
+            "filename": "hidden_moves_github_projects-0.1.0-py3-none-any.whl",
+            "sha256": "3764c4eddac6b8933053cabbb1adb200702e08862c87e9e8275fd9bb98478766",
+            "uploaded": "2026-10-11T01:47:46.235768Z",
+            "yanked": false
+          },
+          {
+            "filename": "hidden_moves_github_projects-0.1.0.tar.gz",
+            "sha256": "382c3844f593df14f57458e60873a8944d6e4efd48f45a3386a89ed4301b158d",
+            "uploaded": "2026-10-11T01:47:47.707323Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0-github-projects",
+        "sha": "6fa99794301efcce34cbed56e7c7b7eef162a184",
+        "ahead": 10,
+        "paths": [
+          "packages/hidden-moves-github-projects/README.md",
+          "packages/hidden-moves-github-projects/pyproject.toml",
+          "packages/hidden-moves-github-projects/tests/test_integration.py"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.0-github-projects...main"
+      }
+    },
+    {
+      "repository": "wispsy/hidden_moves",
+      "directory": "packages/hidden-moves-mcp",
+      "distribution": "hidden-moves-mcp",
+      "main_version": "0.1.0",
+      "main_sha": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-mcp",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/hidden-moves-mcp/0.1.0/",
+        "files": [
+          {
+            "filename": "hidden_moves_mcp-0.1.0-py3-none-any.whl",
+            "sha256": "1fa3c50783c6ed4c1f16a3132c6285caf72f2910f63cdedcb613d79d555feff8",
+            "uploaded": "2026-10-11T01:41:51.610094Z",
+            "yanked": false
+          },
+          {
+            "filename": "hidden_moves_mcp-0.1.0.tar.gz",
+            "sha256": "b7dfdab836c009f0d3f2e3897fa5487c1b67e4a0539cbfbcb30a7a96816a54f7",
+            "uploaded": "2026-10-11T01:41:52.833936Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0-mcp",
+        "sha": "e130faa7a2db6d5db628f85ea88825107be6423c",
+        "ahead": 12,
+        "paths": [
+          "packages/hidden-moves-mcp/pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.0-mcp...main"
+      }
+    },
+    {
+      "repository": "wispsy/hidden_moves",
+      "directory": "packages/hidden-moves-openai",
+      "distribution": "hidden-moves-openai",
+      "main_version": "0.1.0",
+      "main_sha": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-openai",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/hidden-moves-openai/0.1.0/",
+        "files": [
+          {
+            "filename": "hidden_moves_openai-0.1.0-py3-none-any.whl",
+            "sha256": "0406941d43b3ab0224dcc8a13fe963a7ed4f8aebd24290030331715952c66d34",
+            "uploaded": "2026-10-11T01:45:08.817721Z",
+            "yanked": false
+          },
+          {
+            "filename": "hidden_moves_openai-0.1.0.tar.gz",
+            "sha256": "cf5aeb8c0c5bc1f1975dd69ab8efed9cfa387e5d2b951d93654d042d58675b8c",
+            "uploaded": "2026-10-11T01:45:10.148520Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0-openai",
+        "sha": "17e953c6705591fcbd0f57344acdcc98cf3ddaf2",
+        "ahead": 11,
+        "paths": [
+          "packages/hidden-moves-openai/pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/hidden_moves/compare/v0.1.0-openai...main"
+      }
+    },
+    {
+      "repository": "wispsy/hidden_moves",
+      "directory": "packages/hidden-moves-workspace",
+      "distribution": "hidden-moves-workspace",
+      "main_version": "0.1.0",
+      "main_sha": "fe5d822c82d5aa6e503fd3981161f97da113cdf0",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/hidden_moves/tree/fe5d822c82d5aa6e503fd3981161f97da113cdf0/packages/hidden-moves-workspace",
+      "published": null,
+      "status": "unpublished",
+      "comparison": null
+    },
+    {
+      "repository": "wispsy/hypnosis",
+      "directory": "",
+      "distribution": "hypnosis",
+      "main_version": "0.1.0",
+      "main_sha": "75cc766d640d17392e65402d266347c8b573ed05",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/hypnosis/tree/75cc766d640d17392e65402d266347c8b573ed05",
+      "published": null,
+      "status": "unpublished",
+      "comparison": null
+    },
+    {
+      "repository": "wispsy/immunity",
+      "directory": "",
+      "distribution": "immunity",
+      "main_version": "0.1.0",
+      "main_sha": "27f307844e44b82261c5806cfcde293c321c472f",
+      "default_branch": "main",
+      "requires_python": ">=3.10",
+      "source_url": "https://github.com/wispsy/immunity/tree/27f307844e44b82261c5806cfcde293c321c472f",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.10",
+        "url": "https://pypi.org/project/immunity/0.1.0/",
+        "files": [
+          {
+            "filename": "immunity-0.1.0-py3-none-any.whl",
+            "sha256": "b60c69c44eb03e63f146507fa9d197d7e9b1617f73eff8d27e38930ef02da26a",
+            "uploaded": "2026-11-05T00:24:08.481528Z",
+            "yanked": false
+          },
+          {
+            "filename": "immunity-0.1.0.tar.gz",
+            "sha256": "95360706901e78ea753862b5edb3aa6aea3d1aae2e6f533c0c5d3817bc68e53d",
+            "uploaded": "2026-11-05T00:24:09.860876Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "632d9e166a6e0a5138eeb1a9f0eb053925ded150",
+        "ahead": 1,
+        "paths": [
+          "README.md",
+          "docs/installation.md",
+          "packaging/homebrew/Formula/immunity.rb",
+          "scripts/publish_homebrew.py"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/immunity/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/JavaScript-Fetch-API",
+      "directory": "",
+      "distribution": "JavaScript-Fetch-API",
+      "main_version": "0.2.0",
+      "main_sha": "c68b2d7273348b07fa5ae330d22d1fa85a0b3ff4",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/JavaScript-Fetch-API/tree/c68b2d7273348b07fa5ae330d22d1fa85a0b3ff4",
+      "published": {
+        "version": "0.2.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/JavaScript-Fetch-API/0.2.0/",
+        "files": [
+          {
+            "filename": "javascript_fetch_api-0.2.0-py3-none-any.whl",
+            "sha256": "b8a4965645b37928bb3348706994d22de72d0599ed81e9ed3baf1c519c6f60d1",
+            "uploaded": "2026-10-16T19:45:55.663652Z",
+            "yanked": false
+          },
+          {
+            "filename": "javascript_fetch_api-0.2.0.tar.gz",
+            "sha256": "3af21b723fd570d94beb91c9e1080fa50fed6c3fdc4c9cee3c85dca04fc93d76",
+            "uploaded": "2026-10-16T19:45:57.098328Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.2.0",
+        "sha": "366e3fff45babfc822025f7822dd8fb14f2fe834",
+        "ahead": 2,
+        "paths": [
+          "LICENSE.md",
+          "RELEASING.md",
+          "pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/JavaScript-Fetch-API/compare/v0.2.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/JavaScript-JSON",
+      "directory": "",
+      "distribution": "JavaScript-JSON",
+      "main_version": "0.1.0",
+      "main_sha": "87201389b947f75edef4f1039e0e8d1baaa60360",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/JavaScript-JSON/tree/87201389b947f75edef4f1039e0e8d1baaa60360",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/JavaScript-JSON/0.1.0/",
+        "files": [
+          {
+            "filename": "javascript_json-0.1.0-py3-none-any.whl",
+            "sha256": "e119be47ba76924bb1757af6a55c0b7cd53e0d08b55f8157fc0081fc65052bef",
+            "uploaded": "2026-10-16T19:08:53.384314Z",
+            "yanked": false
+          },
+          {
+            "filename": "javascript_json-0.1.0.tar.gz",
+            "sha256": "19ce727971b44f39fd2a2a59b18ea774fb1c4f7421599964ad42a4aedceb4d4b",
+            "uploaded": "2026-10-16T19:08:54.745120Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "796535e59641db08b5f710c121c039d04d3d5cac",
+        "ahead": 2,
+        "paths": [
+          "LICENSE.md",
+          "RELEASING.md",
+          "pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/JavaScript-JSON/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/kindof",
+      "directory": "",
+      "distribution": "kindof",
+      "main_version": "0.1.0",
+      "main_sha": "c4e0eb8040cd6cc60a41842ba260013d2a36c3c0",
+      "default_branch": "main",
+      "requires_python": ">=3.9",
+      "source_url": "https://github.com/wispsy/kindof/tree/c4e0eb8040cd6cc60a41842ba260013d2a36c3c0",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.9",
+        "url": "https://pypi.org/project/kindof/0.1.0/",
+        "files": [
+          {
+            "filename": "kindof-0.1.0-py3-none-any.whl",
+            "sha256": "125d5709af451f34da2e8324e6bb337c00bd75b61614ea0bedda3a8623d3f04f",
+            "uploaded": "2026-11-07T01:13:02.303912Z",
+            "yanked": false
+          },
+          {
+            "filename": "kindof-0.1.0.tar.gz",
+            "sha256": "12c9e51d34e5d697a1596a07e6593b8c790c941c563810c1e138adb72f974bdc",
+            "uploaded": "2026-11-07T01:13:03.859422Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "documentation/administration ahead",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "8b0450179b850498aa431478e0e01a3060eb6ba5",
+        "ahead": 1,
+        "paths": [
+          "LICENSE.md"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/kindof/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/moveset",
+      "directory": "",
+      "distribution": "moveset",
+      "main_version": "0.1.0",
+      "main_sha": "3d496fdf913cf21c811c8ee47f407a50995b8752",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/moveset/tree/3d496fdf913cf21c811c8ee47f407a50995b8752",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/moveset/0.1.0/",
+        "files": [
+          {
+            "filename": "moveset-0.1.0-py3-none-any.whl",
+            "sha256": "e6af70ab7b8092ec6cddb36af4f8a8051a751d995867bac184c03758ffec171c",
+            "uploaded": "2026-11-08T22:30:03.965249Z",
+            "yanked": false
+          },
+          {
+            "filename": "moveset-0.1.0.tar.gz",
+            "sha256": "989123c3a3c80b67103ce62435e898d0bbb496610d4169c72e5d1b108b1099c2",
+            "uploaded": "2026-11-08T22:30:05.210708Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "3d496fdf913cf21c811c8ee47f407a50995b8752",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/moveset/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/paracosm",
+      "directory": "",
+      "distribution": "paracosm",
+      "main_version": "0.1.0",
+      "main_sha": "9829a348fdcd6fd935e4d4f2341a910c58566fad",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/paracosm/tree/9829a348fdcd6fd935e4d4f2341a910c58566fad",
+      "published": null,
+      "status": "unpublished",
+      "comparison": null
+    },
+    {
+      "repository": "wispsy/parse_html5",
+      "directory": "",
+      "distribution": "parse-html5",
+      "main_version": "0.1.0",
+      "main_sha": "af6f91efa4290a603a79488ba32d28b5c41e3bfd",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/parse_html5/tree/af6f91efa4290a603a79488ba32d28b5c41e3bfd",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/parse-html5/0.1.0/",
+        "files": [
+          {
+            "filename": "parse_html5-0.1.0-py3-none-any.whl",
+            "sha256": "c7167fe3405179827029aa758d89b7cfc2a870496e843fbe72db73b75bb6d679",
+            "uploaded": "2026-11-22T21:09:29.403718Z",
+            "yanked": false
+          },
+          {
+            "filename": "parse_html5-0.1.0.tar.gz",
+            "sha256": "7cc3ab3e20b25a9a32393d9d787aec782559c1868d213c48b9181e5ac9dee042",
+            "uploaded": "2026-11-22T21:09:30.524200Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "af6f91efa4290a603a79488ba32d28b5c41e3bfd",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/parse_html5/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/parse_md",
+      "directory": "",
+      "distribution": "parse-md",
+      "main_version": "0.1.0",
+      "main_sha": "54ff935e4ef9218a5c6227eb4149b62a52f89ec1",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/parse_md/tree/54ff935e4ef9218a5c6227eb4149b62a52f89ec1",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/parse-md/0.1.0/",
+        "files": [
+          {
+            "filename": "parse_md-0.1.0-py3-none-any.whl",
+            "sha256": "bd4d70d2d11120e8ac819e91cc789689d3644e3b7da5f26d9be30f2a20125321",
+            "uploaded": "2026-11-17T02:20:18.482643Z",
+            "yanked": false
+          },
+          {
+            "filename": "parse_md-0.1.0.tar.gz",
+            "sha256": "b83f44b7bee34b777af332a785d58d34722daa294c1d01823d204bcb24f076be",
+            "uploaded": "2026-11-17T02:20:19.752778Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "54ff935e4ef9218a5c6227eb4149b62a52f89ec1",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/parse_md/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/parse_mw",
+      "directory": "",
+      "distribution": "parse-mw",
+      "main_version": "0.1.0",
+      "main_sha": "f345fedadc21c8adf6d1a719befd761b67a8038c",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/parse_mw/tree/f345fedadc21c8adf6d1a719befd761b67a8038c",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/parse-mw/0.1.0/",
+        "files": [
+          {
+            "filename": "parse_mw-0.1.0-py3-none-any.whl",
+            "sha256": "6c0b047d6c929375bbe0bed3cfd1e0d713611a641df540e474caaedb5c78127c",
+            "uploaded": "2026-11-22T23:09:01.797403Z",
+            "yanked": false
+          },
+          {
+            "filename": "parse_mw-0.1.0.tar.gz",
+            "sha256": "ccb957f0fb7230b019ca38c62c3fb58e2f2ad057496e00e464686783e6271e07",
+            "uploaded": "2026-11-22T23:09:02.777691Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "f345fedadc21c8adf6d1a719befd761b67a8038c",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/parse_mw/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/parsethon",
+      "directory": "",
+      "distribution": "parsethon",
+      "main_version": "0.3.0",
+      "main_sha": "5a935ef1725f55e1f16c7e4b6776ee32d6a00d5c",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/parsethon/tree/5a935ef1725f55e1f16c7e4b6776ee32d6a00d5c",
+      "published": {
+        "version": "0.3.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/parsethon/0.3.0/",
+        "files": [
+          {
+            "filename": "parsethon-0.3.0-py3-none-any.whl",
+            "sha256": "ad8870b1316d177c65542962a90230810daf05c5260404274dcb98d4af7bccad",
+            "uploaded": "2026-11-17T21:01:38.066723Z",
+            "yanked": false
+          },
+          {
+            "filename": "parsethon-0.3.0.tar.gz",
+            "sha256": "6260296a165f3efe0b64e3a69e013519261828bb3b7c3f12ab09ef48c794aad3",
+            "uploaded": "2026-11-17T21:01:39.331186Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.3.0",
+        "sha": "5a935ef1725f55e1f16c7e4b6776ee32d6a00d5c",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/parsethon/compare/v0.3.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/peaches",
+      "directory": "",
+      "distribution": "peaches",
+      "main_version": "0.1.0",
+      "main_sha": "2287c61893fc0fc0585fbd4313aae4663e149c5a",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/peaches/tree/2287c61893fc0fc0585fbd4313aae4663e149c5a",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/peaches/0.1.0/",
+        "files": [
+          {
+            "filename": "peaches-0.1.0-py3-none-any.whl",
+            "sha256": "86294780c630cf90dd17d0abeb4ed6d8cb647ada5b42ded1e49e69f7aea6d0ff",
+            "uploaded": "2026-11-08T22:35:20.172304Z",
+            "yanked": false
+          },
+          {
+            "filename": "peaches-0.1.0.tar.gz",
+            "sha256": "62182fe8d6202af2963bb30e261bfdf062bfe90f5b5474ea5162eca894a36612",
+            "uploaded": "2026-11-08T22:35:21.522180Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "2287c61893fc0fc0585fbd4313aae4663e149c5a",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/peaches/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/pocket-python",
+      "directory": "",
+      "distribution": "pocket-python",
+      "main_version": "0.2.0",
+      "main_sha": "daf70bbcc8ef74c2ace1e7dbbe4e37e6f9a9b62e",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/pocket-python/tree/daf70bbcc8ef74c2ace1e7dbbe4e37e6f9a9b62e",
+      "published": {
+        "version": "0.2.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/pocket-python/0.2.0/",
+        "files": [
+          {
+            "filename": "pocket_python-0.2.0-py3-none-any.whl",
+            "sha256": "b6df50fa5d538a429b350db858fe4bf643d407e729482534056594e2e0748094",
+            "uploaded": "2026-10-21T05:57:38.195739Z",
+            "yanked": false
+          },
+          {
+            "filename": "pocket_python-0.2.0.tar.gz",
+            "sha256": "867d14e7143c53f088a1983a0e9b3eeee72b3f4deea9d5e9723446bdd82881ae",
+            "uploaded": "2026-10-21T05:57:39.699724Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "review required (comparison truncated)",
+      "comparison": {
+        "tag": "v0.2.0",
+        "sha": "f69336209096929f93dbdf805713509d547665fc",
+        "ahead": 422,
+        "paths": [
+          ".github/workflows/ci.yml",
+          ".github/workflows/release.yaml",
+          "IMPLEMENTATION_PLAN.md",
+          "IMPLEMENTATION_PLAN_INTERPRETER.md",
+          "README.md",
+          "docs/application-measurements.md",
+          "docs/application-profiles.md",
+          "docs/browser-host-protocol.md",
+          "docs/execution-contract.md",
+          "docs/interpreter-abstract-flags.md",
+          "docs/interpreter-advertised-directories.md",
+          "docs/interpreter-aggregations.md",
+          "docs/interpreter-arithmetic-dispatch.md",
+          "docs/interpreter-attribute-hooks.md",
+          "docs/interpreter-buffer-directories.md",
+          "docs/interpreter-bytecode.md",
+          "docs/interpreter-callable-type-directories.md",
+          "docs/interpreter-class-body-namespaces.md",
+          "docs/interpreter-class-directories.md",
+          "docs/interpreter-class-mapping-proxies.md",
+          "docs/interpreter-class-namespaces.md",
+          "docs/interpreter-classes.md",
+          "docs/interpreter-code-cells.md",
+          "docs/interpreter-compatibility.json",
+          "docs/interpreter-compatibility.md",
+          "docs/interpreter-comprehension-reflection.md",
+          "docs/interpreter-conformance.md",
+          "docs/interpreter-console.md",
+          "docs/interpreter-construction.md",
+          "docs/interpreter-container-directories.md",
+          "docs/interpreter-container-type-directories.md",
+          "docs/interpreter-custom-mro.md",
+          "docs/interpreter-descriptor-binding.md",
+          "docs/interpreter-descriptors.md",
+          "docs/interpreter-directory-layouts.json",
+          "docs/interpreter-directory-scopes.md",
+          "docs/interpreter-documentation.md",
+          "docs/interpreter-dynamic-source.md",
+          "docs/interpreter-equality.md",
+          "docs/interpreter-events.md",
+          "docs/interpreter-exceptions.md",
+          "docs/interpreter-expanded-class-bases.md",
+          "docs/interpreter-formatting.md",
+          "docs/interpreter-function-binding.md",
+          "docs/interpreter-function-dictionaries.md",
+          "docs/interpreter-function-directories.md",
+          "docs/interpreter-function-metadata.md",
+          "docs/interpreter-function-state.md",
+          "docs/interpreter-functions.md",
+          "docs/interpreter-generator-directories.md",
+          "docs/interpreter-generator-frames.md",
+          "docs/interpreter-generators.md",
+          "docs/interpreter-immutable-subclasses.md",
+          "docs/interpreter-indexing.md",
+          "docs/interpreter-instance-dictionaries.md",
+          "docs/interpreter-instance-directories.md",
+          "docs/interpreter-integer-identity.md",
+          "docs/interpreter-iteration.md",
+          "docs/interpreter-iterator-directories.md",
+          "docs/interpreter-iterator-type-directories.md",
+          "docs/interpreter-language.md",
+          "docs/interpreter-measurements.md",
+          "docs/interpreter-memory.md",
+          "docs/interpreter-metaclass-attributes.md",
+          "docs/interpreter-metaclass-factories.md",
+          "docs/interpreter-metaclass-protocols.md",
+          "docs/interpreter-method-directories.md",
+          "docs/interpreter-module-namespaces.md",
+          "docs/interpreter-modules.md",
+          "docs/interpreter-mutable-subclasses.md",
+          "docs/interpreter-namespace-view-directories.md",
+          "docs/interpreter-native-attributes.md",
+          "docs/interpreter-native-callable-directories.md",
+          "docs/interpreter-native-descriptors.md",
+          "docs/interpreter-native-directory-closure.md",
+          "docs/interpreter-native-namespaces.md",
+          "docs/interpreter-native-object-subclasses.md",
+          "docs/interpreter-native-protocols.md",
+          "docs/interpreter-native-rebinding.md",
+          "docs/interpreter-nested-descriptors.md",
+          "docs/interpreter-numeric-directories.md",
+          "docs/interpreter-numeric-type-directories.md",
+          "docs/interpreter-numeric.md",
+          "docs/interpreter-object-hashing.md",
+          "docs/interpreter-object-integration.md",
+          "docs/interpreter-object-protocols.md",
+          "docs/interpreter-object-scope.json",
+          "docs/interpreter-object-scope.md",
+          "docs/interpreter-ordering.md",
+          "docs/interpreter-ordinary-syntax.md",
+          "docs/interpreter-practical-containers.md",
+          "docs/interpreter-prepared-class-namespaces.md",
+          "docs/interpreter-private-names.md",
+          "docs/interpreter-profiles.md",
+          "docs/interpreter-property-diagnostics.md",
+          "docs/interpreter-property-directories.md",
+          "docs/interpreter-property-names.md",
+          "docs/interpreter-reassignment.md",
+          "docs/interpreter-reflection.md",
+          "docs/interpreter-repetition.md",
+          "docs/interpreter-roadmap.md",
+          "docs/interpreter-sequence-directories.md",
+          "docs/interpreter-sequences.md",
+          "docs/interpreter-slots.md",
+          "docs/interpreter-source.md",
+          "docs/interpreter-special-methods.md",
+          "docs/interpreter-subclass-initialization.md",
+          "docs/interpreter-syntax-errors.md",
+          "docs/interpreter-traversals.md",
+          "docs/interpreter-type-checks.md",
+          "docs/interpreter-type-reflection.md",
+          "docs/interpreter-value-families.md",
+          "docs/interpreter-values.md",
+          "docs/interpreter-wrapper-metadata.md",
+          "docs/interpreter-wrapper-super-directories.md",
+          "docs/measurements/2026-10-21-execution-phases.json",
+          "docs/measurements/2026-10-21-interpreter.json",
+          "docs/measurements/2026-10-22-equality.json",
+          "docs/measurements/2026-10-22-execution-consolidation.json",
+          "docs/measurements/2026-10-22-formatting.json",
+          "docs/measurements/2026-10-22-indexing.json",
+          "docs/measurements/2026-10-22-iterable-boundary.json",
+          "docs/measurements/2026-10-22-iteration-reentry.json",
+          "docs/measurements/2026-10-22-iteration.json",
+          "docs/measurements/2026-10-22-numeric-integrated.json",
+          "docs/measurements/2026-10-22-numeric-operators.json",
+          "docs/measurements/2026-10-22-slice-refusals.json",
+          "docs/measurements/2026-10-22-soft-keyword.json",
+          "docs/measurements/2026-10-23-sequences.json",
+          "docs/measurements/2026-10-26-construction.json",
+          "docs/measurements/2026-10-26-functions.json",
+          "docs/measurements/2026-10-26-ordinary-syntax.json",
+          "docs/measurements/2026-10-26-value-families.json",
+          "docs/measurements/2026-10-27-attribute-hooks.json",
+          "docs/measurements/2026-10-27-comprehension-reflection.json",
+          "docs/measurements/2026-10-27-directory-scopes.json",
+          "docs/measurements/2026-10-27-events.json",
+          "docs/measurements/2026-10-27-metaclass-attributes.json",
+          "docs/measurements/2026-10-27-ordering.json",
+          "docs/measurements/2026-10-27-reflection.json",
+          "docs/measurements/2026-10-27-repetition.json",
+          "docs/measurements/2026-10-27-subclass-initialization.json",
+          "docs/measurements/2026-10-27-type-check-reflection.json",
+          "docs/measurements/2026-10-27-type-checks.json",
+          "docs/measurements/2026-10-28-abstract-flags.json",
+          "docs/measurements/2026-10-28-documentation.json",
+          "docs/measurements/2026-10-28-function-dictionaries.json",
+          "docs/measurements/2026-10-28-function-metadata.json",
+          "docs/measurements/2026-10-28-instance-dictionaries.json",
+          "docs/measurements/2026-10-28-native-descriptors.json",
+          "docs/measurements/2026-10-28-native-rebinding.json",
+          "docs/measurements/2026-10-28-nested-descriptors.json",
+          "docs/measurements/2026-10-28-property-names.json",
+          "docs/measurements/2026-10-28-type-reflection.json",
+          "docs/measurements/2026-10-29-buffer-directories.json",
+          "docs/measurements/2026-10-29-callable-type-directories.json",
+          "docs/measurements/2026-10-29-class-directories.json",
+          "docs/measurements/2026-10-29-class-namespaces.json",
+          "docs/measurements/2026-10-29-container-directories.json",
+          "docs/measurements/2026-10-29-container-type-directories.json",
+          "docs/measurements/2026-10-29-directory-reference-stability.json",
+          "docs/measurements/2026-10-29-function-directories.json",
+          "docs/measurements/2026-10-29-generator-directories.json",
+          "docs/measurements/2026-10-29-instance-directories.json",
+          "docs/measurements/2026-10-29-iterator-directories.json",
+          "docs/measurements/2026-10-29-iterator-type-directories.json",
+          "docs/measurements/2026-10-29-method-directories.json",
+          "docs/measurements/2026-10-29-namespace-view-directories.json",
+          "docs/measurements/2026-10-29-native-callable-directories.json",
+          "docs/measurements/2026-10-29-numeric-directories.json",
+          "docs/measurements/2026-10-29-numeric-type-directories.json",
+          "docs/measurements/2026-10-29-property-directories.json",
+          "docs/measurements/2026-10-29-sequence-directories.json",
+          "docs/measurements/2026-10-30-arithmetic-dispatch.json",
+          "docs/measurements/2026-10-30-native-attributes.json",
+          "docs/measurements/2026-10-30-native-protocols.json",
+          "docs/measurements/2026-10-30-property-diagnostics.json",
+          "docs/measurements/2026-10-31-dynamic-source.json",
+          "docs/measurements/2026-10-31-object-closure.json",
+          "docs/release-0.2.0.md",
+          "docs/testing.md",
+          "docs/version-audit/harness.md",
+          "docs/version-audit/maintenance-3.14.md",
+          "docs/version-audit/observations.json",
+          "docs/version-audit/report-2026-10-23.md",
+          "docs/version-audit/sources.json",
+          "examples/compiled_text_metrics.py",
+          "examples/interpreter_abstract_flags.py",
+          "examples/interpreter_aggregations.py",
+          "examples/interpreter_arithmetic_dispatch.py",
+          "examples/interpreter_attribute_mutations.py",
+          "examples/interpreter_attributes.py",
+          "examples/interpreter_buffer_directories.py",
+          "examples/interpreter_callable_type_directories.py",
+          "examples/interpreter_callable_view_failures.py",
+          "examples/interpreter_class_directories.py",
+          "examples/interpreter_class_namespaces.py",
+          "examples/interpreter_classes.py",
+          "examples/interpreter_console.py",
+          "examples/interpreter_construction.py",
+          "examples/interpreter_container_directories.py",
+          "examples/interpreter_container_type_directories.py",
+          "examples/interpreter_containers.py",
+          "examples/interpreter_decoding_exceptions.py",
+          "examples/interpreter_descriptor_binding.py",
+          "examples/interpreter_display.py",
+          "examples/interpreter_documentation.py",
+          "examples/interpreter_dynamic_source.py",
+          "examples/interpreter_encoding_exceptions.py",
+          "examples/interpreter_error_metadata.py",
+          "examples/interpreter_events.py",
+          "examples/interpreter_exceptions.py",
+          "examples/interpreter_function_dictionaries.py",
+          "examples/interpreter_function_directories.py",
+          "examples/interpreter_function_metadata.py",
+          "examples/interpreter_functions.py",
+          "examples/interpreter_generated_syntax.py",
+          "examples/interpreter_generator_directories.py",
+          "examples/interpreter_generators.py",
+          "examples/interpreter_instance_dictionaries.py",
+          "examples/interpreter_instance_directories.py",
+          "examples/interpreter_iterator_directories.py",
+          "examples/interpreter_iterator_failures.py",
+          "examples/interpreter_iterator_type_directories.py",
+          "examples/interpreter_metaclass_attributes.py",
+          "examples/interpreter_method_directories.py",
+          "examples/interpreter_namespace_failures.py",
+          "examples/interpreter_namespace_view_directories.py",
+          "examples/interpreter_native_callable_directories.py",
+          "examples/interpreter_native_descriptors.py",
+          "examples/interpreter_native_exceptions.py",
+          "examples/interpreter_native_keys.py",
+          "examples/interpreter_native_rebinding.py",
+          "examples/interpreter_nested_descriptors.py",
+          "examples/interpreter_numeric_directories.py",
+          "examples/interpreter_numeric_type_directories.py",
+          "examples/interpreter_object_integration.py",
+          "examples/interpreter_ordering.py",
+          "examples/interpreter_property_diagnostics.py",
+          "examples/interpreter_property_directories.py",
+          "examples/interpreter_property_names.py",
+          "examples/interpreter_reflection.py",
+          "examples/interpreter_reflective_failures.py",
+          "examples/interpreter_repetition.py",
+          "examples/interpreter_runtime_decoding.py",
+          "examples/interpreter_runtime_encoding.py",
+          "examples/interpreter_sequence_directories.py",
+          "examples/interpreter_subclass_initialization.py",
+          "examples/interpreter_syntax.py",
+          "examples/interpreter_syntax_exceptions.py",
+          "examples/interpreter_translation_exceptions.py",
+          "examples/interpreter_traversals.py",
+          "examples/interpreter_type_checks.py",
+          "examples/interpreter_type_reflection.py",
+          "examples/interpreter_value_failures.py",
+          "examples/interpreter_values.py",
+          "pyproject.toml",
+          "runtime/abstract-flags.test.mjs",
+          "runtime/advertised-directories.test.mjs",
+          "runtime/aggregations.test.mjs",
+          "runtime/arithmetic-dispatch.test.mjs",
+          "runtime/attribute-hooks.test.mjs",
+          "runtime/browser-host.test.mjs",
+          "runtime/browser-pool.mjs",
+          "runtime/browser-pool.test.mjs",
+          "runtime/browser-protocol.mjs",
+          "runtime/buffer-directories.test.mjs",
+          "runtime/bytecode.mjs",
+          "runtime/callable-type-directories.test.mjs",
+          "runtime/callback-request.mjs",
+          "runtime/callback-runner.mjs",
+          "runtime/callback-worker.mjs",
+          "runtime/check_callbacks.py",
+          "runtime/check_classes.py",
+          "runtime/check_compatibility.py",
+          "runtime/check_conformance.py",
+          "runtime/check_library_profiles.py",
+          "runtime/check_object_scope.py",
+          "runtime/check_source.py",
+          "runtime/check_source_tokens.py",
+          "runtime/check_version_audit.py",
+          "runtime/class-body-namespaces.test.mjs",
+          "runtime/class-directories.test.mjs",
+          "runtime/class-mapping-proxies.test.mjs",
+          "runtime/class-namespaces.test.mjs",
+          "runtime/class-policy.mjs",
+          "runtime/class-policy.test.mjs",
+          "runtime/class-values.mjs",
+          "runtime/class-values.test.mjs",
+          "runtime/classes-source.test.mjs",
+          "runtime/classes.test.mjs",
+          "runtime/code-cells.test.mjs",
+          "runtime/construction.test.mjs",
+          "runtime/container-directories.test.mjs",
+          "runtime/container-type-directories.test.mjs",
+          "runtime/custom-mro.test.mjs",
+          "runtime/descriptor-binding.test.mjs",
+          "runtime/descriptors.test.mjs",
+          "runtime/documentation.test.mjs",
+          "runtime/dynamic-compile.test.mjs"
+        ],
+        "truncated": true,
+        "url": "https://github.com/wispsy/pocket-python/compare/v0.2.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/pretty-notebook",
+      "directory": "",
+      "distribution": "pretty-notebook",
+      "main_version": "0.12.0",
+      "main_sha": "3afc6dd9d4a99508c545d37849194ab0000045f5",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/pretty-notebook/tree/3afc6dd9d4a99508c545d37849194ab0000045f5",
+      "published": {
+        "version": "0.12.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/pretty-notebook/0.12.0/",
+        "files": [
+          {
+            "filename": "pretty_notebook-0.12.0-py3-none-any.whl",
+            "sha256": "a33ababe815be6b3f826de36408e7517c62dbde48a73179fa2ac4dbda8be1f12",
+            "uploaded": "2026-11-17T16:13:32.090304Z",
+            "yanked": false
+          },
+          {
+            "filename": "pretty_notebook-0.12.0.tar.gz",
+            "sha256": "bf102af413dc3208d9bd36731b97c5d531adc849170aca2535799027afae8bf2",
+            "uploaded": "2026-11-17T16:13:33.345539Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.12.0",
+        "sha": "6322f6389f59429977097402dca33588dd978fdb",
+        "ahead": 1,
+        "paths": [
+          ".github/workflows/ci.yml",
+          "README.md",
+          "apps/web/api/auth_api.py",
+          "apps/web/api/forms.py",
+          "apps/web/api/health.py",
+          "apps/web/api/layout_api.py",
+          "apps/web/api/notebooks.py",
+          "apps/web/api/operation_logs.py",
+          "apps/web/api/permissions.py",
+          "apps/web/api/public_navigation.py",
+          "apps/web/api/publish_api.py",
+          "apps/web/api/publishing_api.py",
+          "apps/web/api/search_api.py",
+          "apps/web/api/site_api.py",
+          "apps/web/container/Dockerfile",
+          "apps/web/expose_web.py",
+          "apps/web/main.py",
+          "apps/web/native_assets.py",
+          "apps/web/native_publishing.py",
+          "apps/web/native_requests.py",
+          "apps/web/native_routes.py",
+          "apps/web/openapi.json",
+          "apps/web/requirements-storage.lock",
+          "apps/web/requirements-test.txt",
+          "apps/web/requirements.lock",
+          "apps/web/requirements.txt",
+          "apps/web/tests/conftest.py",
+          "apps/web/tests/fixtures/http-methods.json",
+          "apps/web/tests/fixtures/http-validation.json",
+          "apps/web/tests/test_assets.py",
+          "apps/web/tests/test_auth_api.py",
+          "apps/web/tests/test_backup_recovery.py",
+          "apps/web/tests/test_catalog.py",
+          "apps/web/tests/test_code_tools.py",
+          "apps/web/tests/test_deployment.py",
+          "apps/web/tests/test_failure_paths.py",
+          "apps/web/tests/test_framework_factory.py",
+          "apps/web/tests/test_framework_pilot.py",
+          "apps/web/tests/test_layout_and_views.py",
+          "apps/web/tests/test_native_publishing.py",
+          "apps/web/tests/test_native_routes.py",
+          "apps/web/tests/test_native_runtime.py",
+          "apps/web/tests/test_notebook_ownership.py",
+          "apps/web/tests/test_operation_logs.py",
+          "apps/web/tests/test_permissions.py",
+          "apps/web/tests/test_public_navigation.py",
+          "apps/web/tests/test_public_search.py",
+          "apps/web/tests/test_routes.py",
+          "apps/web/tests/test_schema.py",
+          "apps/web/tests/test_site_identity.py",
+          "apps/web/tests/test_worker_deployment.py",
+          "apps/web/views/forms.py",
+          "apps/web/views/home.py",
+          "apps/web/views/navigation.py",
+          "apps/web/views/search.py",
+          "apps/web/web_config.py",
+          "apps/web/web_errors.py",
+          "apps/web/web_hosts.py",
+          "apps/web/web_reference.py",
+          "apps/web/web_routing.py",
+          "apps/web/web_templates.py",
+          "docs/dependency-migration.md",
+          "docs/index.md",
+          "docs/pnbp.md",
+          "docs/versions.md",
+          "docs/web-coverage.md",
+          "docs/web-framework-migration.md",
+          "docs/web.md",
+          "scripts/check_container.py",
+          "scripts/check_web_runtime.py"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/pretty-notebook/compare/v0.12.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/Python-JavaScript",
+      "directory": "",
+      "distribution": "Python-JavaScript",
+      "main_version": "0.2.0",
+      "main_sha": "6b566d32dd02b3035b904ef871d9af63c42c08aa",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/Python-JavaScript/tree/6b566d32dd02b3035b904ef871d9af63c42c08aa",
+      "published": {
+        "version": "0.2.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/Python-JavaScript/0.2.0/",
+        "files": [
+          {
+            "filename": "python_javascript-0.2.0-py3-none-any.whl",
+            "sha256": "488dcdd2de4c0bd3dd2a1f1430f5372bf78ac983c5da8b017c46bd36b124a8f7",
+            "uploaded": "2026-10-21T05:46:21.679219Z",
+            "yanked": false
+          },
+          {
+            "filename": "python_javascript-0.2.0.tar.gz",
+            "sha256": "9ee9153a0c872234a8a6e099088f73af8d94e23dd140206339e8ff625ef108a6",
+            "uploaded": "2026-10-21T05:46:22.864592Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.2.0",
+        "sha": "3f76c8880667dcbfd52f8de2f9a409928b03e81b",
+        "ahead": 2,
+        "paths": [
+          "IMPLEMENTATION_PLAN.md",
+          "LICENSE.md",
+          "README.md",
+          "RELEASING.md",
+          "docs/compatibility.md",
+          "docs/compiler-async.md",
+          "docs/compiler-browser.md",
+          "docs/release-0.2.0.md",
+          "pyproject.toml",
+          "src/JavaScript/emitter.py",
+          "src/JavaScript/modules.py",
+          "tests/fixtures/compiler_parity.json"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/Python-JavaScript/compare/v0.2.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/requ",
+      "directory": "",
+      "distribution": "requ",
+      "main_version": "0.2.0",
+      "main_sha": "9cfb3c4a0381002efd126566cc02a28c7e51ca6a",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/requ/tree/9cfb3c4a0381002efd126566cc02a28c7e51ca6a",
+      "published": {
+        "version": "0.2.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/requ/0.2.0/",
+        "files": [
+          {
+            "filename": "requ-0.2.0-py3-none-any.whl",
+            "sha256": "f9ff0c66e2734e5ff7e2cf463df4065f29d1a7579cd8cfef9e53c6f3bec097c5",
+            "uploaded": "2026-11-17T02:20:32.955537Z",
+            "yanked": false
+          },
+          {
+            "filename": "requ-0.2.0.tar.gz",
+            "sha256": "55100d65155deeecf4381085e2636dd6901e6b463f6afb7abb282193125d3af8",
+            "uploaded": "2026-11-17T02:20:34.236330Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "documentation/administration ahead",
+      "comparison": {
+        "tag": "v0.2.0",
+        "sha": "7785829169cc0a807104b0a8562ca370f48ec117",
+        "ahead": 1,
+        "paths": [
+          "LICENSE"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/requ/compare/v0.2.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/sametime",
+      "directory": "",
+      "distribution": "sametime",
+      "main_version": "0.1.0",
+      "main_sha": "7587d22895ceb0cacebe7d057ae30a7615fe340a",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/sametime/tree/7587d22895ceb0cacebe7d057ae30a7615fe340a",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/sametime/0.1.0/",
+        "files": [
+          {
+            "filename": "sametime-0.1.0-py3-none-any.whl",
+            "sha256": "261b6ef5ac084e7001430ca5c0bb518f68e079d41f2eb40be98dfc259bb3db9c",
+            "uploaded": "2026-11-08T22:24:39.393658Z",
+            "yanked": false
+          },
+          {
+            "filename": "sametime-0.1.0.tar.gz",
+            "sha256": "c7b3c6d3460e3bb6ec8983a9cd97dd4e6eb7c0deeba8518524f93a370dd865c0",
+            "uploaded": "2026-11-08T22:24:40.482887Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "documentation/administration ahead",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "1e276b1aa4e5d20d1d0d5f9ea9d5dd0fb5bfcd50",
+        "ahead": 1,
+        "paths": [
+          "LICENSE"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/sametime/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/scriptty",
+      "directory": "",
+      "distribution": "scriptty",
+      "main_version": "0.1.0",
+      "main_sha": "92caefdbd21b176b5d1f10c92d88527c21a00ca4",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/scriptty/tree/92caefdbd21b176b5d1f10c92d88527c21a00ca4",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.11",
+        "url": "https://pypi.org/project/scriptty/0.1.0/",
+        "files": [
+          {
+            "filename": "scriptty-0.1.0-py3-none-any.whl",
+            "sha256": "df6c3dd9942ab4832b28ee36b2cb1e5bc4a2d82ff8e021766a4aeaa90eee82b3",
+            "uploaded": "2026-11-08T22:55:53.167954Z",
+            "yanked": false
+          },
+          {
+            "filename": "scriptty-0.1.0.tar.gz",
+            "sha256": "053197f1b7fcb95894aa19defa4498566fade6598811b53c783fa1231475e56c",
+            "uploaded": "2026-11-08T22:55:54.550042Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "current",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "92caefdbd21b176b5d1f10c92d88527c21a00ca4",
+        "ahead": 0,
+        "paths": [],
+        "truncated": false,
+        "url": "https://github.com/wispsy/scriptty/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/shimify",
+      "directory": "",
+      "distribution": "shimify",
+      "main_version": "0.3.0",
+      "main_sha": "9fd23796585d19d1b2e87cd2f5f94b3d6b9d20e5",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/shimify/tree/9fd23796585d19d1b2e87cd2f5f94b3d6b9d20e5",
+      "published": {
+        "version": "0.3.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/shimify/0.3.0/",
+        "files": [
+          {
+            "filename": "shimify-0.3.0-py3-none-any.whl",
+            "sha256": "e1b6dd014e85e885f792ccf4b6da4d93226622a577783632c65631a048ab19da",
+            "uploaded": "2026-10-21T05:42:09.109591Z",
+            "yanked": false
+          },
+          {
+            "filename": "shimify-0.3.0.tar.gz",
+            "sha256": "db86a499cfdbd1fc9003b71f9119a05c587464bdf8152d859945a54b35e205ed",
+            "uploaded": "2026-10-21T05:42:10.297960Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.3.0",
+        "sha": "31590d151c664c02281290299fc2a97aa58e7b9e",
+        "ahead": 1,
+        "paths": [
+          "IMPLEMENTATION_PLAN.md",
+          "IMPLEMENTATION_PLAN03.md",
+          "README.md",
+          "docs/release-0.2.0.md",
+          "docs/release-0.3.0.md",
+          "pyproject.toml"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/shimify/compare/v0.3.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/spatial_ui",
+      "directory": "",
+      "distribution": "spatial-ui",
+      "main_version": "0.1.0",
+      "main_sha": "f1020e60afbf007eaf468cf83d23f35b70b1dabd",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/spatial_ui/tree/f1020e60afbf007eaf468cf83d23f35b70b1dabd",
+      "published": {
+        "version": "0.1.0",
+        "requires_python": ">=3.14",
+        "url": "https://pypi.org/project/spatial-ui/0.1.0/",
+        "files": [
+          {
+            "filename": "spatial_ui-0.1.0-py3-none-any.whl",
+            "sha256": "5a249e1144ebc391c55d615a79bed7369431c8b7e9bc22a42672963988003b01",
+            "uploaded": "2026-10-15T18:31:07.722241Z",
+            "yanked": false
+          },
+          {
+            "filename": "spatial_ui-0.1.0.tar.gz",
+            "sha256": "e2e1c1f150c850443903f99b46527e6eff8abc0124060d2c1fd0ed0a1b0133a5",
+            "uploaded": "2026-10-15T18:31:09.420381Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.1.0",
+        "sha": "bb897cb72040f1dab7e1fa9c20d2a1464140f3ff",
+        "ahead": 22,
+        "paths": [
+          ".github/workflows/ci.yml",
+          ".gitignore",
+          "IMPLEMENTATION_PLAN.md",
+          "README.md",
+          "docs/asgi.md",
+          "docs/form-events-v1.json",
+          "docs/form-events-v1.md",
+          "docs/live-binding.md",
+          "docs/rest-binding.md",
+          "docs/tables.md",
+          "pyproject.toml",
+          "scripts/verify_distributions.py",
+          "src/spatial_ui/__init__.py",
+          "src/spatial_ui/asgi.py",
+          "src/spatial_ui/cli.py",
+          "src/spatial_ui/components.py",
+          "src/spatial_ui/demo.py",
+          "src/spatial_ui/forms.py",
+          "src/spatial_ui/live.py",
+          "src/spatial_ui/rendering.py",
+          "src/spatial_ui/resource_form.py",
+          "src/spatial_ui/rest.py",
+          "src/spatial_ui/server.py",
+          "src/spatial_ui/static/live.js",
+          "src/spatial_ui/static/runtime.js",
+          "src/spatial_ui/table.py",
+          "src/spatial_ui/table_binding.py",
+          "src/spatial_ui/templates.py",
+          "tests/asgi_test_host.py",
+          "tests/browser_asgi.py",
+          "tests/browser_forms.py",
+          "tests/browser_live.py",
+          "tests/browser_table_edits.py",
+          "tests/browser_tables.py",
+          "tests/live_runtime.mjs",
+          "tests/test_asgi.py",
+          "tests/test_form_sessions.py",
+          "tests/test_forms.py",
+          "tests/test_live.py",
+          "tests/test_reference_form.py",
+          "tests/test_resource_form.py",
+          "tests/test_rest.py",
+          "tests/test_server.py",
+          "tests/test_table.py",
+          "tests/test_table_binding.py",
+          "tests/test_table_edits.py",
+          "tests/websocket_host.py",
+          "uv.lock"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/spatial_ui/compare/v0.1.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/thoughtform",
+      "directory": "",
+      "distribution": "thoughtform",
+      "main_version": "0.1.0",
+      "main_sha": "6c28d496a4f2bcc613dc1a1e1e21bf2095833c78",
+      "default_branch": "main",
+      "requires_python": ">=3.14",
+      "source_url": "https://github.com/wispsy/thoughtform/tree/6c28d496a4f2bcc613dc1a1e1e21bf2095833c78",
+      "published": null,
+      "status": "unpublished",
+      "comparison": null
+    },
+    {
+      "repository": "wispsy/thoughtformula",
+      "directory": "",
+      "distribution": "thoughtformula",
+      "main_version": "0.3.0",
+      "main_sha": "5ce72f850772c2467f0a0909dfd5c81874065684",
+      "default_branch": "main",
+      "requires_python": ">=3.12",
+      "source_url": "https://github.com/wispsy/thoughtformula/tree/5ce72f850772c2467f0a0909dfd5c81874065684",
+      "published": {
+        "version": "0.3.0",
+        "requires_python": ">=3.12",
+        "url": "https://pypi.org/project/thoughtformula/0.3.0/",
+        "files": [
+          {
+            "filename": "thoughtformula-0.3.0-py3-none-any.whl",
+            "sha256": "dc39cfad430ac86ea933cf116d4ed264c347eb98cedd9162e21f729265d4eacb",
+            "uploaded": "2026-11-17T22:15:57.628760Z",
+            "yanked": false
+          },
+          {
+            "filename": "thoughtformula-0.3.0.tar.gz",
+            "sha256": "ca181c7e48d32b20312aa0702ed00db4abbc7d273e17bb794a9897f65fb1fea2",
+            "uploaded": "2026-11-17T22:15:58.976878Z",
+            "yanked": false
+          }
+        ]
+      },
+      "status": "source/metadata ahead; qualification required",
+      "comparison": {
+        "tag": "v0.3.0",
+        "sha": "d61dca801b4adb3addf8f72282d87281ca091f19",
+        "ahead": 1,
+        "paths": [
+          ".github/workflows/tests.yml",
+          "README.md",
+          "pyproject.toml",
+          "scripts/qualify.py",
+          "src/thoughtformula/__init__.py",
+          "src/thoughtformula/gradcheck.py",
+          "src/thoughtformula/model.py",
+          "src/thoughtformula/pretraining.py",
+          "src/thoughtformula/training_checkpoint.py",
+          "tests/test_generation_limits.py",
+          "tests/test_gradcheck.py",
+          "tests/test_pretraining.py"
+        ],
+        "truncated": false,
+        "url": "https://github.com/wispsy/thoughtformula/compare/v0.3.0...main"
+      }
+    },
+    {
+      "repository": "wispsy/wispsy",
+      "directory": "",
+      "distribution": "wispsy",
+      "main_version": "0.0.1.dev0",
+      "main_sha": "2a946f65a954aa1c528d93dc02fdfa4ca17f8005",
+      "default_branch": "main",
+      "requires_python": ">=3.11",
+      "source_url": "https://github.com/wispsy/wispsy/tree/2a946f65a954aa1c528d93dc02fdfa4ca17f8005",
+      "published": null,
+      "status": "unpublished",
+      "comparison": null
+    }
+  ]
+}
