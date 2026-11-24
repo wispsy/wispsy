@@ -6,6 +6,10 @@ This repository holds the ecosystem plan and executable reference workflows.
 Each library keeps its own purpose, dependencies, supported Python versions and
 release schedule.
 
+[Release status](docs/releases/STATUS.md) compares actual PyPI versions with each
+main branch. [Wispsy Releases](https://github.com/orgs/wispsy/projects/31) tracks
+publication, dependency adoption and [release policy](docs/releases/POLICY.md).
+
 Read the [implementation plan](IMPLEMENTATION_PLAN.md) and
 [Wispsy Composition Project](https://github.com/orgs/wispsy/projects/23) for
 architecture, acceptance criteria and dependencies.
