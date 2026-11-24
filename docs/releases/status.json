@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observed_at": "2026-11-24T23:15:12+00:00",
+  "observed_at": "2026-11-24T23:36:10+00:00",
   "project": "https://github.com/orgs/wispsy/projects/31",
   "public_repositories": 46,
   "packages": [
@@ -439,44 +439,38 @@
       "repository": "wispsy/evok",
       "directory": "",
       "distribution": "evok",
-      "main_version": "0.1.0",
-      "main_sha": "0cae48df8b31c26decfedf951844ee90f83fa46e",
+      "main_version": "0.1.2",
+      "main_sha": "220dd50f0b664801268aecf64aa8b9405d84ed52",
       "default_branch": "main",
       "requires_python": ">=3.12",
-      "source_url": "https://github.com/wispsy/evok/tree/0cae48df8b31c26decfedf951844ee90f83fa46e",
+      "source_url": "https://github.com/wispsy/evok/tree/220dd50f0b664801268aecf64aa8b9405d84ed52",
       "published": {
-        "version": "0.1.0",
+        "version": "0.1.2",
         "requires_python": ">=3.12",
-        "url": "https://pypi.org/project/evok/0.1.0/",
+        "url": "https://pypi.org/project/evok/0.1.2/",
         "files": [
           {
-            "filename": "evok-0.1.0-py3-none-any.whl",
-            "sha256": "1a077820084ad0f32a8d9229b4194559f905ddf8f1c3103b2c05a6fa5147e815",
-            "uploaded": "2026-11-08T22:23:34.985443Z",
+            "filename": "evok-0.1.2-py3-none-any.whl",
+            "sha256": "f96bd9abbf952fe83013230d2cee186feceb26782c7a1f371ed165987ef13ba3",
+            "uploaded": "2026-11-24T23:35:14.638244Z",
             "yanked": false
           },
           {
-            "filename": "evok-0.1.0.tar.gz",
-            "sha256": "77a2ab2ee59ae6403feb48dc58a3d702794e44d0cdc0713c3ac0ee2fbda304a3",
-            "uploaded": "2026-11-08T22:23:36.150795Z",
+            "filename": "evok-0.1.2.tar.gz",
+            "sha256": "ab99cdd748c74b2d0202eb3dd30c1b3e1f0544509b50e9dffd6547ec01761abd",
+            "uploaded": "2026-11-24T23:35:15.568655Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.1.0",
-        "sha": "fcf33d83233d8b75287ca11838beaf02517d51a0",
-        "ahead": 1,
-        "paths": [
-          "README.md",
-          "packaging/homebrew/Formula/evok.rb",
-          "scripts/publish_homebrew.py",
-          "src/evok/cli.py",
-          "tests/test_packaging.py"
-        ],
+        "tag": "v0.1.2",
+        "sha": "220dd50f0b664801268aecf64aa8b9405d84ed52",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/evok/compare/v0.1.0...main"
+        "url": "https://github.com/wispsy/evok/compare/v0.1.2...main"
       }
     },
     {
@@ -565,44 +559,38 @@
       "repository": "wispsy/expose_protocol",
       "directory": "",
       "distribution": "expose-protocol",
-      "main_version": "0.1.0",
-      "main_sha": "8cdcb9fc5305672ffdce919696d2253dc388ddc0",
+      "main_version": "0.1.1",
+      "main_sha": "7b531b2b784ff6666b55bb8b2400eda34d26a30f",
       "default_branch": "main",
       "requires_python": ">=3.14",
-      "source_url": "https://github.com/wispsy/expose_protocol/tree/8cdcb9fc5305672ffdce919696d2253dc388ddc0",
+      "source_url": "https://github.com/wispsy/expose_protocol/tree/7b531b2b784ff6666b55bb8b2400eda34d26a30f",
       "published": {
-        "version": "0.1.0",
+        "version": "0.1.1",
         "requires_python": ">=3.14",
-        "url": "https://pypi.org/project/expose-protocol/0.1.0/",
+        "url": "https://pypi.org/project/expose-protocol/0.1.1/",
         "files": [
           {
-            "filename": "expose_protocol-0.1.0-py3-none-any.whl",
-            "sha256": "8ab4e10694ceb2e98ff467ca2f73dde8b94e4f0c77122122d1361dd5306ca992",
-            "uploaded": "2026-10-15T16:59:39.975596Z",
+            "filename": "expose_protocol-0.1.1-py3-none-any.whl",
+            "sha256": "4b51b0333b7ec8800d3dd9b742b5671fb5db8cae6661b136532c9f9e6101a9ab",
+            "uploaded": "2026-11-24T23:26:49.534009Z",
             "yanked": false
           },
           {
-            "filename": "expose_protocol-0.1.0.tar.gz",
-            "sha256": "964114f75d4bd86e064ee73734a401671953d666e6d60712a07a4660bdcae60d",
-            "uploaded": "2026-10-15T16:59:41.201269Z",
+            "filename": "expose_protocol-0.1.1.tar.gz",
+            "sha256": "ff6181bd6a7b067ee92174fd2dc4c88d463be90dbb061fb8881b60498888d01f",
+            "uploaded": "2026-11-24T23:26:50.878087Z",
             "yanked": false
           }
         ]
       },
-      "status": "source/metadata ahead; qualification required",
+      "status": "current",
       "comparison": {
-        "tag": "v0.1.0",
-        "sha": "cb35c0a6f5dd7c6dd5f97a87fcfca27a07f22e81",
-        "ahead": 2,
-        "paths": [
-          "LICENSE.md",
-          "README.md",
-          "docs/API.md",
-          "pyproject.toml",
-          "src/expose_protocol/macos.py"
-        ],
+        "tag": "v0.1.1",
+        "sha": "7b531b2b784ff6666b55bb8b2400eda34d26a30f",
+        "ahead": 0,
+        "paths": [],
         "truncated": false,
-        "url": "https://github.com/wispsy/expose_protocol/compare/v0.1.0...main"
+        "url": "https://github.com/wispsy/expose_protocol/compare/v0.1.1...main"
       }
     },
     {

@@ -1,6 +1,6 @@
 # Release status
 
-Observed **2026-11-24T23:15:12+00:00**. This is a snapshot, not a live service.
+Observed **2026-11-24T23:36:10+00:00**. This is a snapshot, not a live service.
 
 [Wispsy Releases](https://github.com/orgs/wispsy/projects/31) owns publication, dependency adoption and release housekeeping.
 
@@ -20,10 +20,10 @@ PyPI versions identify downloadable artifacts. A version in `pyproject.toml` on 
 | `enforce-type` | [0.2.0](https://pypi.org/project/enforce-type/0.2.0/) | [0.2.0](https://github.com/wispsy/enforce_type/tree/9eb7c72a375baf00fe577d6852e0d5433eef23d5) | [current](https://github.com/wispsy/enforce_type/compare/v0.2.0...main) |
 | `engl` | [0.1.0a1](https://pypi.org/project/engl/0.1.0a1/) | [0.1.0a1](https://github.com/wispsy/engl/tree/2afaa26e164720d91bb1efed0a59587f5212357b) | [current](https://github.com/wispsy/engl/compare/v0.1.0a1...main) |
 | `escape-colors` | [0.3.0](https://pypi.org/project/escape-colors/0.3.0/) | [0.3.0](https://github.com/wispsy/escape_colors/tree/e83820168fc3ecbb36aed1d2f53e3aeec55f4979) | [documentation/administration ahead](https://github.com/wispsy/escape_colors/compare/v0.3.0...main) |
-| `evok` | [0.1.0](https://pypi.org/project/evok/0.1.0/) | [0.1.0](https://github.com/wispsy/evok/tree/0cae48df8b31c26decfedf951844ee90f83fa46e) | [source/metadata ahead; qualification required](https://github.com/wispsy/evok/compare/v0.1.0...main) |
+| `evok` | [0.1.2](https://pypi.org/project/evok/0.1.2/) | [0.1.2](https://github.com/wispsy/evok/tree/220dd50f0b664801268aecf64aa8b9405d84ed52) | [current](https://github.com/wispsy/evok/compare/v0.1.2...main) |
 | `expose-api` | [0.2.0](https://pypi.org/project/expose-api/0.2.0/) | [0.2.0](https://github.com/wispsy/expose_api/tree/3877fec0d3c2d945cca871c69809351e03fd47b7) | [current](https://github.com/wispsy/expose_api/compare/v0.2.0...main) |
 | `expose-interface` | [0.1.0](https://pypi.org/project/expose-interface/0.1.0/) | [0.1.0](https://github.com/wispsy/expose_interface/tree/8c71caefe67217bb6df87e280261746a3055fc86) | [source/metadata ahead; qualification required](https://github.com/wispsy/expose_interface/compare/v0.1.0...main) |
-| `expose-protocol` | [0.1.0](https://pypi.org/project/expose-protocol/0.1.0/) | [0.1.0](https://github.com/wispsy/expose_protocol/tree/8cdcb9fc5305672ffdce919696d2253dc388ddc0) | [source/metadata ahead; qualification required](https://github.com/wispsy/expose_protocol/compare/v0.1.0...main) |
+| `expose-protocol` | [0.1.1](https://pypi.org/project/expose-protocol/0.1.1/) | [0.1.1](https://github.com/wispsy/expose_protocol/tree/7b531b2b784ff6666b55bb8b2400eda34d26a30f) | [current](https://github.com/wispsy/expose_protocol/compare/v0.1.1...main) |
 | `func-seq` | [0.1.0](https://pypi.org/project/func-seq/0.1.0/) | [0.1.0](https://github.com/wispsy/func_seq/tree/bfb4c1d5bccc73f842d72ddb7809a11973acb9e4) | [source/metadata ahead; qualification required](https://github.com/wispsy/func_seq/compare/v0.1.0...main) |
 | `gitdx` | [0.1.0a1](https://pypi.org/project/gitdx/0.1.0a1/) | [0.1.0a1](https://github.com/wispsy/gitdx/tree/3386e6b0b0cd4c99c7ff208ba5e127b6c15ac3a8) | [current](https://github.com/wispsy/gitdx/compare/v0.1.0a1...main) |
 | `gittycat` | [0.1.0a1](https://pypi.org/project/gittycat/0.1.0a1/) | [0.1.0a1](https://github.com/wispsy/gittycat/tree/5341d8f5713b6b643151a199143e4a145ed78f4b) | [current](https://github.com/wispsy/gittycat/compare/v0.1.0a1...main) |
