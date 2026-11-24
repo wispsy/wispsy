@@ -11,7 +11,7 @@ from qualify_family import RECEIPT
 ROOT=Path(__file__).resolve().parents[1]
 
 
-def qualify(directory, *, manifest_name="hero-sources-v1.json", test_folder="hero_tests",
+def qualify(directory, *, manifest_name="release-hero-sources-v1.json", test_folder="hero_tests",
             receipt_name="hero-qualification.json", schema="hero-homegrown-sources/1", hypnosis_extras="training",
             claim="installed composition and tiny learning fixtures only"):
     if sys.version_info<(3,14): raise RuntimeError('Hero qualification requires Python 3.14+')
@@ -27,7 +27,7 @@ def qualify(directory, *, manifest_name="hero-sources-v1.json", test_folder="her
             outside=Path(temporary);environment=outside/'env'
             subprocess.run(['uv','venv',str(environment),'--python',sys.executable],check=True)
             python=environment/('Scripts/python.exe' if sys.platform=='win32' else 'bin/python')
-            requirement='hypnosis['+hypnosis_extras+'] @ git+https://github.com/wispsy/hypnosis.git@'+selected['sources']['hypnosis']
+            requirement=('hypnosis['+hypnosis_extras+']=='+selected['packages']['hypnosis'] if 'hypnosis' in selected.get('packages',{}) else 'hypnosis['+hypnosis_extras+'] @ git+https://github.com/wispsy/hypnosis.git@'+selected['sources']['hypnosis'])
             subprocess.run(['uv','pip','install','--python',str(python),str(artifact),requirement],check=True,cwd=outside)
             subprocess.run([str(python),'-I','-m','unittest','discover','-s',str(ROOT/test_folder),'-v'],check=True,cwd=outside)
             verified=subprocess.run([str(python),'-I','-c',RECEIPT,str(manifest)],check=True,cwd=outside,capture_output=True,text=True)

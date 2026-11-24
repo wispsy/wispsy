@@ -7,48 +7,116 @@ resolution-markers = [
 ]
 
 [[package]]
-name = "carets"
-version = "0.1.0"
-source = { git = "https://github.com/wispsy/carets.git?rev=d7359459772fdc8e0358616184501dd31a4560e3#d7359459772fdc8e0358616184501dd31a4560e3" }
+name = "backpack-store"
+version = "0.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/06/cb/0978c9614cb61b54753d276ff0320495fdedc29c1f103d8482bdbd91b56e/backpack_store-0.2.0.tar.gz", hash = "sha256:7c74b817b16a822e659f734214dd12aef5b11188481c4fcd6f25652e5674394e", size = 35271, upload-time = "2026-11-17T16:18:51.883Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/90/34/15a1c307c9ac9047815e9919fc1375185b9b7834e2f76f14761bbf8b853e/backpack_store-0.2.0-py3-none-any.whl", hash = "sha256:1e7f0a58e15e82c5ba1586a1b16908e7efd80a2222babe67861db8b261c5c47e", size = 43780, upload-time = "2026-11-17T16:18:49.671Z" },
+]
 
 [[package]]
-name = "click"
-version = "8.5.1"
+name = "carets"
+version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/45/37/edbf1b0707709013c0cf2e8317e03d97ed29bf4cac709fe328904ae92a38/click-8.5.1.tar.gz", hash = "sha256:9bbfada76703fd1d784b83eea012e3e8c6a001a876543ef104fa56aaaeb072b4", size = 399151, upload-time = "2026-11-06T17:37:01.021Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0d/45/8c89f5651bae8e9d870852c731ed22a7069b95deacf6f1186d473af25d37/carets-0.2.0.tar.gz", hash = "sha256:6b5c865fb61414308193688c27e4a582a05c453a55c51c804c7ec3b02ab09afb", size = 88242, upload-time = "2026-11-22T20:18:42.047Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/31/7d/164b7ffc8624fe9efb4221bf9af485d5c1e41b9ae118045d2b6dc5457d8b/click-8.5.1-py3-none-any.whl", hash = "sha256:8bb5376d2006950386f8c6427613334a2acadc5f559cb80e638d00b4df957e37", size = 126163, upload-time = "2026-11-06T17:36:59.287Z" },
+    { url = "https://files.pythonhosted.org/packages/31/e1/584134c80fcf5065a0512707f298206aa3119054838c6cbe4292c45070dd/carets-0.2.0-py3-none-any.whl", hash = "sha256:6c09208e572d3edd902135479e3945e1f7881a26f82dc8b18afa8783e225900b", size = 52700, upload-time = "2026-11-22T20:18:40.709Z" },
+]
+
+[[package]]
+name = "compose-application"
+version = "0.1.0a1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/63/1f/2e5d6bd88654ab7dd32c35ee62d67954c5679fb2bc2122beb518d1dc703b/compose_application-0.1.0a1.tar.gz", hash = "sha256:12c4ac8839558028317378b94a88c999f9f482c18088cc69e56f9ad1c8965445", size = 31838, upload-time = "2026-11-24T22:23:57.719Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/17/e0/4a81aedc2183395fc3cb79875882a8c07f2f5f2ec9c0d957e62468b57d31/compose_application-0.1.0a1-py3-none-any.whl", hash = "sha256:9c0e9e6bb4f35cac4e51739f472c776763c3cc89659dfee3881bee0c988e8466", size = 40144, upload-time = "2026-11-24T22:23:56.796Z" },
 ]
 
 [[package]]
 name = "expose-interface"
 version = "0.1.0"
-source = { git = "https://github.com/wispsy/expose_interface.git?rev=7d7a6f07caf039650a2620ced2e33ecadfdf06a7#7d7a6f07caf039650a2620ced2e33ecadfdf06a7" }
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/5c/59/eea6d779e745ec08aa66fe500b8a538653f42d01036aa1092dfebb01ab9f/expose_interface-0.1.0.tar.gz", hash = "sha256:76c74d5e0fbae7a1c715ec7aaf89403644a67c0bd8a861eb0fe2d38059ef5dda", size = 13361, upload-time = "2026-10-15T16:59:08.467Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/12/e9/935d1d85232a02cad3e7c37ec1597e3771fad25a1cd1bb49cc58f4522414/expose_interface-0.1.0-py3-none-any.whl", hash = "sha256:6ec6736b98e777ea63dcfe4fd99e87e2fade3e27fc659acace919bed8860d689", size = 16917, upload-time = "2026-10-15T16:59:07.209Z" },
+]
 
 [[package]]
 name = "func-seq"
 version = "0.1.0"
-source = { git = "https://github.com/wispsy/func_seq.git?rev=b1a5346feeeef3fa1f398e4dcd81c2d23345386c#b1a5346feeeef3fa1f398e4dcd81c2d23345386c" }
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/5d/1e/9449ba155524094c8f06c82dd37cbd3f9d64ff744933bc4d1f62887abf95/func_seq-0.1.0.tar.gz", hash = "sha256:4e2a1d1fa6203599a0081ca092b7dcf84f9ad6e4f7108bd0dca0a930bbcbd423", size = 26777, upload-time = "2026-10-18T19:31:57.463Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cb/f1/60feb8983dfd639e296e4a867d2826cbc3a58a0441e11a0d74ba7fa855be/func_seq-0.1.0-py3-none-any.whl", hash = "sha256:d84f1b947c266fa710413cc209750108849ea4c99d3c37f70e85c9f52caeb775", size = 18249, upload-time = "2026-10-18T19:31:56.31Z" },
+]
 
 [[package]]
 name = "headless-spreadsheets"
-version = "0.1.0"
-source = { git = "https://github.com/wispsy/headless_spreadsheets.git?rev=6eaff1b3764910720956c66559dce3f34a430ee2#6eaff1b3764910720956c66559dce3f34a430ee2" }
+version = "0.1.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e0/ef/3d89e28424f9e41fa4cc6e6bb111955a47c40deafcb9cb282629b42d5841/headless_spreadsheets-0.1.1.tar.gz", hash = "sha256:225a180ac0b14f9d1296f5421c956bb91fb883870a6f8a3e27f8321253a37d9d", size = 22536, upload-time = "2026-11-24T22:03:04.636Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cd/0a/b74ee4cd1ce216553b0c942bcc1afefa9ce14480ad953fb3b6e34918414d/headless_spreadsheets-0.1.1-py3-none-any.whl", hash = "sha256:6784dff4594e94c043b1eda9ec7c85bd5f1d5a70408c08b2ad4fb82417545c18", size = 27223, upload-time = "2026-11-24T22:03:03.639Z" },
+]
 
 [[package]]
 name = "hidden-moves"
-version = "0.1.0"
-source = { git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c#93ccf01dff12ade8ec204bb46abc300abaae9a3c" }
+version = "0.1.1"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "click" },
+    { name = "expose-interface" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/39/d5/55367001e2c36e2da8ea2126a94b182d51504f7f4eff0e42e6dd63edbaed/hidden_moves-0.1.1.tar.gz", hash = "sha256:86e85e150bf1689d1635e03dd3490e4537af6ab583731e68068aab4097cd1b77", size = 17950, upload-time = "2026-11-24T22:12:10.355Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/82/87/31cf6b67c7a906bd1191820afcc6c06df3e8f86b5570a600f09cb3ad3543/hidden_moves-0.1.1-py3-none-any.whl", hash = "sha256:4b71ba606733ffecb4e6f8c5f75fbf7857cf403c07d0048baa89116a1ef5461b", size = 26725, upload-time = "2026-11-24T22:12:09.396Z" },
+]
+
+[[package]]
+name = "hidden-moves-workspace"
+version = "0.1.0a2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/45/1d/77380d40c8326ec50a532569b730dd156967041e0f5d136641a87b5008ec/hidden_moves_workspace-0.1.0a2.tar.gz", hash = "sha256:37f8354bb9d92f9967847b402356e4e998826d8855a055f1fce41b2f260ecc74", size = 9530, upload-time = "2026-11-24T22:23:30.79Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f7/ce/6b5b488c089ec0357dc82f06e2c139d7c00beea12f4e263272bd4d309169/hidden_moves_workspace-0.1.0a2-py3-none-any.whl", hash = "sha256:dcd7ed801e6dccbf80ec6f390323150cfcd9c68156c020e8221010c3048f7a70", size = 12916, upload-time = "2026-11-24T22:23:29.866Z" },
+]
+
+[[package]]
+name = "hypnosis"
+version = "0.1.0a1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "carets" },
+    { name = "expose-interface" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ad/28/5dcce25979969a7143e9e612361b21d010cf5eff3fdb2683e2f2169cdcab/hypnosis-0.1.0a1.tar.gz", hash = "sha256:b7058404f60187e4179862c5b760c91ad15eedd9d57c5778155f70323489b109", size = 127807, upload-time = "2026-11-24T22:40:26.705Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d4/7a/e171f8a9759f5988deb804ea38847277797b9c9e74f22d698dbcd662b780/hypnosis-0.1.0a1-py3-none-any.whl", hash = "sha256:58c7e99c65cc2d73ff475fbe19abd11d2363d4e9c4ba886d9904fe08947f5eb9", size = 73046, upload-time = "2026-11-24T22:40:25.239Z" },
+]
+
+[package.optional-dependencies]
+application = [
+    { name = "backpack-store" },
+    { name = "func-seq" },
+    { name = "headless-spreadsheets" },
+    { name = "hidden-moves" },
+    { name = "hidden-moves-workspace" },
+    { name = "parse-md" },
+]
+models = [
+    { name = "thoughtform", extra = ["thoughtformula"] },
 ]
 
 [[package]]
 name = "moveset"
-version = "0.0.1.dev0"
-source = { git = "https://github.com/wispsy/moveset.git?rev=95acbde15881ca9d3ca833c16bc6c93b44687fbc#95acbde15881ca9d3ca833c16bc6c93b44687fbc" }
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "hidden-moves" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/8a/d1/09938a9f7f275ae07ab8629e5d13a47914f34d7b05bd8f60dc48a1f4272c/moveset-0.1.0.tar.gz", hash = "sha256:989123c3a3c80b67103ce62435e898d0bbb496610d4169c72e5d1b108b1099c2", size = 13961, upload-time = "2026-11-08T22:30:05.21Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c1/a1/43f4554fb656b13f757167edd4900c4cc3e31c8b732d9f2449b33448a79e/moveset-0.1.0-py3-none-any.whl", hash = "sha256:e6af70ab7b8092ec6cddb36af4f8a8051a751d995867bac184c03758ffec171c", size = 10653, upload-time = "2026-11-08T22:30:03.965Z" },
 ]
 
 [package.optional-dependencies]
@@ -57,11 +125,32 @@ sequence = [
 ]
 
 [[package]]
+name = "paracosm"
+version = "0.1.0a1"
+source = { git = "https://github.com/wispsy/paracosm.git?rev=07bbb79f3e5aadfc43c40ad592b3af2e73021bb1#07bbb79f3e5aadfc43c40ad592b3af2e73021bb1" }
+dependencies = [
+    { name = "thoughtform" },
+]
+
+[[package]]
+name = "parse-md"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f9/95/311592ec5d3ed29720a283a1a6dd876871122589163dfbb20da07462c671/parse_md-0.1.0.tar.gz", hash = "sha256:b83f44b7bee34b777af332a785d58d34722daa294c1d01823d204bcb24f076be", size = 58227, upload-time = "2026-11-17T02:20:19.752Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5a/b7/e8de6563dea1200d8aa17486f38fd438bf8ac99e92156b85ad08899165a9/parse_md-0.1.0-py3-none-any.whl", hash = "sha256:bd4d70d2d11120e8ac819e91cc789689d3644e3b7da5f26d9be30f2a20125321", size = 27408, upload-time = "2026-11-17T02:20:18.482Z" },
+]
+
+[[package]]
 name = "scriptty"
-version = "0.0.1.dev0"
-source = { git = "https://github.com/wispsy/scriptty.git?rev=f7e1d35f27f997a2e30c6f04f3626f05d8be10cf#f7e1d35f27f997a2e30c6f04f3626f05d8be10cf" }
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "moveset" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/9c/2a/2043d725ca93ca28243ad2a05257bafa593797696ada3fa1e408b3b6cb3e/scriptty-0.1.0.tar.gz", hash = "sha256:053197f1b7fcb95894aa19defa4498566fade6598811b53c783fa1231475e56c", size = 18875, upload-time = "2026-11-08T22:55:54.55Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0c/51/d141b1a1bbecb4f79a9bf7d8e2e367ac8b1d099b1e2787ab24defbc74e6a/scriptty-0.1.0-py3-none-any.whl", hash = "sha256:df6c3dd9942ab4832b28ee36b2cb1e5bc4a2d82ff8e021766a4aeaa90eee82b3", size = 12011, upload-time = "2026-11-08T22:55:53.167Z" },
 ]
 
 [package.optional-dependencies]
@@ -75,11 +164,42 @@ terminal = [
 ]
 
 [[package]]
+name = "thoughtform"
+version = "0.1.0a1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/9a/7e/736a37fc312479c13cf65b09fbd35379d9fa300efef904415b1684514dcd/thoughtform-0.1.0a1.tar.gz", hash = "sha256:17b73fb73f5f6847b8ee3b7829ef07b58ea25646f1dec6b9f8b39bbcea4b5982", size = 14142, upload-time = "2026-11-24T22:15:03.261Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/67/74/0255d63f06d97f89db460b7ffd68f6ea71c44a32c874907b40085bdff562/thoughtform-0.1.0a1-py3-none-any.whl", hash = "sha256:73e360e434feff31296f7c518d500ba4b0fadf354e7863414ee68c4afc64e047", size = 10831, upload-time = "2026-11-24T22:15:02.38Z" },
+]
+
+[package.optional-dependencies]
+thoughtformula = [
+    { name = "thoughtformula" },
+]
+
+[[package]]
+name = "thoughtformula"
+version = "0.3.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/05/5b/32c04914f768e489f09a41cd861c63b4e951ac1481ec0a3c8fed585f6b46/thoughtformula-0.3.1.tar.gz", hash = "sha256:91dccc6796620a8656ac38c3f7f83273eeb87a8004d3b2b83ebd5f026372dcad", size = 98823, upload-time = "2026-11-24T22:03:04.52Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/91/a5/b4b41ebb0b3d4cf7f8440a9b58201220a01366255dcc2b213e53b10d17b6/thoughtformula-0.3.1-py3-none-any.whl", hash = "sha256:d6f936bc2d86e090ef7dbdcdd5b67bc58ea04eab01702b932df2c74aa766f6b4", size = 89207, upload-time = "2026-11-24T22:03:03.28Z" },
+]
+
+[[package]]
 name = "wispsy"
 version = "0.0.1.dev0"
 source = { editable = "." }
 
 [package.optional-dependencies]
+application = [
+    { name = "hypnosis", extra = ["application", "models"], marker = "python_full_version >= '3.14'" },
+]
+family = [
+    { name = "compose-application", marker = "python_full_version >= '3.14'" },
+    { name = "hypnosis", extra = ["models"], marker = "python_full_version >= '3.14'" },
+    { name = "paracosm", marker = "python_full_version >= '3.14'" },
+]
 scripting = [
     { name = "scriptty", extra = ["cli"] },
 ]
@@ -100,12 +220,16 @@ workflow = [
 
 [package.metadata]
 requires-dist = [
-    { name = "func-seq", marker = "python_full_version >= '3.14' and extra == 'sequence'", git = "https://github.com/wispsy/func_seq.git?rev=b1a5346feeeef3fa1f398e4dcd81c2d23345386c" },
-    { name = "headless-spreadsheets", marker = "python_full_version >= '3.14' and extra == 'table'", git = "https://github.com/wispsy/headless_spreadsheets.git?rev=6eaff1b3764910720956c66559dce3f34a430ee2" },
-    { name = "hidden-moves", marker = "extra == 'sequence'", git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c" },
-    { name = "hidden-moves", marker = "extra == 'workflow'", git = "https://github.com/wispsy/hidden_moves.git?rev=93ccf01dff12ade8ec204bb46abc300abaae9a3c" },
-    { name = "moveset", marker = "extra == 'table'", git = "https://github.com/wispsy/moveset.git?rev=95acbde15881ca9d3ca833c16bc6c93b44687fbc" },
-    { name = "scriptty", extras = ["cli"], marker = "extra == 'scripting'", git = "https://github.com/wispsy/scriptty.git?rev=f7e1d35f27f997a2e30c6f04f3626f05d8be10cf" },
-    { name = "scriptty", extras = ["terminal"], marker = "python_full_version >= '3.14' and extra == 'terminal'", git = "https://github.com/wispsy/scriptty.git?rev=f7e1d35f27f997a2e30c6f04f3626f05d8be10cf" },
+    { name = "compose-application", marker = "python_full_version >= '3.14' and extra == 'family'", specifier = "==0.1.0a1" },
+    { name = "func-seq", marker = "python_full_version >= '3.14' and extra == 'sequence'", specifier = "==0.1.0" },
+    { name = "headless-spreadsheets", marker = "python_full_version >= '3.14' and extra == 'table'", specifier = "==0.1.1" },
+    { name = "hidden-moves", marker = "extra == 'sequence'", specifier = "==0.1.1" },
+    { name = "hidden-moves", marker = "extra == 'workflow'", specifier = "==0.1.1" },
+    { name = "hypnosis", extras = ["application", "models"], marker = "python_full_version >= '3.14' and extra == 'application'", specifier = "==0.1.0a1" },
+    { name = "hypnosis", extras = ["models"], marker = "python_full_version >= '3.14' and extra == 'family'", specifier = "==0.1.0a1" },
+    { name = "moveset", marker = "extra == 'table'", specifier = "==0.1.0" },
+    { name = "paracosm", marker = "python_full_version >= '3.14' and extra == 'family'", git = "https://github.com/wispsy/paracosm.git?rev=07bbb79f3e5aadfc43c40ad592b3af2e73021bb1" },
+    { name = "scriptty", extras = ["cli"], marker = "extra == 'scripting'", specifier = "==0.1.0" },
+    { name = "scriptty", extras = ["terminal"], marker = "python_full_version >= '3.14' and extra == 'terminal'", specifier = "==0.1.0" },
 ]
-provides-extras = ["workflow", "sequence", "table", "scripting", "terminal"]
+provides-extras = ["application", "workflow", "sequence", "table", "scripting", "terminal", "family"]
